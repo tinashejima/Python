@@ -1,0 +1,996 @@
+Province,District,Recency District,Facility,DATIM Site Name,DATIM Org ID,Facility ID,Province Code,District Code,EHR Version,Activation Status,EHR Type,IP Address,Implementing Partner,Type,Ownership,Location,Level,Status
+Bulawayo,Northern Surbubs,Bulawayo,24 Hour Medical Centre,24 Hour Medical Centre,ZW090A31,ZW090A31,,,,,,,,,,,,
+Masvingo,Masvingo,Masvingo,41st Brigade Clinic,41st Brigade Clinic,ZW080509,ZW080509,,,,,,,,,,,,
+Mashonaland East,Seke,Seke,Acton Reynolds Rural Health Centre,Acton Ronolds - 100002 - Rural Health Centre,UtIHziKXtX0,ZW030901,ZW03,,,,,,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Midlands,Kwekwe,Kwekwe,Al Davies Clinic,Al Davies - 100004 - Clinic,tnlz7dGBqL9,ZW070586,ZW07,,,,,,,RHC,Town/City Council,Urban,Primary,
+Mashonaland West,Makonde,Makonde,Alaska Munic Clinic,Alaska - 100005 - Clinic,gJr4bpmVlAZ,ZW040463,ZW04,,,,,,ZIMTTECH,RHC,Town/City Council,Peri-Urban,Primary,Open
+Masvingo,Masvingo,Masvingo,Alvord Rural Health Centre,Alvord Rural Health Centre,ZW080501,ZW080501,,,,,,,,,,,,
+Midlands,Kwekwe,Kwekwe,Amaveni Clinic,Amaveni - 100008 - Clinic,IJFe4swzr4G,ZW070561,ZW07,,,,,10.54.22.250,ZHI,RHC,Town/City Council,Urban,Primary,
+Matabeleland South,Insiza,Insiza,Amazon Clinic,Amazon Clinic,WX4iuiyQmwV,ZW060430,ZW06,,,,,192.168.10.1,Ophid,RHC,Mission,Rural,,
+Mashonaland Central,Mbire,Mbire,Angwa Clinic,Angwa - 100010 - Clinic,KiFPKW2LoT4,ZW020821,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Arnoldine Mission Clinic,Anorldine - 100012 - Clinic,ZP6AUxsoZDz,ZW010492,ZW01,,,,,,,Mission Clinic,Mission,Rural,Primary ,Open
+Harare,ha Harare Central South Eastern District,Harare,ha Arcadia Clinic,Arcadia - 100015 - Clinic,xF2C4VhTlZh,ZW000A02,ZW00,,,,,172.16.39.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland East,Marondera,Marondera,Arcadia Rural Council Clinic,Arcadia Rural Council Clinic,Dj7yYZyni8C,ZW030591,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland East,Goromonzi,Goromonzi,Arcturus Mine Clinic,Arcturus Mine Clinic,ZW030275,ZW030275,,,,,,,,,,,,
+Mashonaland West,Zvimba,Zvimba,Arda Sisi RDC Clinic,Arda Sisi RDC Clinic,ZW040786,ZW040786,,,,,,,,,,,,
+Manicaland,Mutare ,Mutare ,Arda Transau Clinic,Arda Transau Clinic,ZW010524,ZW010524,,,,,,,,,,,,
+Mashonaland Central,Mazowe,Mazowe,ARDURA,Ardura - 100025 - Rural Health Centre,MmC3bTl8MQA,ZW020408,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Matabeleland South,Insiza,Insiza,Avoca Rural Hospital,Avoca - 100029 - Rural Hospital,qmtMQzRoH0H,ZW06040C,ZW06,,,,,10.84.3.3,Ophid,Rural Hospital,Government,Rural,,
+Harare,ha North Western District,Harare,ha Avondale Clinic,Avondale - 100030 - Clinic,XY1ZmfDOMmZ,ZW000A01,ZW00,,,,,172.16.41.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland West,Zvimba,Zvimba,Aryshire Mine Clinic,Ayrshire - 100032 - Council Clinic,HEJAqIFBvHO,ZW040742,ZW04,,,,,,ZIMTTECH,IDH,Mine,Peri-Urban,Primary,MINING
+Mashonaland Central,Guruve,Guruve,mc Bakasa Clinic,Bakasa - 100035 - Clinic,n8RWoY50Jdi,ZW020326,ZW02,,,,,10.71.3. 254,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Manicaland,Mutare,Mutare,Bakorenhema,Bakorenhema - 100036 - Clinic,pE1MgQBvhP2,ZW010525,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland North,Bubi,Bubi,Balanda Clinic,Balanda - 100037 - Rural Health Centre,ED5aIDufB5W,ZW050227,ZW05,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Bamba Rural Health Centre,Bamba Rural Health Centre,ZW010401,ZW010401,ZW01,,,,,,,,,,,
+Mashonaland Central,Mt Darwin,Mt Darwin,BANDIMBA,Bandimba - 100040 - Rural Health Centre,aUsp0RPHrgn,ZW020533,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Matabeleland South,Mangwe,Mangwe,Bango Rural Health Centre,Bango - 100042 - Clinic,vNLrnKgUtPc,ZW060709,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Manicaland,Buhera,Buhera,Bangure,Bangure - 100043 - Clinic,fSJy9rjmBSB,ZW010125,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Banket District Hospital,Banket - 100044 - District Hospital,kyFYqZ69z50,ZW04070A,ZW04,,,,,192.168.10.1,ZIMTTECH,District Hospital,Government,Urban,Secondary,TOWN
+Mashonaland Central,Mazowe,Mazowe,BARE,Bare - 100046 - Clinic,fqe4Y8QrsNH,ZW020425,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Batsiranai Nursing Home,Batsiranai Nursing Home,ZW0140178,ZW0140178,,,,,,,,,,,,
+Mashonaland West,Mhondoro,Mhondoro,Battlefields 5 Brigade Army Clinic,Battlefields 5 Brigade Army Clinic,ZW0140527,ZW0140527,,,,,,,,,,,,
+Matabeleland South,Matobo,Matobo,Bazha Mission Clinic,Bazha - 100048 - Clinic,B5YF4fUJEVU,ZW060592,ZW06,,,,,192.168.10.1,Ophid,Mission Clinic,Mission,Rural,,
+Mashonaland East,Seke,Seke,Beatrice Rural Hospital,Beatrice - 100049 - Rural Hospital,v41G3HJvF4A,ZW03090A,ZW03,,,,,10.79.2.10,ZIMTTECH,Rural Hospital,Government,Rural,Hospital,Active
+Harare,ha Western District,Harare,Beatrice Road Infectious Diseases Hosp,Beatrice Infectious - 100050 - Hospital,mn3hlUZz8Hy,ZW000A0C,ZW00,,,,,192.168.9.4,Zimtech,,Town/City Council,Urban,,
+Mashonaland West,Chegutu,Chegutu,Beersheba Mission Clinic,Beersheba - 100051 - Clinic,HH3yCEiwd64,ZW040187,ZW04,,,,,,,,,,,
+Mashonaland West,Chegutu,Chegutu,Beersheba Mission Clinic,Beersheba Mission Clinic,ZW0140187,ZW0140187,,,,,,,,,,,,
+Mashonaland Central,Mazowe,Mazowe,BELGOWNIE,Belgone Clinic - 100054 - Clinic,WwnLkxvPhNZ,ZW020445,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Harare,ha North Western District,Harare,Belvedere Poly clinic,Belvedere - 100055 - Poly clinic,M7zzw7p5tFf,ZW000A05,ZW00,,,,,172.16.42.131,Zimtech,,,,,
+Matabeleland North,Tsholotsho,Tsholotsho,Bemba Clinic,Bemba - 100057 - Council Clinic (New - Not Yet Open),JisbeOfzAQc,ZW050699,ZW05,,,,,,ZACH,RDC,Town/City Council,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Bepura Clinic,Bepura - 100058 - Clinic,WfmzrChbLZ1,ZW020327,ZW02,,,,,,,Clinic,council,Rural,PHC,Open
+Masvingo,Masvingo,Masvingo,Bere Clinic,Bere - 100059 - Clinic,FUoqhbrAxqB,ZW080530,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,RDC,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Berejena Mission Hospital,Berejena - 100060 - Mission Clinic,TKcNzGxZmGw,ZW08030C,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Mission Hospital,Mission,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Bervking,Bervking,ZW040790,ZW040790,,,,,,,,,,,,
+Manicaland,Mutare,Mutare,Bezely Bridge Clinic,Berzerly Bridge - 100062 - Clinic,HQbYgzkaUjw,ZW010526,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Betera,Betera - 100063 - Rural Health Centre,hcUbMLN50UW,ZW010102,ZW01,,,,,,,RHC,Government,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Beugest Clinic,Beugest Clinic,ZW014239,ZW014239,,,,,,,,,,,,
+Matabeleland South,Matobo,Matobo,Beula-seula Rural Health Centre,Beula - 100064 - Rural Health Centre,TBrKYpmE8ys,ZW060504,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Matabeleland South,Bulilima,Bulilima,Bezu Clinic ,Bezu - 100066 - Clinic,KYBy3FfZcPu,ZW060234,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Manicaland,Buhera,Buhera,Birchenough,Birchenough - 100075 - Rural Hospital,ZW01010B,ZW01010B,ZW01,,,,,,ZHI,Rural Hospital,Government,Rural,Secondary,Open
+Mashonaland Central,Guruve,Guruve,mc Birkdale Clinic,Birkdale - 100077 - Rural Health Centre,K8NL6XRIrxZ,ZW020344,ZW02,,,,,,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland West,Sanyati,Sanyati,Black Movale - 100078 - Clinic,Black Movale - 100078 - Clinic,cCnMsAm1gDY,ZW040620,ZW04,,,,,,ZIMTTECH,,,,,
+Manicaland,Mutasa,Mutasa,Bonda Mission Hospital,Bonda - 100081 - Mission Hospital,RKN9HasIGRw,ZW01060B,ZW01,,,,,10.20.3.2,ZHI,Mission Hospital,Mission,Rural,,Open
+Midlands,Mberengwa,Mberengwa,Bonda Clinic,Bonda Clinic,yWRCzwtdVqp,ZW070625,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Bondolfi Clinic,Bondolfi - 100082 - Rural Hospital,shU0JKeINLz,ZW080591,ZW08,,,,,10.39.10.10,OPHID/Kapinek,Clinic,Mission,Rural,Primary,Open
+Mashonaland East,Marondera,Marondera,Border Church Rural Health Centre,Border Church - 100083 - Rural Health Centre,irD497FF3PV,ZW030501,ZW03,,,,,192.168.1.10,ZIMTTECH,Rural Hospital,Rural Council,Rural,clinic,Active
+Mashonaland East,UMP,UMP,Borera Clinic,Borera - 100084 - Clinic,UmcQPYAl0m4,ZW030325,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland East,Marondera,Marondera,Borradaile Pvt Hospital,Borradaile Pvt Hospital,ufU65NdtPOw,ZW03050D,ZW03,,,,,,ZIMTTECH,General Hospital,Private,Urban,clinic,Active
+Harare,ha Northern District,Harare,ha Borrowdale Clinic,Borrowdale - 100086 - Clinic,OTxAHTpF4h8,ZW000A07,ZW00,,,,,172.16.0.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland East,Goromonzi,Goromonzi,Bosha Rural Health Centre,Bosha Rural Health Centre,ZW030201,ZW030201,,,,,,,,,,,,
+Masvingo,Zaka,Zaka,Bota Clinic,Bota - 100088 - Clinic,Ns9TN1yfjMZ,ZW080725,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Rural Hospital,Mission,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Boterere Clinic,Boterere - 100089 - Rural Health Centre,XIv6Q7a9F0J,ZW080631,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Harare,ha Harare Central South Eastern District,Harare,ha Braeside FHS Clinic,Braeside - 100091 - Clinic,d46RVdpyvCT,ZW000A08,ZW00,,,,,172.16.40.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland Central,Guruve,Guruve,mc Brandon Clinic,Brandon - 100092 - Clinic,hinUkt7c07g,ZW020348,ZW02,,,,,192.168.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland East,Goromonzi,Goromonzi,Bromley Clinic,Bromley - 100093 - Rural Health Centre,PKZ7nK4RQnj,ZW030245,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland West,Chegutu,Chegutu,Brunswick Clinic,Brunswick - 100094 - Clinic,dMjkmGmNgG9,ZW040180,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,Open
+Matabeleland North,Tsholotsho,Tsholotsho,Bubude Clinic,Bubude - 100096 - Clinic,Kwis9X2t9eb,ZW050625,ZW05,,,,,,,RDC,Town/City Council,Rural,Primary,Open
+Harare,ha West South West District,Harare,ha Budiriro PolyClinic,Budiriro - 100098 - Poly Clinic,xYSGGiMshib,ZW000A09,ZW00,,,,,172.16.4.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha West South West District,Harare,ha Budiriro Satellite Clinic,Budiriro - 101889 - Satelite Clinic,XVardljEe1B,ZW000A69,ZW00,,,,,172.16.35.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Manicaland,Buhera,Buhera,Buhera Rural Clinic,Buhera - 100099 - Rural Hospital,ZW01010A,ZW01010A,ZW01,,,,,,,,,,,
+Mashonaland West,Mhondoro,Mhondoro,Bumbe - 100101 - Rural Health Centre,Bumbe - 100101 - Rural Health Centre,KmIY36annAZ,ZW040504,ZW04,,,,,,ZIMTTECH,,,,,
+Manicaland,Mutare,Mutare,Burma Valley Clinic,Burma Valley - 100103 - Clinic,QBQZTIv1lrz,ZW010545,ZW01,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland West,Mhondoro,Mhondoro,Bururu - 100105 - Council Clinic,Bururu - 100105 - Council Clinic,Cjt4DyNcEEI,ZW040517,ZW04,,,,,,ZIMTTECH,,,,,
+Matabeleland South,Gwanda,Gwanda,Buvuma Clinic,Buvuma - 100107 - Clinic,B7i3EGdTPnj,ZW060325,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland Central,Mt Darwin,Mt Darwin,BVEKE,Bveke - 100108 - Clinic (New - Not Yet Open),IZyeGpfJoyJ,ZW020529,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Bvochora Rural Health Centre,Bvochora - 100109 - Clinic,H1CIVRR8e4n,ZW020301,ZW02,,,,,192.169.10.1,ZIMTTECH,Rural Health Centre,Government,Rural,PHC,Open
+Masvingo,Zaka,Zaka,Bvukururu Clinic,Bvukururu - 100110 - Clinic,S6noqN7rl9N,ZW080726,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Bvumba,Bvumba - 100111 - Private Clinic,U7lWpjEY6EC,ZW010515,ZW01,,,,,192.168.10.2,ZHI,,,,,
+Manicaland,Mutare,Mutare,Bwizi Rural Health Centre,Bwizi - 100113 - Clinic,KwpBAMKX07m,ZW010501,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland East,Goromonzi,Goromonzi,Caledonia Clinic,Caledonia - 100115 - Clinic,fYwjfliQY2j,ZW000A57,ZW00,,,,,,,RDC,Rural Council,Peri-Urban,clinic,Active
+Harare,ha Southern District,Harare,ha Cceshar Clinic,Cceshar Clinic,cnmWmKfu0St,ZW000A2601,ZW00,,,,,,,RHC,Town/City Council,Urban,Primary,
+Bulawayo,Northern Surbubs,Bulawayo,Ceshhar Clinic,Ceshhar Clinic,Bnxui2aaMdQ,ZW090A49,ZW09,,,,,,,Clinic,Private,Urban,Primary,Open
+Mashonaland East,Goromonzi,Goromonzi,Chabwino Clinic,Chabwino Clinic,x7uSrjLfBIz,ZW030280,ZW03,,,,,,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Midlands,Mberengwa,Mberengwa,Chabwira,Chabwira - 100122 - Clinic,TdlbemyPNd1,ZW070626,ZW07,,,,,,ZHI,,,,,
+Mashonaland West,Sanyati,Sanyati,Chakari Mine Clinic,Chakari - 100125 - Mine Clinic,sWdIWNMmkKd,ZW040689,ZW04,,,,,,,RHC,Mine,Rural,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Chambuta Clinic,Chambuta - 100131 - Clinic,Ah71A5p6U9l,ZW080201,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Matabeleland South,Beitbridge,Beitbridge,Chamnangana Clinic,Chamunangana - 100132 - Clinic,OF8acIjcyKQ,ZW060177,ZW06,,,,,,,RDC,Rural Council,Rural,,
+Manicaland,Chipinge,Chipinge,Changazi clinic,Changazi clinic,RnXQpW4if0z,ZW010319,ZW01,,,,,,,RHC,Government,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Chapanduka,Chapanduka - 100134 - Clinic,Di7OHhpjIr2,ZW010127,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Chapoto Clinic,Chapoto - 100135 - Clinic,c4EBHa1fIyB,ZW020820,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Chapwanya,Chapwanya - 100136 - Clinic,XWTWzUKR92m,ZW010128,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Charumbira Clinic,Charumbira - 100141 - Clinic,TmpVq0GSnlG,ZW080525,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,RDC,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Chasiyatende Clinic,Chasiyatende Clinic,UN9Jg1BwqT5,ZW080317,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Matabeleland South,Beitbridge,Beitbridge,Chaswingo Clinic,Chasvingo - 100143 - Clinic,mzisptcnWiW,ZW060125,ZW06,,,,,,,RDC,Rural Council,Rural,,
+Masvingo,Masvingo,Masvingo,Chatikobo Clinic,Chatikobo - 100144 - Clinic,DthvHWxwhl8,ZW080526,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,RDC,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,CHAWANDA,Chawanda - 100146 - Clinic,G1nlIWi4Bbv,ZW020525,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Chaza Clinic,Chaza - 101873 - Clinic,E0ZtvGWVlYJ,ZW070642,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Chidembeko Clinic,Chedembeko - 100151 - Clinic,n7JrJFbZSSY,ZW070627,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Chegutu District Hospital,Chegutu - 100153 - District Hospital,IIjgprykVWn,ZW04010A,ZW04,,,,,10.67.4.2,ZIMTTECH,District Hospital,Government,Urban,Secondary,Open
+Mashonaland West,Sanyati,Sanyati,Chegutu 6 - 100154 - Clinic,Chegutu 6 - 100154 - Clinic,kfRsOHTYdNb,ZW040626,ZW04,,,,,,ZIMTTECH,,,,,
+Mashonaland West,Chegutu,Chegutu,Chegutu Clinic,Chegutu CBDS Clinic,XmPVYkmHx6D,ZW040145,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Urban,Primary,Open
+Midlands,Gokwe South,Gokwe South,Chemahororo Clinic,Chemahororo - 100156 - Clinic,ZsERKMysaqk,ZW070325,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Masvingo,Gutu,Gutu,Chepiri Clinic,Chepiri - 100160 - Clinic,zDO70UxzQ52,ZW080436,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Cheshuro Clinic,Cheshuro - 100161 - Clinic,BXwx8ekYJ5Z,ZW080425,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Midlands,Gokwe South,Gokwe South,Cheziya Clinic,Cheziya - 100162 - Clinic,g7fNiqyS7WV,ZW070313,ZW07,,,,,10.54.23.3,ZHI,RDC,Rural Council,Urban,Primary,
+Manicaland,Mutare,Mutare,Chiadzwa Rural Health Centre,Chiadzwa - 100163 - Rural Health Centre,eN6ckU5zhfE,ZW010502,ZW01,,,,,,ZHI,RHC,Government,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Chibara Clinic,Chibara - 100164 - Clinic,Xd4a7sESJGm,ZW040208,ZW04,,,,,,ZIMTTECH,RDC,RDC,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,CHIBULI,Chibuli-100291- Clinic,DDwUEgfOmvA,ZW020509,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Chibuwe Clinic,Chibuwe - 100167 - Clinic,q8w6UsNPbMG,ZW010325,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Chidamoyo Mission Hospital,Chidamoyo - 100169 - Mission Hospital,BE3pL9m9Z4E,ZW04020D,ZW04,,,,,10.67.5.5,ZIMTTECH,Mission Hospital,Mission,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Chidodo Clinic,Chidodo - 100172 - Clinic,rWvbpl1s0VR,ZW020841,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Chivi,Chivi,ma Chidyamakono Clinic,Chidyamakono - 101913 - Clinic,t0FJDGAu6fL,ZW080335,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Chiedza Clinic,Chiedza - 100176 - Clinic,dySKWJvcCwO,ZW070640,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Chigwikwi Rural Health Centre,Chigwikwi - 100179 - Rural Health Centre,uCEsnsec9SL,ZW080302,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Chikafa Clinic,Chikafa - 100181 - Clinic,taDfBHcDo5L,ZW020830,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Manicaland,MutareCity,Mutare,Chikanga Clinic,Chikanga - 100182 - Clinic,Tj9XAHdTx71,ZW010562,ZW01,,,,,192.168.10.2,ZHI,General Hospital,Town/City Council,Urban,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Chikara Clinic,Chikara - 100185 - Council Clinic,RVYnJsBSZmq,ZW040125,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Chikeya RDC Clinic,Chikeya RDC Clinic,NrhA1Nka0Xj,ZW040795,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Masvingo,Chiredzi,Chiredzi,Chikombedzi Mission Hospital,Chikombedzi - 100188 - Hospital,ezd2O5cLGKR,ZW08020B,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Mission Hospital,Mission,Rural,Secondary,Open
+Mashonaland West,Makonde,Makonde,Chikonohono Munic Clinic,Chikonohono - 100190 - Clinic,Sad5NyxeroB,ZW040462,ZW04,,,,,,ZIMTTECH,RHC,Town/City Council,Urban,Primary,Open
+Manicaland,Chipinge,Chipinge,Chikore Mission Hospital,Chikore - 100191 - Mission Hospital,ZW01030B,ZW01030B,ZW01,,,,,,,Mission Hospital,Mission,Rural,Primary,Open
+Mashonaland East,UMP,UMP,Chikuhwa Clinic,Chikuhwa - 100193 - Rural Health Centre,XaZlii1RoeN,ZW030326,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland East,Goromonzi,Goromonzi,Chikwaka Rural Hospital,Chikwaka - 100198 - Rural Hospital,il3zin8lfAX,ZW03020D,ZW03,,,,,192.168.10.1,ZIMTTECH,Rural Hospital,Government,Rural,Hospital,Active
+Manicaland,Mutare,Mutare,Chikwariro Clinic,Chikwariro - 100201 - Mission Hospital,Ju7yjwNpnZc,ZW010591,ZW01,,,,,192.168.10.1,ZHI,Mission Clinic,Mission,Rural,Primary,Open
+Midlands,Gweru,Gweru,Chikwingwizha Mission Hospital,Chikwingwizha - 100203 - Mission Clinic,PTsDqlRpf06,ZW07040C,ZW07,,,,,10.54.3.5,ZHI,Mission Hospital,Mission,Rural,Secondary,
+Midlands,Gweru,Gweru,Child Welfare Clinic,Child Welfare - 100205 - Clinic,JRHi4DxHO3h,ZW070469,ZW07,,,,,192.168.10.1,ZHI,RHC,Town/City Council,Urban,Primary,
+Masvingo,Chiredzi,Chiredzi,Chilonga Rural Health Centre,Chilonga - 100206 - Clinic,kOc9rm7UnpQ,ZW080202,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Chimbudzi,Chimbudzi,ZW010117,ZW010117,,,,,,,,,,,,
+Masvingo,Mwenezi,Mwenezi,Chimbudzi Rural Health Centre,Chimbudzi - 100211 - Clinic,bA0TiXkTzDI,ZW080601,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Mashonaland East,Marondera,Marondera,Chimbwanda Rural Health Centre,Chimbwanda - 100212 - Rural Health Centre,RmTXZhMHgQJ,ZW030502,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Masvingo,Gutu,Gutu,Chimombe Rural Hospital,Chimombe - 100215 - Rural Hospital,kaYiMIvMi6q,ZW08040B,ZW08,,,,,10.39.6.2,OPHID/Kapinek,Rural Hospital,Government,Rural,Primary,Open
+Midlands,Gweru,Gweru,Chinamasa Clinic,Chinamasa - 100217 - Clinic,TqCxTt2cnSm,ZW070424,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,,Open
+Mashonaland East,Goromonzi,Goromonzi,Chinamhora Clinic,Chinamhora - 100219 - Clinic,vts8c377DeQ,ZW030225,ZW03,,,,,172.16.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,clinic,Active
+Mashonaland Central,Mazowe,Mazowe,CHINEHASHA,Chinehasha - 100224 - Clinic,AbdP0AhLQ0K,ZW020401,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Gvt,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Chinengundu Clinic,Chinengundu - 100225 - Clinic,cie0TDpTUmD,ZW040162,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Town/City Council,Urban,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Chingele Clinic,Chingele - 100227 - Clinic,Q3ugvdCRvpY,ZW080292,ZW08,,,,,,,RHC,Mission,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Chingezi Clinic,Chingezi - 100228 - Clinic,rhEss5YJ0lt,ZW070628,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Mhondoro,Mhondoro,Chingondo RDC Clinic,Chingondo - 100229 - Clinic,Psij86nmKUz,ZW040518,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Chingwizi Clinic,Chingwizi - 100230 - Satelite Clinic,GUyrKhGPkmB,ZW080608,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Chinhenga Rural Health Centre,Chinhenga - 100231 - Rural Health Centre,RWivvGgnk5S,ZW010403,ZW01,,,,,,,RHC,Government,Rural,Primary ,Open
+Mashonaland West,Hurungwe,Hurungwe,Chinhere Clinic,Chinhere - 100232 - Council Clinic,ImqILPZv3dP,ZW040225,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,RDC,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Chinhoyi Provincial Hospital,Chinhoyi - 100235 - Provincial Hospital,Jna4eqryjis,ZW04040A,ZW04,,,,,10.67.1.2,ZIMTTECH,Provincial Hospital,Government,Urban,Primary,Open
+Mashonaland West,Makonde,Makonde,Chinhoyi Munic Clinic,Chinhoyi Clinic - 100233 - Clinic,FEkAkg5Ev7k,ZW040461,ZW04,,,,,,,RHC,Town/City Council,Urban,Primary,Open
+Mashonaland West,Makonde,Makonde,Chinhoyi Univ of Tech Clinic,Chinhoyi University Clinic - 100236 - University Clinic,xhjQsi2HnIt,ZW040503,ZW04,,,,,,ZIMTTECH,RHC,Private,Urban,Primary,Open
+Masvingo,Zaka,Zaka,Chinyabako Clinic,Chinyabako - 100238 - Clinic,uuD4wwSkIeT,ZW080727,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Chinyamukwakwa Rural Health Centre,Chinyamukwaka - 100240 - Clinic,ZW010303,ZW010303,ZW01,,,,,192.168.10.2,ZHI,RHC,Government,Rural,Primary,Open
+Mashonaland East,Goromonzi,Goromonzi,Chinyika Clinic,Chinyika - 100242 - Clinic,k8Xcni81ZqV,ZW030226,ZW03,,,,,10.79.18.16,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Masvingo,Gutu,Gutu,Chinyika Rural Hospital,Chinyika - 100243 - Rural Health Centre,gQu3bUzI3bn,ZW08040D,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Rural Hospital,Government,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Chinyudze Rural Health Centre,Chinyudze - 100245 - Rural Health Centre,Txi298JjnJB,ZW010406,ZW01,,,,,,,RHC,Government,Rural,Primary ,Open
+Mashonaland East,Marondera,Marondera,Chiota Rural Hospital,Chiota - 100247 - Rural Hospital,d7gKjgLmPHF,ZW03050B,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Rural Hospital,Active
+Mashonaland East,Marondera,Marondera,Chipararwe Council Clinic,Chiparawe - 100250 - Clinic,fc6CsjpLvS6,ZW030529,ZW03,,,,,192.168.10.1,ZIMTTECH,District Hospital,Government,Rural,clinic,Active
+Manicaland,Mutare,Mutare,Chipendeke Clinic,Chipendeke - 100251 - Rural Health Centre,gukxzjQHdEA,ZW010544,ZW01,,,,,192.168.10.2,ZHI,RHC,Government,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Chipfatsura,Chipfatsura - 100252 - Clinic,sySIljgDD4k,ZW010527,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland East,UMP,UMP,Chipfunde Clinic,Chipfunde - 100253 - Clinic,SDyRVyw5bTp,ZW030327,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland West,Makonde,Makonde,Chipfuwamiti Clinic,Chipfuwamiti Clinic,us3vArKUv5J,ZW040491,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Chipinda Rural Health Centre,Chipinda - 100254 - Rural Health Centre,UjPKTFDVqUE,ZW080701,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Chipinge District Hospital,Chipinge - 100256 - District Hospital,ZW01030A,ZW01030A,ZW01,,,,,10.20.6.2,ZHI,District Hospital,Government,Urban,Primary,Open
+Manicaland,Chipinge,Chipinge,Chipinge Town Clinic,Chipinge Town - 100257 - Clinic,Z3mLXNOy7eM,ZW010349,ZW01,,,,,,,RDC,Town/City Council,Urban,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Chipiwa Clinic,Chipiwa - 100259 - Clinic,lgDPtblnWoX,ZW080226,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Chipuriro Clinic,Chipuriro - 100261 - Clinic,ljTll5k1dSz,ZW020329,ZW02,,,,,192.169.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Masvingo,Zaka,Zaka,Chiredzana Clinic,Chiredzana - 100263 - Clinic,m1d3Az0zvDK,ZW080729,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Chiredzi District Hospital,Chiredzi - 100264 - Hospital,cnqg74tvFv1,ZW08020A,ZW08,,,,,192.168.10.1,OPHID/Kapinek,General Hospital,Government,Urban,Secondary,Open
+Mashonaland West,Sanyati,Sanyati,Chirikiti - 100267 - Council Clinic,Chirikiti - 100267 - Council Clinic,zdRJRa8PBvL,ZW040621,ZW04,,,,,,ZIMTTECH,,,,,
+Masvingo,Mwenezi,Mwenezi,Chirindi Rural Health Centre,Chirindi - 100268 - Clinic,KGODrJyUU0d,ZW080602,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Chirogwe Clinic,Chirongwe - 100272 - Clinic,PwTUs91whQ3,ZW080321,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Chirundu Rural Health Centre,Chirundu - 100275 - Clinic,xgDkjMab2vS,ZW040201,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Chirunya Clinic,Chirunya - 100276 - Rural Health Centre,MTFVtgDQ96i,ZW020834,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Chishingwi Clinic,Chishingwi - 100279 - Clinic,CzT0kz8uz7m,ZW010543,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Chitaka,Chitaka - 100284 - Clinic,AsdXd0AoGXL,ZW010534,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Chitakatira Clinic,Chitakatira - 100285 - Clinic,RyINk05jngO,ZW010529,ZW01,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Chitando Rural Health Centre,Chitando - 100287 - Rural Health Centre,lO6DFAvjICL,ZW080408,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Rural Hospital,Government,Rural,Primary,Open
+Midlands,Gokwe South,Gokwe South,Chitapo Clinic,Chitapo - 100288 - Clinic,G3LAK7vc8u9,ZW070307,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland East,Murewa,Murewa,Chitate Rural Health Centre,Chitate - 100290 - Rural Health Centre,eG8FExPZMv1,ZW030701,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Mashonaland Central,Mt Darwin,Mt Darwin,CHITEPO,Chitepo - 100292 - Clinic,iizFNeVVhBs,ZW020535,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Mashonaland East,UMP,UMP,Chitimbe Clinic,Chitimbe - 100293 - Clinic,VUCULT4GjUW,ZW030328,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Manicaland,Mutare,Mutare,Chitora Clinic,Chitora - 100296 - Clinic,wXnCifW3qRh,ZW010518,ZW01,,,,,,ZHI,Mission Clinic,Mission,Rural,Primary,Open
+Mashonaland East,Murewa,Murewa,Chitowa 1 Clinic,Chitowa 1 - 100298 - Rural Health Centre,aVxN3fDFGhM,ZW030723,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland East,Murewa,Murewa,Chitowa 2 Clinic,Chitowa 2 - 100299 - Clinic,LHSm0lh6M97,ZW030724,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Masvingo,Chiredzi,Chiredzi,Chitsa Clinic,Chitsa - 100300 - Clinic,Z2jeuNuhkJQ,ZW080232,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,CHITSE,Chitse - 100302 - Clinic,ezrtbyWSQiW,ZW020534,ZW02,,,,,,,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Chitsungo Mission Hospital,Chitsungo - 100303 - District Hospital,bD6z1vyugsJ,ZW02080B,ZW02,,,,,192.168.10.1,ZACC,Mission Hospital,Mission,Rural,Secondary,Open
+Mashonaland East,UMP,UMP,Chitsungo Clinic,Chitsungo - 100304 - Clinic,oIYkbx5fHc7,ZW030329,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Matabeleland South,Beitbridge,Beitbridge,Chituripasi,Chituripasi - 100308 - Rural Health Centre,pNbIgW9kn5C,ZW060102,ZW06,,,,,,,,,,,
+Midlands,Gweru,Gweru,Chiwundura Clinic,Chiundura - 100309 - Clinic,UcsFwpVoOEX,ZW070425,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland West,Hurungwe,Hurungwe,Chivende Rural Health Centre,Chivende - 100311 - Clinic,p5eSg7zH2Ua,ZW040202,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Chivero Clinic,Chivero - 100312 - Council Clinic,WlGebuwqSYe,ZW040126,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Chivhere Rural Health Centre,Chivhere - 100314 - Clinic,NEEMoSMYjkl,ZW040701,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,RURAL
+Masvingo,Chivi,Chivi,Chivi District Hospital,Chivi - 100317 - District Hospital,laeJBf3k7tI,ZW08030A,ZW08,,,,,10.39.9.10,OPHID/Kapinek,District Hospital,Government,Rural,Secondary,Open
+Masvingo,Chivi,Chivi,Chivi Mission Clinic,Chivi - 100318 - Mission Clinic,ZPy0zZuQJHc,ZW080391,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Mission,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Chivi Rural Hospital,Chivi - 100319 - Rural Hospital,BbcsNsBiQJM,ZW08030B,ZW08,,,,,10.39.10.10,OPHID/Kapinek,Rural Hospital,Government,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Chiwere Clinic,Chiwere - 100323 - Rural Health Centre,h22FuA9Lid3,ZW010508,ZW01,,,,,,,RHC,Government,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Chiweshe,Chiweshe - 100324 - Clinic,JXKy9DJE3gm,ZW010131,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Chiwore Rural Health Centre,Chiwore - 100325 - Clinic,oqJB2RrFjGD,ZW080434,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Chizumba Rural Health Centre,Chizumba - 100328 - Clinic,fil4aqGSpkM,ZW080603,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Chizvirizvi Rural Health Centre,Chizvirizvi - 100329 - Clinic,c4XotWaksY0,ZW080204,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Chompani Clinic,Chomopani - 100330 - Clinic,V7g1YWWJjww,ZW080235,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,Christon Bank,Christon Bank - 100332 - Clinic,FOS62YkMuso,ZW020430,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Chundu Clinic,Chundu - 100334 - Council Clinic,YcnSBJxA8OR,ZW040226,ZW04,,,,,10.67.24.2,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Clearwater Clinic,Clear Water - 100341 - Clinic,hLbmGUUNsKW,ZW010362,ZW01,,,,,192.168.10.2,ZHI,RDC,Private,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,CONCESSION,Concession - 100345 - District Hospital,SihUCg36v0Y,ZW02040A,ZW02,,,,,10.71.4.10,ZIMTTECH,District Hospital,Gvt,Urban,Secondary,Open
+Midlands,Gweru,Gweru,ZPS Connemara Prison Clinic,Connemara - 100347 - Clinic,a8GphVKSr2H,ZW070413,ZW07,,,,,192.168.10.1,ZHI,RHC,ZPS,Rural,Primary,
+Bulawayo,Emakandeni,Bulawayo,Cowdray Park Clinic,Cowdray Park - 100348 - Clinic,AQUWX00pVHC,ZW090A27,ZW09,,,,,30.30.31.3,Ophid,General Hospital,Town/City Council,Urban,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,CRANHAM,Cranham - 100351 - Clinic,hqCNPGSdIvI,ZW020491,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Mashonaland West,Mhondoro,Mhondoro,Cuba RDC Clinic,Cuba RDC Clinic,ljDQKOHpFdV,ZW040527,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Matobo,Matobo,Cyrene Mission Clinic,Cyrene - 100354 - Mission Clinic,jxSgfvRa1kd,ZW060594,ZW06,,,,,192.168.10.1,Ophid,Mission Clinic,Mission,Rural,,
+Matabeleland North,Nkayi,Nkayi,Dakamela Rural Hospital,Dakamela - 100357 - Rural Hospital,t3OBvsoUoKO,ZW05050B,ZW05,,,,,,,Rural Hospital,Government,Rural,Secondary,Open
+Masvingo,Chiredzi,Chiredzi,Damarakanaka Clinic,Damarakanaka - 100358 - Clinic,zEztqtVfvls,ZW080291,ZW08,,,,,,,RHC,Mission,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Dambara Clinic,Dambara - 100360 - Clinic,TBPY2CXSDF6,ZW080437,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,DAMBO,Dambo - 100361 - Clinic,XoF377WoLf2,ZW020484,ZW02,,,,,,,RHC,Council,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Dambridge Clinic,Dambridge - 100362 - Clinic,dMwOTm1TWlM,ZW070588,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland North,Lupane,Lupane,Dandanda Rural Health Centre,Dandanda - 100364 - Clinic,zVFAdwFdTqT,ZW050402,ZW05,,,,,10.89.13.27,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Manicaland,MutareCity,Mutare,Dangamvura Clinic,Dangamvura - 100366 - Clinic,cr9XgOrqJwk,ZW010563,ZW01,,,,,192.168.10.1,ZHI,General Hospital,Town/City Council,Urban,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Darwendale Rural Hospital,Darwendale - 100368 - Rural Hospital,NfFDWgYghbO,ZW04070C,ZW04,,,,,10.67.6.3,ZIMTTECH,Rural Hospital,Government,Peri-Urban,Primary,RURAL
+Mashonaland Central,Mazowe,Mazowe,DAVAAR,Davaar - 100369 - Clinic,Yg65gRsms6Z,ZW020410,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Davata Rural Health Centre,Davata - 100370 - Clinic,TWQYlcVIUbh,ZW080205,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Davira Clinic,Davira - 100374 - Clinic,aGhPTFxnILJ,ZW080326,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Dendera Rural Health Centre,Dendera - 100377 - Rural Hospital,F2rElAKbgv8,ZW070501,ZW07,,,,,,ZHI,RHC,Government,Rural,Primary,
+Masvingo,Gutu,Gutu,Denhere Clinic,Denhere - 100380 - Clinic,E2KrijxLbKp,ZW080426,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Dewure Clinic,Devure - 100387 - Mission Clinic,VYPAMdNSEQf,ZW080427,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Mashonaland East,UMP,UMP,Dewe Council Clinic,Dewe - 100389 - Clinic,nSvEwzl9xRr,ZW030338,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland East,Marondera,Marondera,Dimbiti Rural Health Centre,Dimbiti - 100390 - Rural Health Centre,cxkXNo5Bctw,ZW030503,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland East,UMP,UMP,Dindi Clinic,Dindi - 100392 - Mission Hospital,H4QiZSaiFt1,ZW030391,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Mission,Rural,clinic,Active
+Matabeleland South,Mangwe,Mangwe,Dingumuzi Clinic,Dingumuzi - 100394 - Clinic,YaLsThHfLT9,ZW060745,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Urban,,
+Matabeleland North,Tsholotsho,Tsholotsho,Dlamini Clinic,Dlamini - 100396 - Council Clinic,CS6Fp5VYQVZ,ZW050626,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Doma RDC Clinic,Doma - 100397 - Clinic,QkRUl86fEkn,ZW040445,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Dombodema Clinic,Dombodema Clinic,D79NwzzVJYp,ZW060225,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland East,Goromonzi,Goromonzi,Domboshava Rural Health Centre,Domboshava - 100400 - Clinic,YSrqcKlCQUf,ZW030202,ZW03,,,,,172.16.10.1,ZIMTTECH,RDC,Government,Peri-Urban,clinic,Active
+Mashonaland East,Marondera,Marondera,Dombotombo Council Clinic,Dombotombo - 100401 - Clinic,oKyc3dnc5sJ,ZW030561,ZW03,,,,,10.79.23.250,ZIMTTECH,RHC,Town/City Council,Rural,clinic,Active
+Mashonaland West,Chegutu,Chegutu,Dombwe Clinic,Dombwe - 100403 - Clinic,y1o5Gm53ye5,ZW040146,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Donjuan Clinic,Don Juan - 100404 - Clinic,k4sThzc4zIy,ZW070525,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland West,Mhondoro,Mhondoro,Donain Rural Health Centre,Donain - 100405 - Rural Health Centre,yraPEOZeIxX,ZW040502,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,DONJE,Donje - 100409 - Clinic,x9pJIfSTTaY,ZW020406,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Midlands,Kwekwe,Kwekwe,Donsa,Donsa - 100410 - Clinic,tFiCFVJ3KLP,ZW070502,ZW07,,,,,,ZHI,,,,,
+Manicaland,Mutare,Mutare,Dora Clinic,Dora - 100411 - Clinic,OdVIpeFRpxI,ZW010541,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Doro Clinic,Doro - 100413 - Clinic,hJfPQt6G26t,ZW040299,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,DOTITO,Dotito - 100416 - Clinic,LcUXPpHZu3n,ZW020501,ZW02,,,,,10.71.21.10,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Bulawayo,Nkulumane,Bulawayo,Dr Shennan Clinic,Dr. Shennan - 100418 - Clinic,gs4v5i69tux,ZW090A14,ZW09,,,,,,,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,Dula Clinic,Dula Clinic,B9HL312kFTS,ZW060635,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Beitbridge,Beitbridge,Dulibadzimu Clinic,Dulibadzimu - 100423 - Clinic,cLOvKUEH5RN,ZW060126,ZW06,,,,,,,RDC,Town/City Council,Urban,,
+Masvingo,Chiredzi,Chiredzi,Dumisa Clinic,Dumisa - 100425 - Clinic,jRF48ebIi8o,ZW080228,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Dzivaresekwa gvt Clinic,Dzivarasekwa Extension - 100428 - Clinic,XwzKYKZooxk,ZW040780,ZW04,,,,,192.168.1.10,ZIMTTECH,RHC,Government,Urban,Primary,TOWN
+Bulawayo,Northern Surbubs,Bulawayo,EF Watson Clinic,E.F. Watson - 100429 - Clinic,oZk9I1XeSu9,ZW090A03,ZW09,,,,,30.30.14.3,Ophid,Clinic,Private,Urban,Primary,Open
+Harare,ha Eastern District,Harare,ha Eastley FHS Clinic,Eastly - 100433 - Clinic,JCa4cIM0RG8,ZW000A10,ZW00,,,,,172.16.35.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Matabeleland South,Matobo,Matobo,Ekukhanyeni Clinic,Ekukanyeni - 100439 - Clinic,RsSbNZR2lnR,ZW060505,ZW06,,,,,192.168.10.1,Ophid,RDC,Town/City Council,Rural,,
+Bulawayo,Emakandeni,Bulawayo,Emakhandeni Clinic,Emakhandeni - 100443 - Clinic,cIHo19pHPnw,ZW090A01,ZW09,,,,,10.9.12.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland South,Mangwe,Mangwe,Embakwe Mission Hospital,Embakwe - 100444 - Mission Hospital,csZvGNTFp2K,ZW06070E,ZW06,,,,,193.168.0.1,Ophid,Mission Clinic,Mission,Rural,,
+Matabeleland South,Mangwe,Mangwe,Empandeni Mission Clinic,Empandeni - 100445 - Clinic,JOr33aW1Qul,ZW060792,ZW06,,,,,192.168.10.1,Ophid,Mission Clinic,Mission,Rural,,
+Bulawayo,Northern Surbubs,Bulawayo,Entumbane Clinic,Entumbane - 100449 - Clinic,KIAW84qSifO,ZW090A04,ZW09,,,,,192.168.1.3,Ophid,Clinic,Private,Urban,Primary,Open
+Mashonaland East,Seke,Seke,Epworth Polyclinic,Epworth - 100451 - Poly Clinic,Dr2dULfqvTS,ZW030926,ZW03,,,,,,ZIMTTECH,RHC,Town/City Council,Urban,clinic,Active
+Mashonaland East,Seke,Seke,Epworth Mission Clinic,Epworth - 100452 - Mission Clinic,EC7WzIzlIiy,ZW030990,ZW03,,,,,10.79.34.1,ZIMTTECH,Mission Clinic,Mission,Urban,clinic,Active
+Matabeleland South,Umzingwane,Umzingwane,Esibomvu Clinic,Esibobvu - 100455 - Clinic,SjvPWQ5l2gT,ZW060625,ZW06,,,,,10.84.17.3,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Umzingwane,Umzingwane,Esigodini District Hospital,Esigodini - 100456 - District Hospital,EJIkhGYlQVb,ZW06060A,ZW06,,,,,10.84.6.3,Ophid,District Hospital,Government,Rural,,
+Midlands,Kwekwe,Kwekwe,Exchange Clinic,Exchange - 100457 - Clinic,NGyX8ov4BLC,ZW070526,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland North,Bubi,Bubi,Fasinoni,Fanison - 100461 - Rural Health Centre,UhdvTazmVfs,ZW050225,ZW05,,,,,,ZIMTTECH,,,,,
+Mashonaland West,Zvimba,Zvimba,Father O'Hea Mission Hospital,Father O'Hea - 100463 - Mission Hospital,pw6aAMuYZOz,ZW04070E,ZW04,,,,,10.67.7.2,ZIMTTECH,Mission Hospital,Mission,Rural,Secondary,RURAL
+Masvingo,Chiredzi,Chiredzi,Faversham Clinic,Faversham - 100465 - Clinic,fHlFvOJjEZa,ZW080211,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Manicaland,MutareCity,Mutare,Fern Valley Clinic,Fernvalley - 100466 - Clinic,OcGPckc3QEu,ZW010566,ZW01,,,,,,ZHI,General Hospital,Town/City Council,Urban,Primary,Open
+Matabeleland South,Insiza,Insiza,Filabusi District Hospital,Filabusi - 100468 - District Hospital,nTq5H4A7Lyc,ZW06040A,ZW06,,,,,,Ophid,District Hospital,Government,Urban,,
+Manicaland,MutareCity,Mutare,Florida Clinic,Florida - 100472 - Clinic,GmBfBIZu0RH,ZW010565,ZW01,,,,,192.168.10.2,ZHI,General Hospital,Town/City Council,Urban,Primary,Open
+Manicaland,Mutare,Mutare,Forbes Boarder Clinic,Forbes Boarder Clinic,usnQnNvOVYO,ZW010569,ZW01,,,,,,ZHI,RHC,Government,Urban,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,FORRESTER,Forrester - 100476 - Clinic,B0qok3j6tWR,ZW020485,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Pvt,Farming,Primary,Open
+Matabeleland South,Matobo,Matobo,Fumugwe,Fumugwe - 100479 - Clinic,QBWN4VDaKc9,ZW060506,ZW06,,,,,192.168.10.1,Ophid,RDC,Town/City Council,Rural,,
+Masvingo,Zaka,Zaka,Fube Clinic,Fuve - 100480 - Clinic,ifRp2NyE9bf,ZW080730,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,G and N Clinic,G&N Clinic - 100481 - Clinic,xXvAFa6LVPB,ZW080683,ZW08,,,,,,,RHC,Private,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Gaha Clinic,Gaha - 100482 - Clinic,dAuWnsrDRVU,ZW070676,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Gamanya RDC clinic,Gamanya - 100484 - Clinic,HfeDBniK6Sa,ZW040485,ZW04,,,,,,,,,,,
+Manicaland,Buhera,Buhera,Garamwera,Garamwera - 100489 - Clinic,g9SCxKLS1Rl,ZW010118,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Garanyemba Clinic,Garanyemba - 100490 - Clinic,bB4csCSIDEn,ZW060331,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland West,Mhondoro,Mhondoro,Gavhunga - 100496 - Clinic,Gavhunga - 100496 - Clinic,GKhq9nMgfU9,ZW040519,ZW04,,,,,,ZIMTTECH,,,,,
+Harare,Harare,Harare,Gazaland Comm Post,Gazaland Comm Post,ZW010347,ZW010347,ZW01,,,,,192.168.1.254,Ophid,,,,,
+Masvingo,Chiredzi,Chiredzi,Gezani Rural Health Centre,Gezani - 100502 - Clinic,FZFi6UbvoAK,ZW080206,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Harare,ha South Western District,Harare,ha Glen Norah Satellite Clinic,Glen Norah - 100506 - Satellite clinic,DJjkezUgUFu,ZW000A11,ZW00,,,,,172.16.31.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha West South West District,Harare,ha Glen View PolyClinic,Glen View - 100507 - Poly clinic,ja1btrIkyqi,ZW000A13,ZW00,,,,,172.16.25.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha West South West District,Harare,ha Glen View Satellite Clinic,Glen View - 100508 - Satellite clinic,eduFmnFLTUs,ZW000A14,ZW00,,,,,172.16.30.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland West,Makonde,Makonde,Godzi RDC Clinic,Godzi - 100510 - Clinic,aioy3H77jLx,ZW040409,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Gokomere Mission Clinic,Gokomere - 100512 - Clinic,vQIAHTp5Tc7,ZW08050E,ZW08,,,,,,,Clinic,Mission,Rural,Primary,Open
+Midlands,Gokwe South,Gokwe South,Gokwe South District Hospital,Gokwe - 100513 - District Hospital,OrydhbKFg8H,ZW07030A,ZW07,,,,,10.54.7.250,ZHI,District Hospital,Government,Rural,Secondary,
+Midlands,Kwekwe,Kwekwe,Gomola,Gomola - 100516 - Clinic,yuQafsH22Bi,ZW070583,ZW07,,,,,,ZHI,,,,,
+Matabeleland North,Lupane,Lupane,Gomoza Rural Health Centre,Gomoza - 100517 - Rural Health Centre,t9C5ajv1YF5,ZW050404,ZW05,,,,,10.89.15.3,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Gonono Clinic,Gonono - 100519 - Clinic,no6SbAPoA7s,ZW020831,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Mashonaland East,Murewa,Murewa,Goso Rural Health Centre,Goso - 100526 - Clinic,pBj3XPhHiO5,ZW030772,ZW03,,,,,,ZIMTTECH,Mission Clinic,Mission,Rural,clinic,Active
+Mashonaland Central,Guruve,Guruve,mc Gota Clinic,Gota - 100527 - Clinic,EG82X64efyb,ZW020334,ZW02,,,,,,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Harare,ha Eastern District,Harare,ha Greendale FHS Clinic,Greendale - 100535 - Clinic,PkocfPqfGu8,ZW000A15,ZW00,,,,,172.16.0.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Masvingo,Chiredzi,Chiredzi,Gudo RHC,Gudo Clinic,vXMawvhiVWc,ZW080237,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Gudubu Rural Health Centre,Gudubu - 100538 - Clinic,LtqzRppR0f9,ZW040412,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland South,Matobo,Matobo,Gulati Rural Health Center,Gulati - 100540 - Rural Health Centre,kEC31WjP2wR,ZW060581,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Masvingo,Zaka,Zaka,Gumbo,Gumbo - 100541 - Clinic,dVYZfmaQlZu,ZW080734,ZW08,,,,,192.168.10.1,OPHID/Kapinek,,,,,
+Midlands,Gweru,Gweru,Gunde Rural Health Centre,Gunde - 100545 - Clinic,VbSjaVx4t0f,ZW070401,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,
+Masvingo,Masvingo,Masvingo,Gundura Clinic,Gundura - 100546 - Clinic,hIQLu7ZOrfq,ZW080527,ZW08,,,,,,,Clinic,RDC,Rural,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Gungwe RHC,Gungwe - 100548 - Rural Health Centre,KlVFxBUmMPa,ZW060301,ZW06,,,,,192.168.10.1,Ophid,RDC,Government,Rural,,
+Masvingo,Gutu,Gutu,Guni Clinic,Guni - 100549 - Clinic,OQocNmXdE6i,ZW08040F,ZW08,,,,,,,RHC,Private,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Gurajena Rural Health Centre,Gurajena - 100551 - Hospital,Oqk09GQNE6K,ZW080541,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,Govt,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Guruve District Hospital,Guruve - 100553 - District Hospital,vHz5VnCPKDo,ZW02030B,ZW02,,,,,,ZIMTTECH,District Hospital,Government,Rural,Secondary,Open
+Mashonaland Central,Guruve,Guruve,mc Guruve Centre Rural Health Clinic,Guruve - 100554 - Clinic,m3PHpSk6e5D,ZW020308,ZW02,,,,,192.168.10.1,ZIMTTECH,Rural Health Centre,Government,Rural,PHC,Open
+Masvingo,Gutu,Gutu,Gutu Mission Hospital,Gutu - 100557 - Mission Hospital,lMPbb0M4NRu,ZW08040E,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Mission Hospital,Mission,Rural,Secondary,Open
+Masvingo,Gutu,Gutu,Gutu Rural Hospital,Gutu Rural - 100558 - Clinic,hhrSCqMznTy,ZW08040A,ZW08,,,,,,,Rural Hospital,Government,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Guwa Rural Health Centre,Guwa - 100559 - Clinic,swgwGmtq9YH,ZW080540,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,Govt,Rural,Primary,Open
+Matabeleland North,Nkayi,Nkayi,Guwe Clinic,Guwe - 100560 - Rural Health Centre,NWqYAWOBoaJ,ZW050532,ZW05,,,,,192.168.10.1,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Matabeleland South,Insiza,Insiza,Gwanda State University,Gwanda University,nxQavCU6rAf,ZW060408,ZW06,,,,,,Ophid,,,,,
+Midlands,Gokwe South,Gokwe South,Gwanyika Rural Health Centre,Gwanyika - 100562 - Rural Health Centre,cBe8uJrLNGC,ZW070301,ZW07,,,,,,,RHC,Government,Rural,Primary,
+Midlands,Mberengwa,Mberengwa,Gwarawa Rural Health Centre,Gwarava - 100565 - Rural Health Centre,l41qggZoaFK,ZW070601,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,Open
+Matabeleland South,Insiza,Insiza,Gwatemba Rural Health Centre,Gwatemba - 100566 - Rural Health Centre,y6M9rtUuWa9,ZW060402,ZW06,,,,,192.168.10.3,Ophid,RHC,Government,Rural,,
+Matabeleland North,Lupane,Lupane,Gwaai Rural Health Centre,Gwayi Clinic,nEvQQz0S9nn,ZW050492,ZW05,,,,,,ZACH,RDC,Town/City Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Gwebi Rural Health Centre,Gwebi - 100568 - Clinic,nvq6i0w1qfR,ZW040702,ZW04,,,,,,ZIMTTECH,RHC,Government,Peri-Urban,Primary,RURAL
+Matabeleland North,Nkayi,Nkayi,Gwelutshena Clinic,Gwelutshena - 100569 - Rural Health Centre,htw8zSoHZp1,ZW050533,ZW05,,,,,10.89.16.3,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Gwenzi Clinic,Gwenzi - 100570 - Clinic,cQ6zS5sLoW0,ZW010390,ZW01,,,,,192.168.10.2,ZHI,Mission Clinic,Mission,Rural,Primary,Open
+Midlands,Gweru,Gweru,Gweru Provincial Hospital,Gweru - 100572 - Provincial Hospital,pQhsTO2zXMS,ZW07040A,ZW07,,,,,,ZHI,Provincial Hospital,Government,Urban,Secondary,
+Midlands,Gweru,Gweru,Gweru District Hospital,Gweru- 101883 -District Hospital,R0AbzHF3tB6,ZW07040B,ZW07,,,,,192.168.1.3,ZHI,District Hospital,Government,Urban,Secondary,
+Manicaland,Mutare,Mutare,Gwindingwi ,Gwindingwi - 100574 - Rural Health Centre,X7Tj1WoSu8a,ZW010505,ZW01,,,,,,ZHI,RHC,Government,Rural,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,Habane Clinic,Habani - 100578 - Clinic,MJItwbZps26,ZW060626,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Masvingo,Zaka,Zaka,Harava Rural Health Centre,Harava - 100583 - Rural Health Centre,s0NGujuznMj,ZW080702,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Harare,ha Northern District,Harare,ha Hatcliffe PolyClinic,Hatcliffe - 100584 - Poly clinic,XS02URbnDnM,ZW000A17,ZW00,,,,,,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha Harare Central South Eastern District,Harare,ha Hatfield Clinic,Hatfield - 100585 - Clinic,cHDIcWqWkBu,ZW000A44,ZW00,,,,,172.16.39.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Manicaland,Mutasa,Mutasa,Hauna District Hospital,Hauna - 100586 - District Hospital,ivSpKPosBuc,ZW01060F,ZW01,,,,,10.20.7.133,ZHI,District Hospital,Government,Rural,,Open
+Manicaland,Mutasa,Mutasa,Hauna Clinic,Hauna - 101855 - Clinic,S9ItwIxzitL,ZW010627,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,,Open
+Manicaland,Makoni,Makoni,Headlands Clinic,Headlands - 100587 - Clinic,pcXd2hwfzZV,ZW010440,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Mashonaland Central,Mazowe,Mazowe,HENDERSON,Henderson Research - 100590 - Clinic,AQIqrtTtCJk,ZW020475,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Herbert Chitepo,Herbert Chitepo,Hiy4IS8bwoM,ZW040794,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Mashonaland West,Hurungwe,Hurungwe,Hesketh Clinic,Hesketh - 100591 - Council Clinic,P7NGBmcP9C5,ZW040246,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Helwin Clinic,Hewiyai - 100592 - Council Clinic,FErcn3drSxC,ZW040245,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Harare,ha South Western District,Harare,ha Highfield PolyClinic,Highfield - 100593 - Poly Clinic,t4lPPMcgk0s,ZW000A18,ZW00,,,,,172.16.32.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha Eastern District,Harare,ha Highlands Primary Care Clinic,Highlands - 100595 - Private Clinic,P2FWzBdox8O,ZW000A46,ZW00,,,,,172.16.40.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha Northern District,Harare,ha Highlands FHS Clinic,Highlands - 100596 - Clinic,ASj7bwCPpfG,ZW000A52,ZW00,,,,,172.16.1.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Matabeleland South,Bulilima,Bulilima,Hingwe Rural Health Centre,Hingwe - 100598 - Clinic,pAUXg8FfZlS,ZW060220,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Manicaland,MutareCity,Mutare,Hobhouse Clinic,Hob House - 100601 - Clinic,zUEyrYaMPsk,ZW010560,ZW01,,,,,,,General Hospital,Town/City Council,Urban,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,HOLME EDEN,Holmeden - 100602 - Clinic,nBhXXzVv97q,ZW020446,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Mashonaland East,UMP,UMP,Hombiro Clinic,Hombiro Clinic,Jv9z4R9jYGY,ZW030340,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland West,Makonde,Makonde,Hombwe RDC Clinic,Hombwe - 100604 - Clinic,ZmW2BIboGNI,ZW040425,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Homedale Clinic,Homedale - 100605 - Clinic,OqAMtX2JCN2,ZW040178,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Matobo,Matobo,Homestead Rural Health Centre,Homestead - 100606 - Rural Health Centre,Zjgwzp0iPau,ZW060503,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Harare,ha Southern District,Harare,ha Hopley Clinic,Hopley - 100608 - Clinic,oRwZ75p6Z00,ZW000A53,ZW00,,,,,172.16.34.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland Central,Mazowe,Mazowe,HORTA,Horta Clinic,D8mSnH95ECd,ZW020490,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,How Mine Clinic,How Mine - 100610 - Mine Clinic,e4A1s0LVXW8,ZW060676,ZW06,,,,,192.168.10.1,Ophid,RHC,Mine,Rural,,
+Mashonaland Central,Mazowe,Mazowe,HOWARD,Howard - 100611 - Mission Hospital,zD7ADf9HixR,ZW02040C,ZW02,,,,,10.71.6.10,ZACC,Hospital,Mission,Rural,Primary,Open
+Midlands,Gweru,Gweru,Hozhori,Hozheri - 100615 - Clinic,jtWtzBZSo3X,ZW070494,ZW07,,,,,,ZHI,,,,,
+Midlands,Gokwe South,Gokwe South,Huchu,Huchu - 100617 - Clinic,HOkDsYNkFWL,ZW070397,ZW07,,,,,,ZHI,,,,,
+Mashonaland West,Hurungwe,Hurungwe,Hurungwe Rural Hospital,Hurungwe - 100619 - Rural Hospital,iaOOpWV2fiF,ZW04020B,ZW04,,,,,,,,,,,
+Matabeleland South,Bulilima,Bulilima,Huwana Clinic,Huwana - 100620 - Clinic,rkQa7RnEWDS,ZW060202,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland East,Marondera,Marondera,Igava Council Clinic,Igava - 100627 - Clinic,IIA4YLWqC6F,ZW030545,ZW03,,,,,192.168.1.10,ZIMTTECH,RHC,Town/City Council,Rural,clinic,Active
+Matabeleland North,Umguza,Umguza,Igusi Rural Health Centre,Igusi - 100628 - Clinic,qiTBYlmXMwX,ZW050703,ZW05,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Imbahuru Clinic,Imbahuru - 100629 - Clinic,Ocwsmwt9N25,ZW070632,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Sanyati,Sanyati,Ingezi clinic,Ingezi - 100636 - Municipality,C78N7IY0RQT,ZW040636,ZW04,,,,,192.168.10.1,ZIMTTECH,,,,,
+Midlands,Mberengwa,Mberengwa,Ingezi Clinic,Ingezi - 100637 - Clinic,soB2Lgw5gnB,ZW070635,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Mangwe,Mangwe,Ingwizi Rural Health Centre,Ingwizi - 100639 - Clinic,ImEOeEnBhCe,ZW060703,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Matabeleland South,Insiza,Insiza,Insiza Rural Health Centre,Insiza PBS - 100640 - Clinic,ZaWOfFs5CGk,ZW060403,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Matabeleland North,Bubi,Bubi,Inyathi District Hospital,Inyathi - 100642 - District Hospital,fdsEXNvFfWg,ZW05020A,ZW05,,,,,10.89.4.7,ZIMTTECH,District Hospital,Government,Rural,Secondary,Open
+Matabeleland South,Umzingwane,Umzingwane,Irrisvale RHC,Irisvale - 100644 - Rural Health Centre,JHAlEGeE4Cl,ZW060632,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Mashonaland Central,Mazowe,Mazowe,I/DUKE,Iron Duke - 100645 - Clinic,ArQWoi5EBdb,ZW020476,ZW02,,,,,,ZIMTTECH,RHC,Gvt,Mining,Secondary,Open
+Matabeleland North,Bubi,Bubi,Isabella Mine Clinic,Isabella Mine - 100647 - Mine Clinic,yahjoGsrzyY,ZW050256,ZW05,,,,,,ZIMTTECH,RHC,Mine,Rural,Primary,Open
+Midlands,Gweru,Gweru,Ivene,Ivene - 100649 - Clinic,ixtnyj9buiO,ZW070466,ZW07,,,,,,ZHI,,,,,
+Midlands,Gokwe South,Gokwe South,Jahana,Jahana - 100652 - Clinic,zsRDbhBIGQR,ZW070319,ZW07,,,,,,ZHI,,,,,
+Mashonaland West,Zvimba,Zvimba,Jari RDC Clinic,Jari - 100655 - Council Clinic,mtoJLmHp5jP,ZW040727,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,RURAL
+Midlands,Mberengwa,Mberengwa,Jeka Rural Hospital,Jeka - 100656 - Rural Hospital,YtbICY59p63,ZW07060B,ZW07,,,,,10.54.9.3,ZHI,Rural Hospital,Government,Rural,Secondary,Open
+Mashonaland East,Murewa,Murewa,Jekwa Rural Health Centre,Jekwa - 100657 - Rural Health Centre,FjEmBSTJkXT,ZW030703,ZW03,,,,,,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Midlands,Kwekwe,Kwekwe,Jena mines clinic,Jena Mine - 100658 - Mine Clinic,tmh3MNEV8eO,ZW070577,ZW07,,,,,,ZHI,,,,,
+Masvingo,Zaka,Zaka,Jerera Satellite Clinic,Jerera - 100659 - Satelite Clinic,PMfFMZIrZm5,ZW080739,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Jichidza Mission Clinic,Jichidza - 100662 - Mission Clinic,MN5sIO2VqYH,ZW080791,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Jichidza Council Clinic,Jichidza -101867 - Council Clinic,FIVfQy6uvyY,ZW080732,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Matabeleland North,Tsholotsho,Tsholotsho,Jimila Clinic,Jimila - 100663 - Clinic,Dm57psrUa0O,ZW050628,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,JINGAMVURA,Jingamvura - 100664 - Clinic,TGrveoFxJj2,ZW020427,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Gvt,Rural,Primary,Open
+Mashonaland East,Goromonzi,Goromonzi,Henry John Reimer Clinic,John Reimer - 100668 - Clinic,qu3G86fX87g,ZW030247,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland West,Sanyati,Sanyati,Jompani - 100672 - Rural Health Centre,Jompani - 100672 - Rural Health Centre,oIdo1LMkqbS,ZW040601,ZW04,,,,,,ZIMTTECH,,,,,
+Mashonaland East,Seke,Seke,Jonasi Clinic,Jonasi - 100673 - Clinic,XvaFMjND2A3,ZW030922,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Matabeleland North,Lupane,Lupane,Jotsholo Clinic,Jotsholo - 100675 - Clinic,rCYzUIDW7MG,ZW050426,ZW05,,,,,10.89.19.3,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Junction Gate Clinic,Junction Gate - 100676 - Clinic,keLg1H27wuQ,ZW010348,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Midlands,Gweru,Gweru,Kabanga,Kabanga - 100678 - Clinic,HY9D6A9Y6yI,ZW070402,ZW07,,,,,,ZHI,,,,,
+Mashonaland Central,Guruve,Guruve,mc Kachuta Clinic,Kachuta - 100679 - Clinic,vfT8lkkZDP3,ZW020331,ZW02,,,,,192.168.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland East,Murewa,Murewa,Kadenge Rural Health Centre,Kadenge - 100680 - Rural Health Centre,MiLexqDZjQJ,ZW030704,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Mashonaland West,Sanyati,Sanyati,Kadoma General Hospital,Kadoma - 100681 - District Hosp,wOpjGYcTm6P,ZW04060A,ZW04,,,,,10.67.9.2,ZIMTTECH,General Hospital,Government,Urban,Secondary,Open
+Mashonaland East,Murewa,Murewa,Kadzere Rural Health Centre,Kadzere - 100686 - Clinic,CbmWNb9Tcpi,ZW030727,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland East,UMP,UMP,Kafura Rural Health Centre,Kafura - 100688 - Rural Health Centre,jdEFSM3lK1L,ZW030301,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Matabeleland South,Gwanda,Gwanda,Kafusi Clinic,Kafusi - 100689 - Clinic,N26tcya5qNw,ZW060326,ZW06,,,,,192.168.10.1,Ophid,RHC,Rural Council,Rural,,
+Mashonaland Central,Mt Darwin,Mt Darwin,KAITANO,Kaitano - 100691 - Clinic,aRgngorjrfa,ZW020526,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Mashonaland East,Murewa,Murewa,Kambarami Rural Health Centre,Kambarami - 100693 - Clinic,LEyBzwRbqB1,ZW030749,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Harare,ha Western District,Harare,ha Kambuzuma PolyClinic,Kambuzuma - 100695 - Poly clinic,IcMRUqrfO0g,ZW000A19,ZW00,,,,,172.16.25.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland West,Makonde,Makonde,Kamhonde Rural Health Centre,Kamonde - 100696 - Clinic,yX2lY2FPwYO,ZW040405,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Camsasa Clinic,Kamusasa - 100697 - Clinic,EN9aDhbLX4h,ZW020347,ZW02,,,,,192.168.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,KAMUTSENZERE,Kamutsenzere - 100698 - Clinic,FYtb3028m7i,ZW020502,ZW02,,,,,192.168.10.1,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Kamuzingizi - 101919 - Council Clinic,Kamuzingizi - 101919 - Council Clinic,k99EoqaYwen,ZW040492,ZW04,,,,,,ZIMTTECH,,,,,
+Midlands,Gokwe South,Gokwe South,Kana Mission Hospital,Kana - 100699 - Mission Hospitals,qKPPhaui7JF,ZW07030C,ZW07,,,,,,ZHI,Mission Hospital,Mission,Rural,Secondary,
+Mashonaland Central,Mt Darwin,Mt Darwin,KANDEYA,Kandeya clinic,yvfEluoF3Bu,ZW020538,ZW02,,,,,192.168.10.1.,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Kanyaga RDC Clinic,Kanyanga - 100702 - Clinic,AAZhENxl6fW,ZW040488,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Kapfunde Clinic,Kapfunde - 100706 - Council Clinic,FlnO6SLGkoS,ZW040291,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,KARANDA HOSPITAL,Karanda - 100709 - Mission Hospital,zhngjlBBq8a,ZW02050B,ZW02,,,,,192.168.1.24,ZIMTTECH,MISSION HOSPITAL,MISSION,Rural,Secondary,Open
+Mashonaland East,UMP,UMP,Karimbika Rural Health Centre,Karimbika - 100713 - Rural Health Centre,tK6PvmnXlXx,ZW030302,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Mashonaland West,Hurungwe,Hurungwe,Karoi District Hospital,Karoi - 100715 - District Hospital,VNjdYsWixGj,ZW04020A,ZW04,,,,,,,District Hospital,Government,Urban,Secondary,Open
+Mashonaland West,Hurungwe,Hurungwe,Karoi Static Clinic,Karoi Static -101847 - Clinic,fu7mCEGiPDN,ZW040261,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Town/City Council,Urban,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Kasimure RHC,Kasimube - 100717 - Rural Health Centre,IE7VibyIDHH,ZW040294,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Katanga Utano Clinic,Katanga utano - 100719 - Municipality,AovMStawZQF,ZW040147,ZW04,,,,,192.168.10.2,ZIMTTECH,RHC,Town/City Council,Urban,Primary,Open
+Manicaland,Makoni,Makoni,Katsenga Rural Health Centre,Katsenga - 100723 - Rural Health Centre,ciscgPAvSgq,ZW010410,ZW01,,,,,,,RHC,Government,Rural,Primary ,Open
+Mashonaland West,Hurungwe,Hurungwe,Kazangarare Clinic,Kazangarare - 100727 - Gvt Council,qUHcE4ErSLH,ZW040227,ZW04,,,,,10.67.26.2,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Kemurara RDC Clinic,Kemurara - 100728 - Rural Health Centre,HpLqndJUr74,ZW040779,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,RURAL
+Mashonaland Central,Guruve,Guruve,mc Kemutamba Clinic,Kemutamba - 100729 - Rural Health Centre,IEk6Eq8wiJC,ZW020346,ZW02,,,,,192.168.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland West,Makonde,Makonde,Kenzamba Rural Health Centre,Kenzamba - 100731 - Clinic,GW3nlgDs9xm,ZW040406,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland South,Matobo,Matobo,Kezi Rural Hospital,Kezi - 100732 - Rural Hospital,FDm9hBNYb99,ZW06050B,ZW06,,,,,,Ophid,Rural Hospital,Government,Rural,,
+Bulawayo,Northern Surbubs,Bulawayo,Khami Road Clinic,Khami - 100733 - Clinic,HTOW8SwHLtO,ZW090A05,ZW09,,,,,10.9.4.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland South,Insiza,Insiza,Kombo Health Post,Kombo - 100734 - Clinic,Ct34hgdcaQf,ZW060428,ZW06,,,,,,Ophid,RDC,Rural Council,Rural,,
+Manicaland,Chipinge,Chipinge,Kondo Clinic,Kondo - 100735 - Clinic,E5TbMMc7bA3,ZW010328,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Kotokwe,Kotokwe - 100739 - Clinic,sBdgbB2fR3S,ZW070608,ZW07,,,,,,ZHI,,,,,
+Mashonaland East,Goromonzi,Goromonzi,Kowoyo Clinic,Kowoyo - 100742 - Clinic,pME5ihuWYf5,ZW030227,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Midlands,Gokwe South,Gokwe South,Krima Clinic,Krima - 100743 - Clinic,iIJY7AzDu3b,ZW070330,ZW07,,,,,,,RDC,Rural Council,Rural,Primary,
+Mashonaland East,Goromonzi,Goromonzi,Kubatsirana Clinic,Kubatsirana - 100744 - Clinic,ddofD4xrcKS,ZW030248,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Matabeleland South,Umzingwane,Umzingwane,Kumbudzi RHC,Kumbuzi - 100745 - Rural Health Centre,RbPl86Ek1pJ,ZW060601,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Mashonaland East,Seke,Seke,Kunaka Hospital,Kunaka - 100746 - Rural Hospital,OU0gHuwRZtW,ZW03090B,ZW03,,,,,10.79.7.3.,ZIMTTECH,Rural Hospital,Rural Council,Rural,Hospital,Active
+Mashonaland East,Marondera,Marondera,Kushinga Phikhelela Rural Health Centre,Kushinga Phikelela - 100749 - Clinic,f4uKZhvCUTc,ZW030504,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Government,Rural,clinic,Active
+Mashonaland West,Zvimba,Zvimba,Kutama RDC Clinic,Kutama - 100750 - Council Clinic,SZfZ586Bl1Q,ZW040743,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Harare,Harare,Harare,Kuwadzana Satelite Clinic,Kuwadzana - 100020- Satelite clinic,AFJhfhk8nbn,ZW000A68,ZW00,,,,,172.16.37.3,Zimtech,,,,,
+Harare,ha Western District,Harare,ha Kuwadzana PolyClinic,Kuwadzana - 100751 - Poly Clinic,mgvYC5iaGlA,ZW000A20,ZW00,,,,,172.16.29.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland West,Zvimba,Zvimba,Kuwadzana RDC Clinic,Kuwadzana Phase 4 -101851- Clinic,dArzb8heLtw,ZW040744,ZW04,,,,,,,RDC,Rural Council,Urban,Primary,TOWN
+Midlands,Kwekwe,Kwekwe,Kwekwe General Hospital,Kwekwe - 100754 - District Hospital,nThW8r8MZtE,ZW07050A,ZW07,,,,,10.54.11.5,ZHI,General Hospital,Government,Urban,Secondary,
+Matabeleland South,Bulilima,Bulilima,Lady Barring Rural Hospital,Lady Barring - 100755 - Mission Hospital,XdWdQRJn9Py,ZW06020B,ZW06,,,,,,Ophid,Rural Hospital,Government,Rural,,
+Matabeleland South,Bulilima,Bulilima,Lady Stanley Rural Hospital,Lady Stanley - 100756 - Mission Hospital,Orr1ircj1n9,ZW06020C,ZW06,,,,,,Ophid,Rural Hospital,Government,Rural,,
+Matabeleland North,Lupane,Lupane,Lake-Alice Clinic,Lake Alice - 101888 - Clinic,gVkObbofnxN,ZW050428,ZW05,,,,,192.168.10.1,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Leekuil Takunda Clinic,Lee Kul - 100765 - Clinic,s4fE8Jt1g4L,ZW010521,ZW01,,,,,192.168.10.2,ZHI,RHC,Government,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Lospen Farming Clinic,Lospen - 100770 - Clinic,yuR56N38Nr1,ZW040735,ZW04,,,,,,ZIMTTECH,IDH,Private,Peri-Urban,Primary,RURAL
+Midlands,Gweru,Gweru,Lower Gweru clinic,Lower Gweru - 100772 - Mission Clinic,tdC1z2GmRLr,ZW070491,ZW07,,,,,,,RHC,Government,Rural,Primary,
+Matabeleland North,Umguza,Umguza,Lozikeyi Clinic,Lozikeyi - 100773 - Clinic,nK7XPhMtABa,ZW050724,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Lundi Clinic,Lundi - 100778 - Clinic,uZxyGTs0zwb,ZW080692,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Mission,Rural,Secondary,Open
+Matabeleland North,Lupane,Lupane,Lupaka Clinic,Lupaka - 100780 - Clinic,vEbJJckDzFK,ZW050407,ZW05,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland North,Lupane,Lupane,Lupane Rural Health Centre,Lupane - 100781 - Rural Health Centre,l0QLIoY6x80,ZW050406,ZW05,,,,,10.89.21.3,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Lushongwe Clinic,Lushongwe - 100783 - Clinic,nWY5DVISxvp,ZW060333,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland East,Marondera,Marondera,Lustleigh Council Clinic,Lustliegh - 100784 - Clinic,VtpGw8NPT7u,ZW030530,ZW03,,,,,,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Matabeleland North,Nkayi,Nkayi,Lutsha Clinic,Lutsha Clinic,ZW050535,ZW050535,,,,,,,,,,,,
+Bulawayo,Emakandeni,Bulawayo,Luveve Clinic,Luveve - 100786 - Clinic,Sss3M30PqRD,ZW090A06,ZW09,,,,,10.9.5.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Lynx Clinic,Lynx - 100788 - Clinic Private Clinic,ASp1TgIA8zi,ZW040275,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Harare,ha North Western District,Harare,ha Mabelreign Satellite Clinic,Mabelreign - 100791 - satellite clinic,GiKSrbGbNAC,ZW000A21,ZW00,,,,,172.16.2.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Midlands,Gweru,Gweru,Maboleni Clinic,Maboleni - 100793 - Clinic,BiLbWhqc5wO,ZW070426,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland South,Insiza,Insiza,Mabuze Rural Health Centre,Mabuze - 100795 - Rural Health Centre,ZzNvcMVOVP3,ZW060404,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Harare,ha Eastern District,Harare,ha Mabvuku Satellite,Mabvuku - 100796 - Clinic,zENFk5xSzeW,ZW000A47,ZW00,,,,,172.16.36.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha Eastern District,Harare,ha Mabvuku PolyClinic,Mabvuku - 100797 - Poly Clinic,sntNZ6rKWvX,ZW000A23,ZW00,,,,,172.16.26.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland East,Murewa,Murewa,Macheke Clinic,Macheke - 100799 - Clinic,cdZowZBWgqY,ZW030745,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Masvingo,Zaka,Zaka,Machiva,Machiva Clinic,lV9XsdZFQJO,ZW080742,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Matabeleland South,Mangwe,Mangwe,Macingwana ,Macingwana RHC,qKa0cqfK6cB,ZW060735,ZW06,,,,,192.168.10.1,Ophid,Mission Clinic,Mission,Rural,,
+Matabeleland South,Mangwe,Mangwe,Madabe Clinic,Madabe - 100800 - Clinic,jPcuTzdshv2,ZW060727,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Masvingo,Chivi,Chivi,Madamombe Clinic,Madamombe Clinic,xHLQ0UWCPsR,ZW080327,ZW08,,,,,,,RDC,Rural Council,Rural,Clinic,Active
+Mashonaland East,Murewa,Murewa,Madamombe Rural Health Centre,Madamombe Rural Health Centre,ZW030705,ZW030705,,,,,,,,,,,,
+Midlands,Gweru,Gweru,Madikani Clinic,Madhikani - 100804 - Clinic,iGoaM56EbBM,ZW070427,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Masvingo,Zaka,Zaka,Mandhloro Clinic,Madhloro Clinic,DOzFx349RDV,ZW080741,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Madhuku Clinic,Madhuka - 100805 - Rural Health Centre,xvTQ8nB5Mvj,ZW010329,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Madlambudzi Clinic,Madlambuzi - 100807 - Clinic,mJIpxNdl2QY,ZW060228,ZW06,,,,,,Ophid,RDC,Rural Council,Rural,,
+Matabeleland North,Tsholotsho,Tsholotsho,Madlangombe Clinic,Madlangombe - 100809 - Clinic,NfpobInYMG8,ZW050629,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Madzimbashuro,Madzimbashuro - 100810 - Rural Health Centre,snbgbGRWH3K,ZW010103,ZW01,,,,,192.168.10.2,ZHI,RHC,Government,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Madzivadondo Clinic,Madzivadondo - 100813 - Clinic,XxCEgT27X8h,ZW080319,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Madzorera RDC Clinic,Madzorera - 100817 - Clinic,FsqaXprbYyV,ZW040728,ZW04,,,,,,,RDC,Rural Council,Rural,Primary,RURAL
+Mashonaland West,Mhondoro,Mhondoro,Mafindifindi - 100818 - Council Clinic,Mafindifindi - 100818 - Council Clinic,neFCRmV8iZJ,ZW040520,ZW04,,,,,,ZIMTTECH,,,,,
+Mashonaland West,Chegutu,Chegutu,Mafuti Clinic,Mafuti - 100819 - Clinic,muDJAiQ8Ap8,ZW040179,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Mageza Clinic,Mageza - 100820 - Rural Health Centre,j242MePofT5,ZW080740,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Magombedze Clinic,Magombedze - 100822 - Clinic,jXnqxdI0Xk4,ZW080428,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Magombedze Chitsa Clinic,Magombedze Chitsa Rural Health Centre,bNtcLJVMOwP,ZW080435,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Bulawayo,Emakandeni,Bulawayo,Magwegwe Clinic,Magwegwe - 100824 - Clinic,FEdl2EBiTBV,ZW090A07,ZW09,,,,,10.9.6.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Bulawayo,Northern Surbubs,Bulawayo,Mahatshula Private Clinic,Mahatshula Private Clinic,ZW090A66,ZW090A66,ZW09,,,,,,,Clinic,Private,Urban,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Mhlanguleni Rural Health Centre,Mahlanguleni - 100827 - Clinic,T5GUOFScrzV,ZW080208,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Mashonaland East,Marondera,Marondera,Mahusekwa District Hospital,Mahusekwa - 100829 - Hospital,YBLoHaAmcFN,ZW03050C,ZW03,,,,,10.79.3.252,ZIMTTECH,RHC,Government,Rural,District Hospital,Active
+Mashonaland Central,Mbire,Mbire,Mahuwe Clinic,Mahuwe - 100830 - Clinic,ar7ptby0gUw,ZW020833,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Majada Rural Health Centre,Majarada - 100833 - Rural Health Centre,ys2RKCMd2KW,ZW080402,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Matabeleland North,Bubi,Bubi,Majiji Clinic,Majiji - 100834 - Clinic,htZ51X0NqzW,ZW050228,ZW05,,,,,,,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Beitbridge,Beitbridge,Majini Rural Health Centre,Majini - 100835 - Rural Health Centre,HLtonOYJwWn,ZW060104,ZW06,,,,,10.84.37.3,Ophid,RHC,Government,Rural,,
+Masvingo,Chiredzi,Chiredzi,Makambe Clinic,Makambe - 100839 - Clinic,rBSC8oca3nk,ZW080234,ZW08,,,,,,,RHC,Mission,Rural,Primary,Open
+Mashonaland East,Seke,Seke,Makanyazingwa Clinic,Makanyazingwa Clinic,U1AEf47KS9d,ZW030923,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Matabeleland North,Tsholotsho,Tsholotsho,Makhaza Rural Health Centre,Makaza - 100843 - Rural Health Centre,FglkSfTl6l0,ZW050603,ZW05,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Midlands,Gweru,Gweru,Makepesi Clinic,Makepesi - 100844 - Clinic,GCjrq7GWU3O,ZW070428,ZW07,,,,,10.54.28.3,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland South,Bulilima,Bulilima,Makhulela Rural Health Centre,Makhuleka - 100846 - Clinic,QPHAMe5GEWA,ZW060204,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Beitbridge,Beitbridge,Makombe Clinic,Makombe - 100847 - Clinic,OAq1i8fDht3,ZW060178,ZW06,,,,,,,,,,,
+Mashonaland West,Makonde,Makonde,Makonde Christ Hosp,Makonde Christian - 100848 - Mission Hospital,OkTXq7ukdO3,ZW04040D,ZW04,,,,,,ZIMTTECH,Mission Hospital,Mission,Rural,Secondary,Open
+Manicaland,Makoni,Makoni,Makoni Rural Hospital,Makoni - 100849 - Rural Hospital,uWhfHwNDemw,ZW01040C,ZW01,,,,,,,Rural Hospital,Government,Rural,Primary ,Open
+Mashonaland Central,Mazowe,Mazowe,MAKOPE,Makope - 100850 - Clinic,JHROECLEsrH,ZW020428,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Rural,Primary,Open
+Mashonaland East,Goromonzi,Goromonzi,Makumbe District Hospital,Makumbe - 100853 - District Hospital,jAfJAli9ZVn,ZW03020A,ZW03,,,,,10.79.9.131,ZIMTTECH,District Hospital,Government,Rural,District Hospital,Active
+Mashonaland West,Hurungwe,Hurungwe,Makuti Rural Health Centre,Makuti - 100856 - Clinic,BXe2ZvJYQGz,ZW040233,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Makuwerere Clinic,Makuwerere - 100857 - Clinic,bAlZzNKhdBr,ZW070629,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Makwe RHC,Makwe - 100859 - Rural Health Centre,MfChw9iO4MQ,ZW060302,ZW06,,,,,192.168.10.1,Ophid,RDC,Government,Rural,,
+Harare,ha North Western District,Harare,ha Marlborough Satellite Clinic,Malborough - 100860 - Council Clinic,yUbJDbhL4cI,ZW000A45,ZW00,,,,,172.16.2.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Masvingo,Chiredzi,Chiredzi,Malipati Rural Health Centre,Malipati - 100861 - Rural Health Centre,pnbUOG9jvyE,ZW080207,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Malisa Joshepha Clinic,Malisa Josefa - 100863 - Clinic,A2VmYuwHVAw,ZW070527,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Midlands,Kwekwe,Kwekwe,Malisa Zhombe Clinic,Malisa Zhambe - 100862 - Clinic,eTmhzfynWbq,ZW070528,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland South,Mangwe,Mangwe,Mambale Clinic,Mambale - 100864 - Clinic,CoCGCYaDyfm,ZW060729,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Manicaland,Mutare,Mutare,Mambwere Clinic,Mambwere - 100865 - Clinic,PMjhk9KezDp,ZW010530,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Manama Mission Hospital,Manama - 100867 - Mission Hospital,fqYJ8EfOnTe,ZW06030B,ZW06,,,,,192.168.10.1,Ophid,Mission Hospital,Mission,Rural,,
+Midlands,Gokwe South,Gokwe South,Mangidi Clinic,Mangidi - 100871 - Clinic,Jt1CGWaXQsq,ZW070332,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Midlands,Gweru,Gweru,Mangwandi Rural Health Centre,Mangwande - 100872 - Clinic,XdDKGCXjiWo,ZW070403,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,
+Matabeleland South,Mangwe,Mangwe,Maninji Clinic,Maninji - 101914 - Clinic,AxbWlACKfun,ZW060734,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Midlands,Gokwe South,Gokwe South,Manoti Clinic,Manoti - 100874 - Clinic,fH3XHnD9BCh,ZW070333,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland West,Makonde,Makonde,Manyamba Rural Health Centre,Manyamba - 100875 - Clinic,EeHMROYRaAD,ZW040487,ZW04,,,,,,,RHC,Government,Rural,Primary,Open
+Mashonaland East,UMP,UMP,Manyika Clinic,Manyika - 100879 - Clinic,TQwkaKG3kHj,ZW030330,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Midlands,Gokwe South,Gokwe South,Manyoni Clinic,Manyoni - 100880 - Clinic,DatBlAwahyx,ZW070393,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland West,Mhondoro,Mhondoro,Manyoni - 100881 - Council Clinic,Manyoni - 100881 - Council Clinic,uJ2HduiQxeK,ZW040505,ZW04,,,,,,ZIMTTECH,,,,,
+Masvingo,Masvingo,Masvingo,Mapanzure Clinic,Mapanzure - 100884 - Clinic,yPQXMrWCQ8C,ZW080528,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,RDC,Rural,Primary,Open
+Matabeleland South,Matobo,Matobo,Maphisa District Hospital,Maphisa - 100890 - District Hospital,qwnyqPsOoCT,ZW06050A,ZW06,,,,,,Ophid,District Hospital,Government,Rural,,
+Bulawayo,Nkulumane,Bulawayo,Maqhawe Clinic,Maqhawe - 100893 - Clinic,ikrpWZKIaxV,ZW090A33,ZW09,,,,,10.9.13.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Mashonaland East,UMP,UMP,Maramba Clinic,Maramba - 100894 - Clinic,py2bD2jkCI0,ZW030331,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Masvingo,Mwenezi,Mwenezi,Maranda Sub Rural Health Centre,Maranda -101865 -Sub-Clinic,mtHydPyChpG,ZW080604,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Maranda Clinic,Maranda Clinic,SmaTd211zbm,ZW080691,ZW08,,,,,,,RHC,Mission,Rural,Secondary,Open
+Manicaland,Mutare,Mutare,Marange Rural Hospital,Marange - 100896 - Rural Hospital,Yb75x5mU1gC,ZW01050E,ZW01,,,,,10.20.9.3,ZHI,Rural Hospital,Government,Rural,Secondary,Open
+Mashonaland East,UMP,UMP,Marembera Rural Health Centre,Marembera - 100897 - Rural Health Centre,VYh7ERb4cm8,ZW030304,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Masvingo,Mwenezi,Mwenezi,Marinda Clinic,Marinda - 100898 - Rural Health Centre,YY58oZC8vq5,ZW080632,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland East,Seke,Seke,Marirangwe Clinic,Marirangwe - 100899 - Clinic,Ai2GEHQJ2iq,ZW030924,ZW03,,,,,10.79.30.2,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland East,Marondera,Marondera,Marondera Rural Council Clinic,Marondera - 100902 - Rural Clinic,e7yLZBqvLeh,ZW030528,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Urban,clinic,Active
+Matabeleland South,Mangwe,Mangwe,Marula Clinic,Marula - 100910 - Clinic,HYNPD4P3JyV,ZW060705,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland West,Hurungwe,Hurungwe,Masanga Rural Health Centre,Masanga - 100913 - Gvt Clinic,k8PBGr2DIPd,ZW040205,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland East,Seke,Seke,Masasa Rural Health Centre,Masasa - 100917 - Rural Health Centre,JDRHYfbYFJE,ZW030905,ZW03,,,,,,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Midlands,Mberengwa,Mberengwa,Masase Mission Hospital,Masase - 100918 - Mission Hospital,RXaYWmsAjhs,ZW07060D,ZW07,,,,,,,Mission Hospital,Mission,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Masasi Clinic,Masasi - 100919 - Clinic,QMHTxq1jwsv,ZW010531,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Masendu Clinic,Masendu - 100921 - Clinic,twOU9Qka6Hm,ZW060235,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland East,UMP,UMP,Mashambanhaka Clinic,Mashambanhaka - 100924 - Clinic,tNoou36Gm6h,ZW030332,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Mission,Rural,clinic,Active
+Harare,ha Southern District,Harare,ha Mashambanzou Care Trust Hospital ,Mashambanzou Care Trust Hospital,v0iHXEbCcQ2,ZW000A0Z,ZW00,,,,,,,General Hospital,Town/City Council,Urban,Secondary,
+Mashonaland West,Hurungwe,Hurungwe,Mashongwe Clinic,Mashongwe - 100927 - Council Clinic,a1H9jKObOE1,ZW040247,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland East,Marondera,Marondera,Masikana Council Clinic,Masikana - 100929 - Clinic,aFOZQYiMlJL,ZW030525,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland West,Zvimba,Zvimba,Masiyarwa RDC Clinic,Masiyarwa - 100931 - Council Clinic,p46ydQFsxfx,ZW040725,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,RURAL
+Matabeleland South,Matobo,Matobo,Masiye Clinic,Masiye Camp - 100932 - Clinic,mgxlglCseF4,ZW060593,ZW06,,,,,192.168.10.1,Ophid,Mission Clinic,Mission,Rural,,
+Mashonaland Central,Mbire,Mbire,Masoka Clinic,Masoka - 100933 - Clinic,opbhiJq49ON,ZW020801,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Masomo Clinic,Masomo - 100934 - Clinic,JMhCZEU8ORd,ZW020802,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Midlands,Gokwe South,Gokwe South,Masuka Clinic,Masuka - 100935 - Clinic,O4s37nmNxxd,ZW070334,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland East,Goromonzi,Goromonzi,Masikandoro Clinic,Masukandoro - 100936 - Clinic,xfCa24E9UuT,ZW030228,ZW03,,,,,,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Masvingo,Masvingo,Masvingo,Masvingo Provincial Hospital,Masvingo - 100937 - General Hospital,OwDR7D9U5Iq,ZW08050A,ZW08,,,,,,,Hospital,Govt,Urban,Tertiary,Open
+Midlands,Gweru,Gweru,Masvori,Masvori - 100940 - Clinic,XJoYREEPF4o,ZW070404,ZW07,,,,,,ZHI,,,,,
+Manicaland,Makoni,Makoni,Masvosva Rural Health Centre,Masvosva - 100941 - Rural Health Centre,gmCfw2czWHi,ZW010412,ZW01,,,,,,,RHC,Government,Rural,Primary ,Open
+Midlands,Mberengwa,Mberengwa,Mataga Rural Health Centre,Mataga - 100942 - Rural Health Centre,iTw40m40wuw,ZW070602,ZW07,,,,,,ZHI,RHC,Government,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Matanda Clinic,Matanda - 100943 - Rural Health Centre,RrRf8znKPaf,ZW010520,ZW01,,,,,,,RDC,Rural Council,Rural,Primary,Open
+Harare,ha Southern District,Harare,ha Matapi Clinic,Matapi - 100944 - Clinic,exKZ5IdVQyh,ZW000A25,ZW00,,,,,172.16.7.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Masvingo,Gutu,Gutu,Mataruse Clinic,Mataruse - 100945 - Clinic,WXuXiKIOPTi,ZW080438,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Matedzi,Matedzi - 100947 - Clinic,DHlTNsaO7Yr,ZW070630,ZW07,,,,,,ZHI,,,,,
+Matabeleland North,Nkayi,Nkayi,Mateme Rural Health Centre,Mateme - 100949 - Rural Health Centre,k55ILJNLfNh,ZW050502,ZW05,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Midlands,Gokwe South,Gokwe South,Mateta Rural Health Centre,Mateta - 100951 - Rural Health Centre,EwHQN1F5qHJ,ZW070306,ZW07,,,,,,,RHC,Government,Rural,Primary,
+Masvingo,Mwenezi,Mwenezi,Matibi Mission Hospital,Matibi - 100952 - Mission Hospital,rGj6vwocIr0,ZW08060B,ZW08,,,,,10.39.33.5,OPHID/Kapinek,Mission Hospital,Mission,Rural,Secondary,Open
+Masvingo,Gutu,Gutu,Matizha Rural Health Centre,Matizha - 100954 - Clinic,onzEz7OrfEc,ZW080403,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Matjinge Rural Health Centre,Matjinge - 100955 - Rural Health Centre,ofDSu93XYEs,ZW060206,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Matabeleland South,Matobo,Matobo,Matopo Mission Clinic,Matobo - 100956 - Mission Clinic,gri4bmtWbqG,ZW060591,ZW06,,,,,192.168.10.1,Ophid,Mission Clinic,Mission,Rural,,
+Matabeleland South,Matobo,Matobo,Matopo Rural Hospital,Matobo Rural - 100957 - Rural Hospital,f3mLKel2gIx,ZW06050C,ZW06,,,,,,Ophid,Rural Hospital,Government,Rural,,
+Mashonaland Central,Mt Darwin,Mt Darwin,MATOPE,Matope - 100958 - Clinic,Kw1zFMl53yn,ZW020532,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Matoranjera RDC Clinic,Matorangera - 100959 - Clinic,rJjtWK8iPOW,ZW040447,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Matsika Clinic,Matsika - 100962 - Clinic,z3QmTgqAP04,ZW010430,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Mashonaland Central,Guruve,Guruve,mc Matsvitsi Clinic,Matsvitsi - 100963 - Clinic,ioI2RDrHeYA,ZW020333,ZW02,,,,,192.168.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland East,Murewa,Murewa,Matututu Clinic,Matututu - 100964 - Rural Health Centre,h3HNN5Uo4Wt,ZW030731,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Manicaland,Makoni,Makoni,Maurice Nyagumbo Clinic,Maurice Nyagumbo - 100965 - Clinic,hcyuAxmkOqu,ZW010438,ZW01,,,,,,,RHC,Government,Rural,Primary ,Open
+Manicaland,Mutare,Mutare,Mavhiza Clinic,Mavhiza - 100966 - Clinic,arab3YkysoL,ZW010503,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Mavorovondo Rural Health Centre,Mavorovondo - 100968 - Rural Health Centre,yzbqtmKSajN,ZW070603,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,Mawabeni Clinic,Mawabeni - 100969 - Clinic,BryKgdfmnnU,ZW060627,ZW06,,,,,10.84.25.3,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Mangwe,Mangwe,Mayobodo Rural Health Centre,Mayobodo - 100972 - Rural Health Centre,RJnzhQ3jWs2,ZW060707,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Midlands,Kwekwe,Kwekwe,Mayorca,Mayoka - 100973 - Rural Health Centre,q2PCmYuFLcy,ZW070509,ZW07,,,,,,ZHI,,,,,
+Midlands,Kwekwe,Kwekwe,Mazebe Rural Health Centre,Mazebe - 100975 - Rural Health Centre,QwFhomr6Alo,ZW070503,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,
+Masvingo,Mwenezi,Mwenezi,Mazetese Clinic,Mazetese - 100976 - Clinic,cryqOuYCTo9,ZW080625,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Maziofa,Mazivofa - 100978 - Clinic,MQblsJGrTBd,ZW070631,ZW07,,,,,,ZHI,,,,,
+Mashonaland Central,Mazowe,Mazowe,MAZ MINE,Mazowe - 100982 - Mine Clinic,UHEApkHNETl,ZW020477,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Pvt,Mining,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,MAZ CITRUS,Mazowe Citrus Hosp. - 100981 - Rural Hospital,PuBmgTRc6cO,ZW02040D,ZW02,,,,,,ZIMTTECH,RHC,Pvt,Farming,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,MAZ SEC,Mazowe Secondary Clinic,rIRI3UUrG9u,ZW020486,ZW02,,,,,,ZIMTTECH,RHC,Mission,Farming,Primary,Open
+Masvingo,Gutu,Gutu,Mazuru Clinic,Mazura - 100985 - Clinic,AGkV135CYcT,ZW080429,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Harare,ha Southern District,Harare,ha Mbare PolyClinic,Mbare - 100987 - Poly clinic,AzZ3WumAYih,ZW000A27,ZW00,,,,,172.16.26.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha Southern District,Harare,ha Mbare Hostels Clinic,Mbare Hostels - 100988 - Clinic,NPoi0Ng8a6c,ZW000A26,ZW00,,,,,172.16.43.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Matabeleland North,Umguza,Umguza,Mbembesi Rural health Centre,Mbembesi - 100989 - Rural Health Centre,Aj4vatSkbng,ZW050733,ZW05,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland South,Matobo,Matobo,Mbembeswane Clinic,Mbembeswana - 100991 - Rural Health Centre,lXWXq7pvXNr,ZW060525,ZW06,,,,,192.168.10.1,Ophid,RDC,Town/City Council,Rural,,
+Midlands,Mberengwa,Mberengwa,Mberengwa District Hospital,Mberengwa -101874 - District Hospital,rbE4iLAquiP,ZW07060A,ZW07,,,,,192.168.10.1,ZHI,District Hospital,Government,Rural,Secondary,Open
+Matabeleland South,Umzingwane,Umzingwane,Mbizingwe RHC,Mbizingwe - 100995 - Rural Health Centre,WRQDsk1fI1Z,ZW060602,ZW06,,,,,,,RHC,Government,Rural,,
+Midlands,Kwekwe,Kwekwe,Mbizo I Clinic,Mbizo 1 - 100996 - Clinic,cNMEcj2lCN3,ZW070562,ZW07,,,,,10.54.31.3,ZHI,RHC,Town/City Council,Urban,Primary,
+Midlands,Kwekwe,Kwekwe,Mbizo II Clinic,Mbizo 2 - 100997 - Clinic,hZNgOzXAjrf,ZW070563,ZW07,,,,,192.168.10.1,ZHI,RHC,Town/City Council,Urban,Primary,
+Matabeleland North,Nkayi,Nkayi,Mbuma Mission Hospital,Mbuma - 100998 - Mission Hospital,dhwL8YFJUKy,ZW05050C,ZW05,,,,,1.2.25-Q5-2,ZACH,Mission Hospital,Mission,Rural,Secondary,Open
+Mashonaland West,Chegutu,Chegutu,Mbyuanehanda Rural Health Centre,Mbuyanehanda - 100999 - Rural Health Centre,k7NVgERevcu,ZW040103,ZW04,,,,,,ZIMTTECH,RDC,Government,Rural,Primary,Open
+Matabeleland North,Lupane,Lupane,Mdlankuzi Clinic,Mdlankunzi - 101001 - Clinic,HFcVItvEOoB,ZW050427,ZW05,,,,,192.168.10.1,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Matabeleland North,Bubi,Bubi,Mdutshane Rural Health Centre,Mdutshane - 101002 - Clinic,wEobN4cAAW1,ZW050230,ZW05,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland North,Bubi,Bubi,Membeswana Rural Health Centre,Membeswana Rural Health Centre,ZW050202,ZW050202,ZW05,,,,,,,,,,,
+Masvingo,Chivi,Chivi,Mandamabwe Rural Health Centre,Mhandamabwe - 101011 - Rural Health Centre,d507u4dhfug,ZW080303,ZW08,,,,,10.39.14.3,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,Mhlahlandlela Clinic,Mhlahlandlela - 101013 - Clinic,JfjyEPK4x5b,ZW060628,ZW06,,,,,10.84.27.3,Ophid,RDC,Rural Council,Rural,,
+Mashonaland West,Chegutu,Chegutu,Mhondoro Rural Hospital,Mhondoro - 101015 - Rural Hospital,d6ywbdGkzaO,ZW04010B,ZW04,,,,,192.168.10.1,ZIMTTECH,Rural Hospital,Government,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Mhondoro North Clinic,Mhondoro North - 101016 - Council Clinic,F7EVUaZPD8U,ZW040127,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Midlands,Gweru,Gweru,Mkoba I Clinic,Mkoba 1 - 101022 - Clinic,kaTOd9MJSSE,ZW070462,ZW07,,,,,192.168.10.1,ZHI,RHC,Town/City Council,Urban,Primary,
+Midlands,Gweru,Gweru,Mkoba PolyClinic,Mkoba Poly - 101023 - Clinic,B1ZFRN0RAMC,ZW070463,ZW07,,,,,192.168.10.1,ZHI,RHC,Town/City Council,Urban,Primary,
+Masvingo,Chiredzi,Chiredzi,Mkwasine Clinic,Mkwasine - 101025 - Clinic,bUgKeujjHs0,ZW080282,ZW08,,,,,,,RHC,Private,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Mlezu clinic,Mlezu College - 101872 - Clinic,WscRtpmKh2V,ZW070553,ZW07,,,,,,ZHI,,,,,
+Midlands,Mberengwa,Mberengwa,Mnene Mission Hospital,Mnene Outreach,K6sG4uXiB6K,ZW07060C,ZW07,,,,,,ZHI,Mission Hospital,Mission,Rural,Secondary,Open
+Masvingo,Masvingo,Masvingo,Morgenster Mission Hospital,Mogenester - 101030 - Mission Hospital,J4lnaGjZpej,ZW08050D,ZW08,,,,,10.39.15.3,OPHID/Kapinek,Hospital,Mission,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Mombeyarara,Mombeyarara - 101032 - Rural Health Centre,GRnO7AgEsEI,ZW010104,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Monera Rural Health Centre,Monera - 101033 - Council Clinic,Pj8Kuw1CNhE,ZW040104,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Midlands,Gweru,Gweru,Monomutapa Clinic,Monomutapa - 101034 - Clinic,aGWqGhV3ang,ZW070464,ZW07,,,,,192.168.10.1,ZHI,RHC,Town/City Council,Urban,Primary,
+Mashonaland West,Hurungwe,Hurungwe,Moy RDC Clinic,Moy RDC Clinic,zsDKyIf4vbl,ZW040235,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Matabeleland North,Tsholotsho,Tsholotsho,Mpanedziba Clinic,Mpanedziba - 101040 - Clinic,aXdklJjzRGW,ZW050697,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Mpinda rhc,Mpinda - 101042 - Clinic,tSdwPF3mcEX,ZW070506,ZW07,,,,,,ZHI,,,,,
+Mashonaland West,Zvimba,Zvimba,Mapinga RDC Clinic,Mpinga Clinic - 101043 - Clinic,NcZpdLLxlKu,ZW040783,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Matabeleland South,Umzingwane,Umzingwane,Mpisini RHC,Mpisini - 101044 - Clinic,QF8O7qAp5NJ,ZW060605,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Midlands,Mberengwa,Mberengwa,Mponjani Clinic,Mponjani - 101046 - Clinic,B9tfPt6kbdN,ZW070638,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Mposi Clinic,Mposi - 101048 - Clinic,R1CcS5Hxd1k,ZW070639,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Msilahobe Rural Health Centre,Msilahove - 101055 - Rural Hospital,s33kOOe8v54,ZW070504,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,
+Mashonaland Central,Mt Darwin,Mt Darwin,DARWIN HOSPITAL,Mt. Darwin - 101058 - District Hospital,HB7NldDkyx4,ZW02050A,ZW02,,,,,10.71.9.10,ZIMTTECH,GOVERNMENT HOSPITAL,GOVERNMENT,Urban,Secondary,Open
+Mashonaland West,Zvimba,Zvimba,Mount Hampden RDC Clinic,Mt. Hampden - 101059 - Clinic,IM2c57bchDp,ZW040745,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Harare,ha Northern District,Harare,ha Mount Pleasant Clinic,Mt. Pleasant - 101062 - Clinic,wxMqwERkFUm,ZW000A28,ZW00,,,,,172.16.3.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Manicaland,Chipinge,Chipinge,Mount Selinda Mission Hospital,Mt. Selinda - 101065 - Mission Hospital,nlmsitPL9Iu,ZW01030C,ZW01,,,,,10.20.10.2,ZHI,Mission Hospital,Mission,Rural,Primary,Open
+Harare,Chitungwiza,Harare,St Mary's Clinic,Mt. St Mary's - 101063 - Mission Hospital,e4XyXFEL7Rj,ZW000B03,ZW00,,,,,192.168.10.1,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Manicaland,Mutare,Mutare,Mount Zuma Clinic,Mt. Zuma - 101064 - Rural Health Centre,L1KD15RCB3o,ZW010509,ZW01,,,,,192.168.10.2,ZHI,RHC,Rural Council,Rural,Primary,Open
+Matabeleland South,Beitbridge,Beitbridge,Mtetengwe Clinic,Mtetengwe - 101069 - Clinic,ooCbPaLKfGV,ZW060179,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland West,Zvimba,Zvimba,Mutorashanga RDC Hospital,Mtorashanga - 101072 - Hospital,z8IQ5wyJfwO,ZW04060F,ZW04,,,,,,,RDC,Rural Council,Peri-Urban,Primary,MINING
+Matabeleland South,Gwanda,Gwanda,Mtshabezi Mission Hospital,Mtshabezi - 101073 - Mission Hospital,IVZFwtiwLgU,ZW06030C,ZW06,,,,,,,Mission Hospital,Mission,Rural,,
+Manicaland,Makoni,Makoni,Mubvurungwa Clinic,Mubvurungwa - 101075 - Clinic,D7ozNJrRYT5,ZW010441,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Masvingo,Masvingo,Masvingo,Mucheke Clinic,Mucheke - 101077 - Clinic,PPyDaHmqOoL,ZW080535,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,City Council,Urban,Primary,Open
+Mashonaland East,Murewa,Murewa,Muchinjike Rural Health Centre,Muchinjike - 101079 - Rural Health Centre,ic2VBm6nv6a,ZW030750,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland East,Seke,Seke,Muda Clinic,Muda - 101080 - Clinic,o5kCOvuHFbM,ZW030925,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Manicaland,Buhera,Buhera,Mudanda,Mudanda - 101081 - Clinic,ZW010124,ZW010124,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland East,Marondera,Marondera,Mudzimurema Rural Health Centre,Mudzimuirema - 101084 - Rural Health Centre,d4wPf8dhlPQ,ZW030505,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Harare,ha West South West District,Harare,ha Mufakose PolyClinic,Mufakose - 101085 - Poly clinic,fhbHedZcFX3,ZW000A29,ZW00,,,,,172.16.9.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha West South West District,Harare,ha Mufakose FHS,Mufakose FHS,ZW000A114,ZW000A114,ZW00,,,,,,,RHC,Town/City Council,Urban,Primary,
+Manicaland,Makoni,Makoni,Mufusire Clinic,Mufusire - 101087 - Clinic,OEmeKmvagQm,ZW010439,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Mashonaland Central,Guruve,Guruve,mc Mugarakamwe Clinic,Mugarakamwe - 101088 - Rural Health Centre,TDDKilyABXk,ZW020345,ZW02,,,,,,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland West,Mhondoro,Mhondoro,Mukarati - 101092 - Council Clinic,Mukarati - 101092 - Council Clinic,T6RUFUxoPLP,ZW040522,ZW04,,,,,,ZIMTTECH,,,,,
+Masvingo,Gutu,Gutu,Mukaro Mission Hospital,Mukaro Mission Hospital,uRQRDAtXAZE,ZW080493,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Mission Hospital,Mission,Rural,Secondary,Open
+Midlands,Mberengwa,Mberengwa,Mketi Clinic,Muketi - 101094 - Clinic,sMfRb7ilqPz,ZW070633,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Mukohwe RDC Clinic,Mukohwe - 101096 - Clinic,UVH7HHcS5e4,ZW040426,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Mukosi Rural Health Centre,Mukosi - 101100 - Clinic,AUU2Za6iKUr,ZW080502,ZW08,,,,,,,Clinic,Govt,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,MUKUMBURA,Mukumbura - 101101 - Clinic,Ylaxp0B4fw0,ZW020503,ZW02,,,,,192.168.10.1,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Mkwada Clinic,Mukwada - 101103 - Clinic,cAEJQYoN26N,ZW010533,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Mlelezi Clinic,Mulelesi - 101104 - Clinic,VQBNHdBY781,ZW080630,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Mashonaland East,Murewa,Murewa,Munamba Rural Health Centre,Munamba - 101105 - Rural Health Centre,ylh5zzWxRDn,ZW030706,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Matabeleland North,Umguza,Umguza,Umuntu Clinic,Muntu - 101108 - Clinic,jXKl5XSgHA7,ZW050798,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Munyamani Rural Health Centre,Munyamani Rural Health Centre,KaZSdnHLBYC,ZW080633,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Munyanyi Clinic,Munyanyi - 101110 - Clinic,WKyg79FMK1g,ZW010119,ZW01,,,,,,,,,,,
+Manicaland,Mutare,Mutare,Munyarari Clinic,Munyarari - 101112 - Clinic,LLYfRU87KVr,ZW010510,ZW01,,,,,192.168.10.2,ZHI,Mission Clinic,Mission,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Munyati clinic,Munyati - 101113 - Clinic,blbFyrowZRf,ZW070585,ZW07,,,,,,ZHI,,,,,
+Masvingo,Gutu,Gutu,Munyikwa Clinic,Munyikwa - 101114 - Rural Health Centre,xclPYKg6TTi,ZW080430,ZW08,,,,,10.39.30.2,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Mupfure Clinic,Mupfure Clinic,ZfZxhMeEclI,ZW040109,ZW04,,,,,,ZIMTTECH,Clinic,Council,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Murambe Clinic,Murambi - 101122 - Clinic,MhfDeBvNapW,ZW040234,ZW04,,,,,,,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Murambinda,Murambinda - 101124 - District Hospital,IfQGMZN0HcM,ZW01010C,ZW01,,,,,,ZHI,RDC,Mission,Rural,Secondary,Open
+Mashonaland West,Mhondoro,Mhondoro,Murambwa RDC Clinic,Murambwa - 101125 - Council clinic,Ni4JXZ8ecnx,ZW040523,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Murereka Rural Health Centre,Murereka - 101127 - Clinic,e8DVLtd2Bvv,ZW040407,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Mashonaland East,Murewa,Murewa,Murewa Polyclinic,Murewa - 101128 - Poly Clinic,l7xNQF9S63C,ZW030722,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland East,Murewa,Murewa,Murewa Gvt District Hospital,Murewa - 101129 - District Hospital,Z0DMs3KU6oN,ZW03070A,ZW03,,,,,192.168.0.10,ZIMTTECH,District Hospital,Government,Rural,District Hospital,Active
+Masvingo,Masvingo,Masvingo,Murinye Clinic,Murinye - 101132 - Clinic,uYEnUHn5H1C,ZW080531,ZW08,,,,,,,Clinic,RDC,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Muromo Rural Health Centre,Muromo - 101134 - Rural Health Centre,JS42B8mFEYI,ZW010506,ZW01,,,,,192.168.10.2,ZHI,RHC,Government,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Murongwe Rural Health Centre,Murongwe - 101135 - Rural Health Centre,pZIckeagBf7,ZW070604,ZW07,,,,,,ZHI,RHC,Government,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,MURONGWE,Murongwe Clinic,J6RuoF0hurv,ZW020536,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Murove Clinic,Murove - 101136 - Clinic,W9zXilUTape,ZW080629,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Murwira,Murwira,ZW010105,ZW010105,,,,,,,,,,,,
+Mashonaland Central,Mbire,Mbire,Musengezi Clinic,Musengezi Clinic,M4GHS3BEA5l,ZW020832,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Mushandike Rural Health Centre,Mushandike - 101142 - Clinic,bGVZqTZYySb,ZW080503,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,Govt,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Mushava Clinic,Mushava - 101143 - Clinic,Sd1voKwxJhS,ZW080627,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Mushaviri Rural Health Centre,Mushaviri - 101144 - Clinic,tJksCYMUYHm,ZW080401,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Mushaya Clinic,Mushaya - 101145 - Clinic,Dsxy9OYWGra,ZW080733,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Mushumbi RHC,Mushumbi - 101148 - Clinic,KgEo8UFMjYh,ZW020803,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Mushunje Clinic,Mushunje - 101149 - Clinic,nFJhU0rVPlH,ZW010535,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Musinami Rural Health Centre,Musinami - 101151 - Rural Health Centre,Ihe6efhYbFJ,ZW040106,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Musiso Mission Hospital,Musiso - 101153 - Mission Hospital,mJ9eUB3If4W,ZW08070C,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Mission Hospital,Rural Council,Rural,Secondary,Open
+Midlands,Gokwe South,Gokwe South,Musita Clinic,Musita - 101154 - Clinic,M8BCidxIPZM,ZW070336,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland East,UMP,UMP,Muskwe Clinic,Muskwe - 101155 - Clinic,jyiZVgDtxFO,ZW030337,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Midlands,Mberengwa,Mberengwa,Musume Mission Hospital,Musume - 101157 - Mission Hospital,b1EmP6cfSji,ZW07060E,ZW07,,,,,10.54.39.3,ZHI,Mission Hospital,Mission,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Musvovi Rural Health Centre,Musvovi - 101158 - Clinic,qWZgejuypcm,ZW080504,ZW08,,,,,,,Clinic,Govt,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Mutala - 101920 - Council Clinic,Mutala - 101920 - Council Clinic,cpphHKWh5cD,ZW040493,ZW04,,,,,,ZIMTTECH,,,,,
+Manicaland,MutareCity,Mutare,MutareCity Health Clinic,Mutare- 101166 - Council Clinic,nZbNmPInhOV,ZW010561,ZW01,,,,,,,,,,,
+Mashonaland Central,Mt Darwin,Mt Darwin,MUTASA,Mutasa - 101168 - Clinic,YO94lYZNrgL,ZW020508,ZW02,,,,,192.168.10.1,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Mashonaland East,UMP,UMP,Mutawatawa District Hospital,Mutawatawa - 101170 - District Hosptal,UrJZsRd5PPS,ZW03030A,ZW03,,,,,10.79.11.210,ZIMTTECH,District Hospital,Government,Rural,District,Active
+Manicaland,Chipinge,Chipinge,Mutema Clinic,Mutema - 101171 - Clinic,y2zdUiQO4He,ZW010333,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Mutema Rural Health Centre,Mutema - 101172 - Clinic,LaR6odJIgbC,ZW080404,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Mutepfe,Mutepfe - 101174 - Clinic,ZW010134,ZW010134,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Mutero Mission Hospital,Mutero - 101175 - Mission Clinic,rAsVeklMvZ9,ZW080492,ZW08,,,,,,,Mission Hospital,Mission,Rural,Secondary,Open
+Masvingo,Chiredzi,Chiredzi,Muteyo Rural Health Centre,Muteyo - 101176 - Clinic,YCwmksrQv9l,ZW080209,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Mutiusinazita,Mutiusinazita - 101179 - Clinic,RZQzoM8gIgm,ZW010135,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Mutorashanga RDC Hospital,Mutorashanga - 101182 - Council Clinic,a4zeh2tnPpL,ZW04070F,ZW04,,,,,,,RDC,Rural Council,Peri-Urban,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,MUTUNGAGORE,Mutungagore - 101185 - Clinic,N2c3DJKzPZi,ZW020507,ZW02,,,,,192.168.10.1,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Mashonaland West,Sanyati,Sanyati,Muuyu - 101186 - Council Clinic,Muuyu - 101186 - Council Clinic,Bk0ONEIrW2b,ZW040629,ZW04,,,,,,ZIMTTECH,,,,,
+Mashonaland West,Makonde,Makonde,Muzari - 101921 - Poly Clinic,Muzari - 101921 - Poly Clinic,rI5uGn9oEHG,ZW040494,ZW04,,,,,,ZIMTTECH,,,,,
+Manicaland,Buhera,Buhera,Muzokomba,Muzokomba - 101190 - Clinic,jFqSHbG59uf,ZW010136,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,MVURWI,Mvurwi - 101192 - Hospital,VLIf5uV4fhB,ZW02040E,ZW02,,,,,10.71.10.10,ZIMTTECH,Hospital,Gvt,Urban,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Mwami Rural Hospital,Mwami - 101194 - Hospital,Pr38K304mkU,ZW04020C,ZW04,,,,,,,Rural Hospital,Government,Rural,Primary,Open
+Mashonaland East,Goromonzi,Goromonzi,Mwanza Rural Health Centre,Mwanza - 101195 - Rural Health Centre,VkOjFEfhMcg,ZW030203,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Masvingo,Mwenezi,Mwenezi,Mwenezana Clinic,Mwenezana - 101197 - Clinic,eNq2hEBUbBx,ZW080682,ZW08,,,,,,,RHC,Private,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Mwenezi Clinic,Mwenezi - 101000 - Council Clinic,nNRxlONErnx,ZW080628,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Mwanezi Rural Health Centre,Mwenezi - 101198 - Rural Health Centre,ZWwFAVck5em,ZW070605,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,Open
+Bulawayo,Northern Surbubs,Bulawayo,Mzilikazi Clinic,Mzilikazi - 101202 - Clinic,LzPod6UX2mA,ZW090A08,ZW09,,,,,,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Mzimuni Clinic,Mzimuni - 101203 - Clinic,KOtS4LirnJo,ZW060328,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Matobo,Matobo,Natisa Rural Health Centre,Natisa - 101208 - Rural Health Centre,BT9ERqzG21A,ZW060501,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Midlands,Gokwe South,Gokwe South,Ndabambi Clinic,Ndabambi - 101209 - Clinic,XJsn6cGdf0G,ZW070309,ZW07,,,,,,ZHI,,,,,
+Matabeleland South,Matobo,Matobo,Ndabankulu Clinic,Ndabankulu Clinic,JBrHjCgtk1U,ZW060508,ZW06,,,,,192.168.10.1,Ophid,RDC,Town/City Council,Rural,,
+Masvingo,Zaka,Zaka,Ndanga District Hospital,Ndanga - 101210 - Hospital,ZlQRjkoXG9b,ZW08070A,ZW08,,,,,10.39.19.10,OPHID/Kapinek,District Hospital,Government,Rural,Secondary,Open
+Matabeleland South,Bulilima,Bulilima,Ndiweni Clinic,Ndiweni - 101211 - Clinic,mCKQlE4o0Yr,ZW060230,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Manicaland,Makoni,Makoni,Nedewedzo Rural Hospital,Nedevedzo - 101216 - Rural Hospital,BTZXAPMERV4,ZW01040D,ZW01,,,,,,,Rural Hospital,Government,Rural,Primary ,Open
+Midlands,Mberengwa,Mberengwa,Negove Clinic,Negobe - 101219 - Clinic,Q8Btfg2jxPv,ZW070634,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Negomo Rural Health Centre,Negomo - 101220 - Clinic,wiytlUmyowe,ZW020305,ZW02,,,,,192.168.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Masvingo,Mwenezi,Mwenezi,Nehanda Rural Health Centre,Nehanda - 101222 - Clinic,yzw2HRX9Prn,ZW080605,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Nemashakwe Rural Health Centre,Nemashakwe - 101224 - Clinic,vJvZoHHCXoL,ZW080405,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Nemauku Rural Health Centre,Nemauku - 101225 - Clinic,WGJRn7abY4N,ZW080703,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,NEMBIRE,Nembire - 101226 - Clinic,iZ5hW3G3A2o,ZW020527,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Nemamwa Rural Health Centre,Nemwanwa - 101228 - Clinic,BYmITScQJL8,ZW080506,ZW08,,,,,,,Clinic,Govt,Rural,Primary,Open
+Manicaland,Buhera,Buhera,Nerutanga,Nerutanga - 101231 - Clinic,ZW010137,ZW010137,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Mwenezi,Mwenezi,Neshuro District Hospital,Neshuro - 101232 - District Hospital,L1NXyIXr4Xi,ZW08060A,ZW08,,,,,,,District Hospital,Government,Rural,Secondary,Open
+Matabeleland North,Nkayi,Nkayi,Nesigwe Clinic,Nesigwe - 101233 - Rural Health Centre,wdGaR1C8TeZ,ZW050526,ZW05,,,,,192.168.10.1,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Neta Clinic,Neta Clinic,Tuja7aMuhP7,ZW070643,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Sanyati,Sanyati,New Geja - 101235 - Rural Health Centre,New Geja - 101235 - Rural Health Centre,WKefwJWg7kW,ZW040604,ZW04,,,,,,ZIMTTECH,,,,,
+Mashonaland West,Mhondoro,Mhondoro,Ngezi (mhondoro) Rural Hospital,Ngezi - 101251 - Rural Hosp,vUkB35RhitH,ZW04050A,ZW04,,,,,192.168.10.2,ZIMTTECH,Rural Hospital,Government,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Ngomahuru Rural Health Centre,Ngomahuru - 101253 - Rural Health Centre,O7ozICEgzWS,ZW080544,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,Govt,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Ngundu Rural Health Centre,Ngundu - 101258 - Rural Health Centre,TEsXYdnUcfu,ZW080304,ZW08,,,,,10.39.21.3,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Ngungumbane Clinic,Ngungumbane - 101259 - Clinic,HQMqEmIOVzv,ZW070636,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland North,Nkayi,Nkayi,Ngwaladi,Ngwaladi - 101260 - Rural Hospital,hcb4xIy5tim,ZW050503,ZW05,,,,,,ZIMTTECH,,,,,
+Mashonaland East,UMP,UMP,Nhakiwa Clinic,Nhakiwa - 101262 - Clinic,YYdg5pabQQ7,ZW030333,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Masvingo,Zaka,Zaka,Nhema Clinic,Nhema - 101268 - Clinic,JAnao9byjMH,ZW080735,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,Nhlangano Clinic,Nhlangano - 101269 - Clinic,tN6rOnRMwmB,ZW060629,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland East,Murewa,Murewa,Nhowe Mission Hospital,Nhowe - 101270 - Mission Hospital,KHym7Le7S6g,ZW03070C,ZW03,,,,,192.168.10.1,ZIMTTECH,Mission Hospital,Mission,Rural,Mission Hospital,Active
+Matabeleland South,Gwanda,Gwanda,Nhwali RHC,Nhwali - 101271 - Rural Health Centre,CPy6XjJD08i,ZW060303,ZW06,,,,,,,RDC,Government,Rural,,
+Midlands,Gokwe South,Gokwe South,Njelele clinic,Njelele - 101272 - Clinic,vXnel4MlOIT,ZW070318,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Bulawayo,Emakandeni,Bulawayo,Njube Clinic,Njube - 101273 - Clinic,UCKxgQFp862,ZW090A09,ZW09,,,,,30.30.27.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland South,Insiza,Insiza,Nkankezi Rural Health Centre,Nkankezi - 101274 - Rural Health Centre,gu6QjBK15Rz,ZW060405,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Matabeleland North,Nkayi,Nkayi,Nkayi District Hospital,Nkayi - 101275 - District Hospital,kqTqyIwwPWa,ZW05050A,ZW05,,,,,10.89.7.3,ZIMTTECH,District Hospital,Government,Rural,Secondary,Open
+Bulawayo,Nkulumane,Bulawayo,Nketa Clinic,Nketa - 101276 - Clinic,gpJEjabIuP7,ZW090A17,ZW09,,,,,10.9.8.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Bulawayo,Nkulumane,Bulawayo,Nkulumane Clinic,Nkulumane - 101278 - Clinic,Sv1eXLkWUya,ZW090A10,ZW09,,,,,10.9.9.7,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland North,Tsholotsho,Tsholotsho,Nkunzi Clinic,Nkunzi - 101280 - Rural Health Centre,VqQbNnmOqPo,ZW050630,ZW05,,,,,,ZIMTTECH,RHC,Town/City Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,North Middle Dyke Clinic,North & Middle Dyke - 101289 - Clinic,BcUcVswkQV9,ZW040789,ZW04,,,,,,ZIMTTECH,IDH,MINE,Peri-Urban,Primary,MINING
+Bulawayo,Northern Surbubs,Bulawayo,Northern Suburbs Clinic,Northern Suburbs - 101290 - Clinic,en6HLtwW3sN,ZW090A18,ZW09,,,,,30.30.45.4,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Norton Hospital,Norton - 101291 - Hospital,nhjrpXRP9Mk,ZW04010C,ZW04,,,,,,,Rural Hospital,Town/City Council,Urban,Secondary,Open
+Matabeleland South,Beitbridge,Beitbridge,Nottingham Rural Health Centre,Nottingham - 101292 - Rural Health Centre,Z7Wzn53893G,ZW060109,ZW06,,,,,,,,,,,
+Matabeleland South,Umzingwane,Umzingwane,Nswazi Clinic,Nswazi - 101297 - Clinic,DD4GJqpcTRS,ZW060630,ZW06,,,,,10.84.28.3,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Bulilima,Bulilima,Nswazwi Rural Health Centre,Nswazwi - 101298 - Rural Health Centre,r3OGNRrJ82z,ZW060208,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Midlands,Gweru,Gweru,Ntabamhlope Rural Health Centre,Ntabamhlope - 101299 - Rural Health Centre,ZPOJK6AT4IP,ZW070406,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,
+Matabeleland North,Umguza,Umguza,Ntabazinduna Clinic,Ntabazinduna - 101300 - Clinic,Lkd1Xq1rMpo,ZW050729,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Ntabeni Clinic,Ntabeni - 101301 - Clinic,h5siIA7lQfx,ZW070529,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland South,Gwanda,Gwanda,Ntalale Clinic,Ntalale - 101302 - Clinic,mm2j4nL6ha9,ZW060329,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Umzingwane,Umzingwane,Ntshamathe Clinic,Ntshamathe - 101304 - Clinic,xKCmMnOpkq8,ZW060631,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland West,Sanyati,Sanyati,Nyabango - 101306 - Rural Health Centre,Nyabango - 101306 - Rural Health Centre,hlG0wWOxyrP,ZW040605,ZW04,,,,,,ZIMTTECH,,,,,
+Mashonaland West,Zvimba,Zvimba,Nyabira RDC Clinic,Nyabira RDC Clinic,RHcb8botGLq,ZW040746,ZW04,,,,,10.67.32.3,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Manicaland,Mutare,Mutare,Nyagundi Clinic,Nyagundi - 101314 - Rural Health Centre,BtCysCBfnDp,ZW010511,ZW01,,,,,,,RHC,Government,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Nyahombe Rural Health Centre,Nyahombe - 101316 - Clinic,Wvse2gr2oTW,ZW080308,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Nyahukwe Rural Health Centre,Nyahukwe - 101319 - Rural Health Centre,T663SER6C7W,ZW010419,ZW01,,,,,,,RHC,Government,Rural,Primary ,Open
+Masvingo,Masvingo,Masvingo,Nyajena Rural Hospital,Nyajena - 101321 - Rural Hospital,RTubzXUovqL,ZW08050C,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Hospital,Govt,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Nyakapupu Clinic,Nyakapupu - 101322 - Clinic,RZiEZOfYYtO,ZW020339,ZW02,,,,,,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland East,UMP,UMP,Nyakasoro Clinic,Nyakasoro - 101323 - Clinic,ZBSlEDqH1Qo,ZW030334,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland Central,Mazowe,Mazowe,NYAKUDYA,Nyakudya - 101324 - Clinic,D6b5mpxVpws,ZW020402,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Gvt,Rural,Secondary,Open
+Masvingo,Zaka,Zaka,Nyakunhuwa Clinic,Nyakunhuwa - 101325 - Clinic,TnFsY7jz1e9,ZW080736,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Midlands,Gweru,Gweru,Nyama Clinic,Nyama - 101326 - Clinic,aihGnf5U3JA,ZW070447,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Mashonaland West,Hurungwe,Hurungwe,Nyama clinic,Nyama - 101327 - Council,Krolm8Hf65t,ZW040236,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,NYAMAHOBOGO,Nyamahobobo - 101328 - Clinic,dXCma1MqYIS,ZW020504,ZW02,,,,,192.168.10.1,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Nyamakate Clinic,Nyamakaze - 101329 - Clinic,YErstr7uJhc,ZW040228,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Nyamande Clinic,Nyamande - 101330 - Clinic,v5kcc0wO1Rj,ZW080542,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RDC,Rural Council,Rural,clinic,Active
+Matabeleland North,Umguza,Umguza,Nyamandlovu District Hospital,Nyamandlovu - 101332 - Hospital,KlK6kqKkceZ,ZW05070A,ZW05,,,,,10.89.28.3,ZIMTTECH,District Hospital,Government,Rural,Secondary,Open
+Manicaland,Mutare,Mutare,Nyamazura Rural Health Centre,Nyamazura - 101342 - Rural Health Centre,Aw9meXkMQYK,ZW010512,ZW01,,,,,192.168.10.2,ZHI,RHC,Government,Rural,Primary,Open
+Mashonaland Central,Mbire,Mbire,Nyambudzi Clinic,Nyambudzi - 101343 - Rural Health Centre,sYhGVMgX7PK,ZW020835,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,Primary,Open
+Mashonaland East,Marondera,Marondera,Nyameni Council Clinic,Nyameni - 101344 - Clinic,zfgVw4bp8ku,ZW030562,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Town/City Council,Urban,clinic,Active
+Mashonaland Central,Guruve,Guruve,mc Nyamhondoro Rural Health Centre,Nyamhondoro - 101347 - Clinic,MbFiYotYxPd,ZW020306,ZW02,,,,,192.168.10.1,ZIMTTECH,Rural Health Centre,Government,Rural,PHC,Open
+Mashonaland West ,Hurungwe,Hurungwe,Nyamhunga,Nyamhunga - 101348 - Council Clinic,Itle0p7dUtu,ZW040229,ZW04,,,,,,ZIMTTECH,,,,,
+Midlands,Gokwe South,Gokwe South,Nyamhunga Clinic,Nyamhunga Council Clinic,vsfNclkyyix,ZW070337,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Manicaland,Makoni,Makoni,Nyamidzi Clinic,Nyamidzi - 101350 - Clinic,onNuwP6Pfw4,ZW010431,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Matabeleland South,Insiza,Insiza,Nyamime Rural Health Centre,Nyamime - 101351 - Rural Health Centre,LAGfgfyUDwT,ZW060406,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Mashonaland Central,Guruve,Guruve,mc Nyamupfuta Clinic,Nyamupfuta Clinic,GPVHFSphFZP,ZW020350,ZW02,,,,,,,Clinic,council,Rural,PHC,Open
+Mashonaland East,Murewa,Murewa,Nyamutumbu Rural Health Centre,Nyamutumbu - 101358 - Clinic,kZhh1BmkC6d,ZW030728,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Masvingo,Chiredzi,Chiredzi,Nyangambe Rural Health Centre,Nyangambe - 101365 - Clinic,qvDZsNpDxFc,ZW080210,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Mashonaland East,UMP,UMP,Nyanzou Clinic,Nyanzou - 101370 - Clinic,nNRTd83agCR,ZW030336,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Mashonaland West,Sanyati,Sanyati,Nyaonde - 101371 - Rural Health Centre,Nyaonde - 101371 - Rural Health Centre,B7j2gqFqAt0,ZW040607,ZW04,,,,,,ZIMTTECH,,,,,
+Manicaland,Buhera,Buhera,Nyashanu,Nyashanu - 101375 - Rural Hospital,O3Eqk96OQ4D,ZW01010D,ZW01,,,,,,ZHI,RHC,Government,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Nyazura Mission Clinic,Nyazura - 101381 - Mission Clinic,VKhKIdCsAHA,ZW010491,ZW01,,,,,,,Mission Clinic,Mission,Rural,Primary ,Open
+Manicaland,Makoni,Makoni,Nyazura Clinic,Nyazura -101854- Clinic,wHqZbOi222z,ZW010427,ZW01,,,,,,,RDC,Rural Council,Urban,Primary ,Open
+Masvingo,Gutu,Gutu,Nyazvidzi Clinic,Nyazvidzi - 101382 - Clinic,CSJhvKnvviY,ZW080431,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland East,Marondera,Marondera,Nyembanzvere Council Clinic,Nyembanzvere - 101383 - Clinic,Nrsc0aw1ptH,ZW030563,ZW03,,,,,192.168.1.10,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Masvingo,Masvingo,Masvingo,Nyikavanhu Rural Health Centre,Nyikavanhu - 101386 - Rural Health Centre,EQMIsSwYCJE,ZW080507,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,Govt,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Nyoni Rural Health Centre,Nyoni - 101387 - Rural Health Centre,DFCkzGef5fF,ZW070505,ZW07,,,,,,ZHI,RHC,Government,Rural,Primary,
+Manicaland,Mutare,Mutare,Nzvenga Clinic,Nzvenga - 101390 - Clinic,gzDYRQZm5rr,ZW010536,ZW01,,,,,192.168.10.2,ZHI,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,NZVIMBO,Nzvimbo - 101391 - Clinic,nwJAtSNTFBZ,ZW020432,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Obva RDC Clinic,Obva - 101393 - Clinic,xK8yU1HNvE4,ZW040427,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Odzi Clinic,Odzi - 101395 - Rural Hospital,FTXaJPvQwkN,ZW010538,ZW01,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Old Boli Rural Health Centre,Old Boli Rural Health Centre,oLYfhFAgFiM,ZW080212,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Manicaland,Mutasa,Mutasa,Old MutareMission Hospital,Old Mutare- 101397 - Mission Hospital,PscJCWrhzka,ZW01060C,ZW01,,,,,,,,,,,
+Mashonaland West,Sanyati,Sanyati,Ordoff RDC Clinic,Ordoff - 101398 - Council Clinic,syAdkEdGSLS,ZW040623,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,Open
+Mashonaland East,Seke,Seke,Overspill Clinic,Overspill - 101399 - Satellite Clinic,QTYLtlbWtEc,ZW030927,ZW03,,,,,10.79.39.10,ZIMTTECH,RHC,Town/City Council,Urban,clinic,Active
+Mashonaland Central,Mt Darwin,Mt Darwin,PACHANZA,Pachanza - 101400 - Clinic,jqIsEfJhMfz,ZW020528,ZW02,,,,,192.168.10.1,ZIMTTECH,COUNCIL CLINIC,COUNCIL,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Padre Pio Poly Clinic,Padre Pio Poly Clinic,GROS5u0jUHX,ZW040189,ZW04,,,,,192.168.10.2,ZIMTTECH,Mission Clinic,Mission,Urban,Primary,Open
+Masvingo,Chiredzi,Chiredzi,Pahlela Clinic,Pahlela - 101401 - Clinic,HeZbUZjnuhb,ZW080214,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Paidamoyo Rural Health Centre,Paidamoyo - 101402 - Clinic,JrkEzV0EXrw,ZW010312,ZW01,,,,,192.168.10.2,ZHI,RHC,Government,Rural,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Phakama Clinic,Pakama - 101403 - Clinic,zrlHTputbK4,ZW060362,ZW06,,,,,10.84.38.3,Ophid,RHC,Town/City Council,Urban,,
+Harare,ha Harare Central South Eastern District,Harare,ha Parirenyatwa Clinic,Parirenyatwa Clinic,XegPY4kjPBc,ZW000A30,ZW00,,,,,172.16.36.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland West,Sanyati,Sanyati,Patchway RDC Clinic,Patchway - 101408 - Mine Clinic,shA3RikpDNe,ZW040624,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,Open
+Bulawayo,Nkulumane,Bulawayo,Pelandaba Clinic,Pelandaba - 101412 - Clinic,OnysnioygHR,ZW090A11,ZW09,,,,,10.9.10.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Mashonaland Central,Mt Darwin,Mt Darwin,PFUNYANGUWO,Pfunyanguwo - 101414 - Clinic,eoHWqHUmH4z,ZW020505,ZW02,,,,,192.168.10.1,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Pfupajena Munic Clinic,Pfupajena - 101416 - Council Clinic,EASWD2odoBX,ZW040161,ZW04,,,,,,,RHC,Town/City Council,Urban,Primary,Open
+Matabeleland South,Mangwe,Mangwe,Plumtree District Hospital,Plumtree - 101417 - District Hospital,RFTwaeEoUqu,ZW06070A,ZW06,,,,,10.84.8.3,Ophid,District Hospital,Government,Urban,,
+Masvingo,Chiredzi,Chiredzi,Porepore Clinic,Porepore - 101420 - Clinic,uQ25d2VfGtd,ZW080229,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Presbyterian Private Clinic,Presbyterian - 101427 - Clinic,PC5r1PUipWG,ZW040482,ZW04,,,,,,ZIMTTECH,RHC,Private,Urban,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Presbyterian Clinic,Presbyterian - 101428 - Clinic,wdwTQO6EGPW,ZW040185,ZW04,,,,,,ZIMTTECH,Mission Clinic,Mission,Rural,Primary,Open
+Bulawayo,Northern Surbubs,Bulawayo,Princess Margaret Clinic,Princess Margaret - 101429 - Clinic,sTQ6BFy94pp,ZW090A12,ZW09,,,,,192.168.1.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Bulawayo,Emakandeni,Bulawayo,Pumula Clinic,Pumula - 101432 - Clinic,bTFUZdQpl2O,ZW090A13,ZW09,,,,,10.9.11.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland North,Tsholotsho,Tsholotsho,Phumula Mission Hospital,Pumula - 101433 - Mission Hospital,jlt9Wk07kKl,ZW05060C,ZW05,,,,,,ZIMTTECH,Mission Hospital,Mission,Rural,Secondary,Open
+Bulawayo,Emakandeni,Bulawayo,Pumula South Clinic,Pumula South - 101434 - Clinic,zhkFyAbgMc2,ZW090A35,ZW09,,,,,192.168.1.3,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Raffingora Rural Hospital,Raffingora - 101437 - Rural Hospital,Adrn5wepICh,ZW04070D,ZW04,,,,,,,Rural Hospital,Government,Peri-Urban,Primary,RURAL
+Mashonaland East,Marondera,Marondera,Rakodzi Pvt Clinic,Rakodzi - 101439 - Clinic,SjtSjc51A3E,ZW030588,ZW03,,,,,,ZIMTTECH,RHC,Private,Rural,clinic,Active
+Masvingo,Chiredzi,Chiredzi,Rupangwana Clinic,Rapanguwana - 101442 - Clinic,uh35NSt2dAR,ZW080230,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Razi Rural Health Centre,Razi - 101444 - Rural Health Centre,n4tZ9FiLuGP,ZW080305,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Redcliff Clinic,Redcliff - 101446 - Clinic,lr8nRgvCs8m,ZW070559,ZW07,,,,,10.54.22.3,ZHI,RHC,Town/City Council,Urban,Primary,
+Masvingo,Masvingo,Masvingo,Renco Mine Clinic,Renco - 101449 - Mine Clinic,qU8ZCeQVNaR,ZW080576,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,Mine,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Rimbi Clinic,Rimbi - 101451 - Clinic,IAxIHwuKmli,ZW010335,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Sanyati,Sanyati,Rimuka Municipal Clinic,Rimuka - 101452 - Clinic,IsQV9DqeQUB,ZW040361,ZW04,,,,,,,RHC,Town/City Council,Urban,Primary,Open
+Mashonaland West,Sanyati,Sanyati,Rimuka MCH Municipal Clinic,Rimuka MCH Municipal Clinic,qEDMf2epK2V,ZW040637,ZW04,,,,,192.168.10.2,ZIMTTECH,RHC,Town/City Council,Urban,Primary,Open
+Midlands,Kwekwe,Kwekwe,Rio Tinto Clinic,Rio Tinto - 101455 - Mine Clinic,RIBxxUnvvQD,ZW070552,ZW07,,,,,192.168.10.1,ZHI,RHC,Mine,Urban,Primary,
+Mashonaland Central,Mazowe,Mazowe,ROSA,Rosa - 101459 - Rural Hospital,UgkN2CKy5vw,ZW02040B,ZW02,,,,,10.71.11.10,ZIMTTECH,Rural Hospital,Gvt,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Rowa Clinic,Rowa - 101461 - Clinic,mMyO9i8yO9f,ZW010537,ZW01,,,,,192.168.10.2,ZHI,RHC,Rural Council,Rural,Primary,Open
+Midlands,Gweru,Gweru,Rubi Clinic,Ruby - 101464 - Clinic,hRFRshSksyR,ZW070423,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Masvingo,Masvingo,Masvingo,Rujeko Clinic,Rujeko - 101468 - Clinic,wQ9HjnprvIf,ZW080582,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,City Council,Urban,Primary,Open
+Harare,ha North Western District,Harare,ha Rujeko PolyClinic,Rujeko - 101469 - Poly clinic,pm1bccUnuIo,ZW000A33,ZW00,,,,,172.16.27.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Masvingo,Masvingo,Masvingo,Rukovo Clinic,Rukovo - 101470 - Clinic,epPROUCXfAX,ZW080532,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,RDC,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Rukweza Clinic,Rukweza - 101471 - Clinic,eqUVN5CpzeZ,ZW010433,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Mashonaland West,Makonde,Makonde,Runene RDCClinic,Runene - 101472 - Council Clinic,rpzMXRyqrJX,ZW040433,ZW04,,,,,,ZIMTTECH,,,,,
+Masvingo,Masvingo,Masvingo,Runyararo Clinic,Runyararo - 101473 - Clinic,j0Sp4T1CCZR,ZW080583,ZW08,,,,,,,Clinic,City Council,Urban,Primary,Open
+Manicaland,Makoni,Makoni,Rusape District Hospital,Rusape - 101477 - District Hospital,VUl74f1phMs,ZW01040A,ZW01,,,,,,,,,,,
+Mashonaland East,Goromonzi,Goromonzi,Rusike Clinic,Rusike - 101479 - Clinic,CCpDmry9NxC,ZW030249,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Midlands,Kwekwe,Kwekwe,Rutendo Clinic,Rutendo - 101487 - Clinic,nCBpV7ktT9y,ZW070564,ZW07,,,,,,,RHC,Town/City Council,Urban,Primary,
+Masvingo,Mwenezi,Mwenezi,Rutenga Clinic,Rutenga - 101488 - Clinic,KSeMcOy1Blg,ZW080606,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Harare,ha South Western District,Harare,ha Rutsanana PolyClinic,Rutsanana - 101491 - Clinic,WDf2wSPeJPp,ZW000A34,ZW00,,,,,172.16.28.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland East,Goromonzi,Goromonzi,Ruwa PolyClinic,Ruwa - 101494 - Poly Clinic,egbFP3Ii5TM,ZW030273,ZW03,,,,,192.168.0.10,ZIMTTECH,RDC,Rural Council,Peri-Urban,clinic,Active
+Mashonaland East,Goromonzi,Goromonzi,Ruwa Rehab,Ruwa Rehabilitation - 101495 - Hospital,NsK79SSE0GY,ZW03020C,ZW03,,,,,10.79.13.250,ZIMTTECH,General Hospital,Government,Peri-Urban,Hospital,Active
+Mashonaland Central,Guruve,Guruve,mc Ruyamuro Clinic,Ruyamuro - 101497 - Clinic,J8FU6ENnDNO,ZW020343,ZW02,,,,,192.168.10.1,ZIMTTECH,Clinic,council,Rural,PHC,Open
+Mashonaland West,Chegutu,Chegutu,Rwizi Clinic,Rwizi - 101499 - Council Clinic,Migf18JdenY,ZW040129,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Midlands,Gokwe South,Gokwe South,Sai Clinic,Sai - 101509 - Clinic,S2bq66BaqLc,ZW070338,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Manicaland,Mutare,Mutare,Sakubva District Hospital,Sakubva - 101510 - District Hospital,IVF9iD8sboV,ZW01050C,ZW01,,,,,192.168.10.2,ZHI,District Hospital,Government,Urban,Secondary,Open
+Manicaland,MutareCity,Mutare,Sakubva Clinic,Sakubva Clinic,JmuNo1m3we4,ZW010564,ZW01,,,,,,,General Hospital,Town/City Council,Urban,Primary,Open
+Harare,Harare,Harare,Sally Mugabe,Sally Mugabe,ZW000D0D,ZW000D0D,,,,,,,,,,,,
+Matabeleland North,Tsholotsho,Tsholotsho,Samahuru Mission Clinc,Samahuru - 101513 - Clinic,IBDCM3Pjxhj,ZW050633,ZW05,,,,,,ZIMTTECH,Mission Clinic,Mission,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Samambwa,Samambwa - 101514 - Clinic,n8fSBgAncxp,ZW070530,ZW07,,,,,,ZHI,,,,,
+Masvingo,Chiredzi,Chiredzi,Samu Rural Health Centre,Samu - 101518 - Clinic,YZNLtCPMaHT,ZW080213,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Matabeleland South,Insiza,Insiza,Sanale Rural Health Centre,Sanale - 101520 - Rural Health Centre,Adc2S4HRzAf,ZW060407,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Midlands,Mberengwa,Mberengwa,Sandawana Clinic,Sandawana - 101521 - Clinic,iSTR4XRC1dk,ZW070678,ZW07,,,,,192.168.10.1,ZHI,RHC,Mine,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Sandringham Clinic,Sandringham - 101522 - Mission Clinic,Bn9NTXkQnQd,ZW040134,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,SANDRINGHAM,Sandringham Clinic,WaW7DWsJvpp,ZW020489,ZW02,,,,,,ZIMTTECH,HC,Council,Farming,Primary,Open
+Manicaland,Makoni,Makoni,Sangano Clinic,Sangano - 101523 - Clinic,YXs6Sw0yceC,ZW010447,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Matabeleland South,Matobo,Matobo,Sankonjane Rural Health Centre,Sankonjana - 101525 - Rural Health Centre,khHSytZaECG,ZW060502,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Mashonaland West,Sanyati,Sanyati,Sanyati Mission Hospital,Sanyati - 101527 - Mission Hospital,xDDGSZFaGY5,ZW04060C,ZW04,,,,,10.67.16.3,ZACC,Mission Hospital,Mission,Rural,Primary,Open
+Mashonaland West,Sanyati,Sanyati,Sanyati RDC Clinic,Sanyati ARDA - 101861 - Clinic,esbcJZ4OrBM,ZW040625,ZW04,,,,,,,,,,,
+Matabeleland South,Mangwe,Mangwe,Sanzukwi Clinic,SANZUKWI - 101529 - Clinic,Bk03KuutZss,ZW060733,ZW06,,,,,10.84.28.3,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Insiza,Insiza,Saphila RDC,Saphila - 101530 - Council Clinic(Construction),wzZvw0u6fe2,ZW060429,ZW06,,,,,192.168.10.1,Ophid,RHC,Rural Council,Rural,,
+Midlands,Kwekwe,Kwekwe,Sebakwe,Sebakwe - 101531 - Clinic,uZE16ljHypJ,ZW070565,ZW07,,,,,,ZHI,,,,,
+Harare,Chitungwiza,Harare,Seke North Clinic,Seke North - 101533 - Clinic,xjDifmwK0wG,ZW000B02,ZW00,,,,,10.4.21.253,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Harare,Chitungwiza,Harare,Seke South Clinic,Seke South - 101534 - Clinic,cswicu2amtm,ZW000B01,ZW00,,,,,192.168.10.1,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Selonga Clinic,Selonga - 101536 - Rural Health Centre,mQbanvNia3z,ZW060363,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Mashonaland West,Chegutu,Chegutu,Selous Clinic,Selous - 101537 - Council Clinic,XetOsDWPjg2,ZW040133,ZW04,,,,,,,RDC,Rural Council,Rural,Primary,Open
+Midlands,Gweru,Gweru,Senga Clinic,Senga Poly - 101538 - Clinic,iEaTUEi6wdx,ZW070467,ZW07,,,,,192.168.10.1,ZHI,RHC,Town/City Council,Urban,Primary,
+Midlands,Kwekwe,Kwekwe,Senkwazi Clinic,Senkwasi - 101541 - Clinic,VZxPjFpaeGG,ZW070531,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Masvingo,Gutu,Gutu,Serima Mission Hospital,Serima - 101542 - Mission Hospital,TzcYG8P3r5t,ZW080491,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Mission Hospital,Mission,Rural,Secondary,Open
+Midlands,Gokwe South,Gokwe South,Sessame Clinic,Sesame - 101543 - Clinic,k0ZyBtS4wZT,ZW070396,ZW07,,,,,192.168.10.1,ZHI,Mission Clinic,Mission,Rural,Primary,
+Matabeleland North,Nkayi,Nkayi,Sesemba Clinic,Sesemba - 101545 - Rural Health Centre,oQY8tDXHTRv,ZW050534,ZW05,,,,,192.168.10.1,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Matabeleland South,Beitbridge,Beitbridge,Shabwe Rural Health Centre,Shabwe - 101548 - Rural Health Centre,RvZ2KNZoPql,ZW060106,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Mashonaland West,Makonde,Makonde,Shackelton Municipal Clinic,Shackelton Municipal Clinic,eniSVnOl72J,ZW040477,ZW04,,,,,,ZIMTTECH,RHC,Town/City Council,Peri-Urban,Primary,Open
+Mashonaland East,Murewa,Murewa,Shambamuto Rural Health Centre,Shambamuto - 101550 - Clinic,VLPYm5c0jgN,ZW030729,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland West,Chegutu,Chegutu,Shamrock Clinic,Shamrock - 101551 - Clinic (Not Yet Open),JwlkJyJlJml,ZW040107,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland South,Insiza,Insiza,Shangani Clinic,Shangani - 101556 - Mine Clinic,ohXsGJeKhB4,ZW060477,ZW06,,,,,192.168.10.1,Ophid,RHC,Private,Rural,,
+Matabeleland South,Insiza,Insiza,Shangani Rural Hospital,Shangani - 101557 - Rural Hospital,xGshYPXKdF6,ZW06040B,ZW06,,,,,10.84.32.3,Ophid,Rural Hospital,Government,Rural,,
+Midlands,Kwekwe,Kwekwe,Sherwood Clinic,Sherwood - 101561 - Clinic,GicGwiouuoj,ZW070566,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Urban,Primary,
+Masvingo,Chivi,Chivi,Shindi Satellite Clinic,Shindi - 101562 - Clinic,ZjbT0mVOxhT,ZW080328,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Mashonaland Central,Guruve,Guruve,mc Shinje Rural Health Centre,Shinje - 101565 - Clinic,XvFeIoEFTeb,ZW020307,ZW01,,,,,,ZHI,Rural Health Centre,Government,Rural,PHC,Open
+Masvingo,Masvingo,Masvingo,Shonganiso Clinic,Shonganiso - 101566 - Clinic,Ktj9CxKCM5h,ZW080592,ZW08,,,,,,,Clinic,Mission,Rural,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,SHOPO,Shopo - 101567 - Clinic,U9Bsddm43lC,ZW020487,ZW02,,,,,,,RHC,Gvt,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Shumba Clinic,Shumba - 101569 - Clinic,P6v8ImHzR3c,ZW080533,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RDC,Rural Council,Rural,Clinic,Active
+Mashonaland Central,Mazowe,Mazowe,SHUTU,Shutu - 101571 - Clinic,w5SRCyjcVN1,ZW020403,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Gvt,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Sidakeni Clinic,Sidakeni - 101579 - Clinic,fBCkowl14OR,ZW070532,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland North,Bubi,Bubi,Siganda Clinic,Siganda - 101581 - Clinic,u4ZGqUHSJmi,ZW050226,ZW05,,,,,,,RDC,Rural Council,Rural,Primary,Open
+Midlands,Kwekwe,Kwekwe,Sigezibubi clinic,Sigezububi - 101583 - Clinic,nFw1qqq3OEx,ZW070589,ZW07,,,,,,ZHI,,,,,
+Matabeleland North,Tsholotsho,Tsholotsho,Sikente Clinic,Sikente - 101584 - Clinic,asE3X2E5zns,ZW050698,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Sikhathini Clinic,Sikhatini - 101585 - Clinic,mb8xNkQoiuv,ZW060231,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Matabeleland North,Nkayi,Nkayi,Sikobokobo,Sikobokobo - 101587 - Clinic,mnQNqs9EkZ1,ZW050528,ZW05,,,,,,ZACH,,,,,
+Matabeleland South,Gwanda,Gwanda,Silikwe Clinic,Silkwe - 101589 - Rural Health centre,lq1a53Zl3Gn,ZW060368,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Midlands,Kwekwe,Kwekwe,Silobela District Hospital,Silobela - 101590 - District Hospital,V9SM8e6sFIW,ZW07050B,ZW07,,,,,,,District Hospital,Government,Rural,Secondary,
+Midlands,Kwekwe,Kwekwe,Silobela Jackson Clinic,Silobela-Jackson - 101871 - Clinic,rUINnsV4knE,ZW070533,ZW07,,,,,192.158.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland South,Matobo,Matobo,Silozwi,Silozwi Clinic,vDYNQpQFm21,ZW060507,ZW06,,,,,192.168.10.1,Ophid,RDC,Town/City Council,Rural,,
+Midlands,Kwekwe,Kwekwe,Simana Clinic,Simana - 101595 - Clinic,ozA3NlEUYDi,ZW070534,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Matabeleland South,Insiza,Insiza,Singwambizi Clinic,Singwambizi - 101602 - Clinic,ec12kvcjS7E,ZW060427,ZW06,,,,,192.168.10.1,Ophid,RHC,Rural Council,Rural,,
+Matabeleland South,Insiza,Insiza,Singwango Clinic,Singwango - 101603 - Clinic,YAoTF1MIrjU,ZW060425,ZW06,,,,,,Ophid,RHC,Rural Council,Rural,,
+Matabeleland North,Tsholotsho,Tsholotsho,Siphepha Rural Hospital,Sipepa - 101605 - Rural Hospital,d6Y01SZZoLz,ZW05060B,ZW05,,,,,,ZIMTTECH,Rural Hospital,Government,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Siyawareva Clinic,Siyawareva - 101609 - Clinic,IZd8YJZuStE,ZW080737,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Matabeleland North,Tsholotsho,Tsholotsho,Sodaka Rural Health Centre,Sodaka - 101611 - Rural Health centre,AwLcEg2hZca,ZW050606,ZW05,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Solusi Mission Clinic,Solusi - 101612 - Clinic,L0BhteRCV93,ZW060291,ZW06,,,,,192.168.10.1,Ophid,Mission Clinic,Mission,Rural,,
+Midlands,Gweru,Gweru,Somabhula Clinic,Somabula - 101613 - Clinic,cY93Nr1gwjo,ZW070445,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,
+Masvingo,Gutu,Gutu,Soti Source Rural Health Centre,Soti Source - 101615 - Clinic,whCKffBHhqi,ZW080406,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Harare,ha South Western District,Harare,ha Southerton Clinic,Southerton - 101619 - Clinic,g8BfFOI44ii,ZW000A35,ZW00,,,,,172.16.33.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland East,UMP,UMP,Sowa Rural Health Centre,Sowa - 101620 - Rural Health centre,cuSVNGhbKpS,ZW030303,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Manicaland,Mutare,Mutare,St Josephs Mission Hospital,St Joseph's Mission Hospital,tYA7jF9AfGD,ZW01050G,ZW01,,,,,10.20.19.3,ZHI,Mission Hospital,Mission,Urban,Secondary,Open
+Manicaland,Mutare,Mutare,St Werburghs Clinic,St Werburghs Clinic,gQkKPzF53yK,ZW010507,ZW01,,,,,,,Mission Clinic,Mission,Rural,Primary,Open
+Manicaland,Mutare,Mutare,St Andrew's Mission Hospital,St. Andrew's - 101624 - Mission Hospital,RXChmJ29yIG,ZW01050F,ZW01,,,,,10.20.18.3,ZHI,Mission Hospital,Mission,Rural,Secondary,Open
+Matabeleland South,Mangwe,Mangwe,St Annes Mission Hospital (Brunapeg),St. Annes Brunapeg - 101642 - Mission Hospital,HWtwaa3MidK,ZW06070D,ZW06,,,,,192.168.100.3,Ophid,Mission Hospital,Mission,Rural,,
+Manicaland,Mutasa,Mutasa,St Augustine's Clinic,St. Augustine's - 101627 - Mission Clinic,B6T4mymKXpD,ZW010693,ZW01,,,,,192.168.10.2,ZHI,Mission Clinic,Mission,Rural,,Open
+Matabeleland North,Umguza,Umguza,St James Mission Clinic,St. James - 101643 - Mission Clinic,up9uWWHlf5L,ZW050791,ZW05,,,,,,ZACH,RHC,Mission,Rural,Primary,Open
+Masvingo,Chiredzi,Chiredzi,St Joseph Clinic,St. Joseph - 101630 - Clinic,q3b5EkPCQLi,ZW080227,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland East,Goromonzi,Goromonzi,St Joseph's Clinic,St. Joseph's - 101631 - Rural Health centre,Kmet2URjvwM,ZW030252,ZW03,,,,,10.79.42.2,ZIMTTECH,Mission Clinic,Mission,Peri-Urban,clinic,Active
+Matabeleland South,Matobo,Matobo,St Joseph's Mission Hospital,St. Joseph's - 101644 - Rural Hospital,XVUGfE4rVxG,ZW06050E,ZW06,,,,,,Ophid,Mission Hospital,Mission,Rural,,
+Matabeleland North,Lupane,Lupane,St Luke's Mission Hospital,St. Lukes - 101645 - Mission Hospital,KXpRiO1yWzB,ZW05040B,ZW05,,,,,10.89.11.3,ZACH,District Hospital,Mission,Rural,Secondary,Open
+Manicaland,Makoni,Makoni,St Michael's Tanda Mission Hospital,St. Michael's - 101635 - Mission Hospital,ldxZ72IIbir,ZW01040E,ZW01,,,,,,,Mission Hospital,Mission,Rural,Primary ,Open
+Mashonaland West,Mhondoro,Mhondoro,St Michael's Mission Hospital,St. Michaels - 101646 - Mission Hospital,OXgwxM8Md7I,ZW04050B,ZW04,,,,,10.67.18.2,ZACC,Mission Hospital,Mission,Rural,Secondary,Open
+Midlands,Gweru,Gweru,ST Patricks,St. Patricks - 101636 - Mission Clinic,yy7YQ1Iak4s,ZW070492,ZW07,,,,,,ZHI,,,,,
+Matabeleland North,Lupane,Lupane,St Paul's Mission Hospital,St. Pauls - 101647 - Mission Hospital,q5VjJBFUXw8,ZW05040A,ZW05,,,,,10.84.13.3,ZACH,Rural Hospital,Town/City Council,Rural,Secondary,Open
+Mashonaland East,Murewa,Murewa,St Paul's Musami Mission Hospital,St. Paul's Musami - 101638 - Mission Hospital,IV1N9v5bKiL,ZW03070B,ZW03,,,,,192.168.10.1,ZIMTTECH,Mission Hospital,Mission,Rural,Mission Hospital,Active
+Manicaland,Chipinge,Chipinge,St Peters Hospital,St. Peters - 101648 - Mission Hospital,uj8ctjqnN8U,ZW01030D,ZW01,,,,,10.20.17.10,ZHI,Mission Hospital,Mission,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,St Rupert's Mission Hospital,St. Rupert's - 101650 - Mission Hospital,p98IRYc0Y2A,ZW04040B,ZW04,,,,,10.67.19.5,ZIMTTECH,Mission Hospital,Mission,Rural,Secondary,Open
+Manicaland,Makoni,Makoni,St Therese's Mission Hospital,St. Theresa - 101640 - Mission Hospital,X8eNcHrqP3q,ZW01040F,ZW01,,,,,,,Mission Hospital,Mission,Rural,Primary ,Open
+Mashonaland Central,Mazowe,Mazowe,STORIS,Storis Clinic,m7MrqwB1ZqQ,ZW020478,ZW02,,,,,,ZIMTTECH,RHC,Pvt,Mining,Primary,Open
+Masvingo,Masvingo,Masvingo,Summerton Rural Health Centre,Summerton - 101656 - Clinic,baRAS8w9gmR,ZW080512,ZW08,,,,,,,Clinic,Govt,Rural,Primary,Open
+Harare,ha Southern District,Harare,ha Sunningdale Clinic,Sunningdale - 101657 - Satellite Clinic,Vr63gV2X6vv,ZW000A37,ZW00,,,,,172.16.4.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland Central,Mazowe,Mazowe,SUOGURU,Suoguru Clinic,un5X8B0qP2w,ZW020488,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Urban,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Sutton RDC Clinic,Sutton - 101661 - Mine Clinic,FsRYRzS6zYQ,ZW040777,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,MINING
+Midlands,Gokwe South,Gokwe South,Svisvi Clinic,Svisvi - 101663 - Rural Health Centre,V3ZLerPguLB,ZW070311,ZW07,,,,,10.54.35.3,ZHI,RDC,Rural Council,Rural,Primary,
+Midlands,Mberengwa,Mberengwa,Svita Clinic,Svita - 101664 - Clinic,V1UPlYfZT1D,ZW070637,ZW07,,,,,192.168.10.1,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Zaka,Zaka,Svuure Rural Health Centre,Svuvure - 101665 - Rural Health Hospital,USZm9peQXTh,ZW080704,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Matabeleland North,Umguza,Umguza,TG Silundika Clinic,T.G. Silundika - 101668 - Rural Health Centre,plc6BXsQkp0,ZW050781,ZW05,,,,,,ZIMTTECH,RHC,Private,Rural,Primary,Open
+Harare,ha Eastern District,Harare,ha Tafara FHS Clinic,Tafara - 101669 - Clinic,eScYy7KYs2U,ZW000A38,ZW00,,,,,172.16.38.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Masvingo,Chivi,Chivi,Takavarasha Rural Health Centre,Takavarasha - 101671 - Rural Health Centre,tnAAI1FRv9X,ZW080307,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Tandi Clinic,Tandi - 101678 - Clinic,QHVCAkeXCog,ZW010434,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Manicaland,Makoni,Makoni,Toriro Clinic,Tariro - 101680 - Clinic,SISBOCPkjkv,ZW010435,ZW01,,,,,,,RDC,Rural Council,Rural,Primary ,Open
+Mashonaland West,Chegutu,Chegutu,Tasunungurwa Clinic,Tasunungurwa Clinic,kRqptVf5Ltn,ZW040108,ZW04,,,,,,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Hurungwe,Hurungwe,Tengwe Clinic,Tenewe - 101683 - Council Clinic,z0mAJulIVSB,ZW040249,ZW04,,,,,10.67.35.2,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Bulawayo,Northern Surbubs,Bulawayo,Thorngrove Infectious Diseases Hospital,Thorngrove - 101685 - Clinic,I1dsyC5hnKJ,ZW090A0E,ZW09,,,,,30.30.75.,Ophid,IDH,Town/City Council,Urban,Primary,Open
+Masvingo,Gutu,Gutu,Tirizi Satellite Clinic,Tirizi - 101689 - Clinic,RxO8k3zae2W,ZW080433,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Tokwana Clinic,Tokwana - 101907 - Clinic,O4kX8ajY1Lp,ZW060236,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Beitbridge,Beitbridge,Tongwe Clinic,Tongwe - 101696 - Clinic,FHW8J9cVHxt,ZW060130,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Midlands,Gokwe South,Gokwe South,Tongwe Clinic,Tongwe - 101697 - Clinic,w1k2xD78mUR,ZW070339,ZW07,,,,,10.54.37.3,ZHI,RDC,Rural Council,Rural,,
+Midlands,Kwekwe,Kwekwe,Torwood Clinic,Torwood - 101700 - Hospital,N9VWu2Kppre,ZW070554,ZW07,,,,,,,RHC,Town/City Council,Urban,Primary,
+Midlands,Gweru,Gweru,Totonga,Totonga - 101701 - Clinic,M0WPf48urCw,ZW070468,ZW07,,,,,,ZHI,,,,,
+Mashonaland West,Zvimba,Zvimba,TRB RDC Clinic,TRBC - 101703 - Council Clinic,xwXASQ58xET,ZW040747,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Mashonaland West,Zvimba,Zvimba,Trelawney RDC Clinic,Trelawney - 101704 - Council Clinic,fyCd86t36uQ,ZW040748,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Mashonaland Central,Mt Darwin,Mt Darwin,TSAKARE,Tsakare - 101708 - Clinic,jWZDHuWQL6K,ZW020506,ZW02,,,,,192.168.10.1,ZIMTTECH,GOVERNMENT CLINIC,GOVERNMENT,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Tsanzaguru Clinic,Tsanzaguru - 101709 - Clinic,avJBKspv9hU,ZW010436,ZW01,,,,,,,RDC,Rural Council,Urban,Primary ,Open
+Bulawayo,Nkulumane,Bulawayo,Tshabalala Clinic,Tshabalala - 101710 - Clinic,AU3HqiX44Iu,ZW090A02,ZW09,,,,,192.168.1.4,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland South,Matobo,Matobo,Tshelanyemba Mission Hospital,Tshelanyemba - 101711 - Mission Hospital,wa7S2vIGgVg,ZW06050D,ZW06,,,,,,Ophid,Mission Hospital,Mission,Rural,,
+Matabeleland South,Mangwe,Mangwe,Tshitshi Clinic,Tshitshi - 101712 - Clinic,FjN22JqEC4D,ZW060732,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Matabeleland North,Tsholotsho,Tsholotsho,Tsholotsho District Hospital,Tsholotsho - 101713 - District Hospital,enrbUoAll43,ZW05060A,ZW05,,,,,,ZIMTTECH,District Hospital,Government,Rural,Secondary,Open
+Matabeleland North,Tsholotsho,Tsholotsho,Tsholotsho Urban Clinic,Tsholotsho Urban - 101667 - Clinic,VCTLI8U4D5z,ZW050631,ZW05,,,,,,ZIMTTECH,RDC,Town/City Council,Urban,Primary,Open
+Mashonaland East,UMP,UMP,Tsokodeka clinic,Tsokodeka clinic,IDPxxc6H5rJ,ZW030339,ZW03,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Manicaland,Mutasa,Mutasa,Tsonzo Rural Hospital,Tsonzo - 101714 - Rural Hospital,xBQLT1WFHR7,ZW01060A,ZW01,,,,,10.20.22.3,ZHI,Rural Hospital,Government,Rural,,Open
+Masvingo,Chiredzi,Chiredzi,Tshovani Clinic,Tsovani - 101715 - Clinic,g7P5iJOCBdW,ZW080233,ZW08,,,,,10.39.32.10,OPHID/Kapinek,RHC,Town/City Council,Urban,Primary,Open
+Mashonaland Central,Mazowe,Mazowe,TSUNGUBVI,Tsungubvi - 101717 - Clinic,ZCCRwjCDbaM,ZW020447,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Urban,Primary,Open
+Midlands,Gweru,Gweru,Tumbire,Tumbire - 101718 - Clinic,aJhsccht7WS,ZW070422,ZW07,,,,,192.168.10.1,ZHI,,,,,
+Mashonaland West,Mhondoro,Mhondoro,Turf Estate RDC Clinic,Turf - 101719 - Council Clinic,mCZQYXcx1VM,ZW040524,ZW04,,,,,192.168.100.2,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Matabeleland North,Bubi,Bubi,Turk Mine Clinic,Turk Mine - 101720 - Mine Clinic,d7pGOe2ANHF,ZW050257,ZW05,,,,,,ZIMTTECH,RHC,Mine,Rural,Primary,Open
+Mashonaland West,Mhondoro,Mhondoro,Twintops RDC Clinic,Twin Tops - 101722 - Clinic,keqEqznmGNE,ZW040525,ZW04,,,,,192.168.1.2,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Makonde,Makonde,Umboe RDC Clinic,Umboe - 101724 - Clinic,kaqOR3BnVSQ,ZW040448,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Matabeleland North,Umguza,Umguza,Umguza Council Clinic ,Umguza Council Clinic,dBTOp92WekL,ZW050750,ZW05,,,,,192.168.10.1,ZIMTTECH,RDC,Town/City Council,Urban,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,Mzingwane RHC,Umzingwane - 101725 - Clinic,NYyR0XgxhQr,ZW060606,ZW06,,,,,,,RHC,Government,Rural,,
+Masvingo,Chivi,Chivi,Vutete Health Centre,Utete - 101730 - Clinic,LnBI34VkdXc,ZW080333,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Vanad RDC Clinic,Vanad - 101731 - Mine Clinic,VUkNza2W9Ke,ZW040778,ZW04,,,,,,ZIMTTECH,IDH,PARASTATAL,Peri-Urban,Primary,MINING
+Masvingo,Chivi,Chivi,Vuranda Clinic,Varanda - 101752 - Rural Health Centre,x6Odi9BQi29,ZW080325,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Manicaland,Makoni,Makoni,Vengere Clinic,Vengere - 101733 - Clinic,bkpJdhMUWKf,ZW010442,ZW01,,,,,,,RDC,Town/City Council,Urban,Primary ,Open
+Mashonaland West,Sanyati,Sanyati,Vere - 101735 - Rural Health Centre,Vere - 101735 - Rural Health Centre,HqZLZbZmU4r,ZW040609,ZW04,,,,,,ZIMTTECH,,,,,
+Masvingo,Zaka,Zaka,Veza Clinic,Veza - 101736 - Clinic,g9tFVjxzZDT,ZW080738,ZW08,,,,,,,RHC,Government,Rural,Primary,Open
+Manicaland,Chipinge,Chipinge,Veneka Clinic,Vheneka - 101737 - Clinic,nNmjZD0Xkbi,ZW010336,ZW01,,,,,192.168.10.2,ZHI,RDC,Rural Council,Rural,Primary,Open
+Matabeleland South,Bulilima,Bulilima,Village 13 Rural Health Centre,Village 13 - 101741 - Rural Health Centre,dSsH9yE0duM,ZW060201,ZW06,,,,,192.168.10.1,Ophid,RHC,Government,Rural,,
+Mashonaland East,Murewa,Murewa,Virginia Clinic,Virginia Clinic - 101742 - Clinic,dsOsw05zvg2,ZW030746,ZW03,,,,,192.168.10.1,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland Central,Mazowe,Mazowe,VONABO,Vonabor - 101744 - Clinic,RLoROPMeESW,ZW020411,ZW02,,,,,192.168.10.1,ZIMTTECH,RHC,Council,Farming,Primary,Open
+Midlands,Gweru,Gweru,Vungu static,Vungu - 101750 - Clinic,KMIq1ZmHSv8,ZW070446,ZW07,,,,,,ZHI,,,,,
+Midlands,Gweru,Gweru,Vungu mobile,Vungu - 101751 - Mobile Clinic,UJXZfglDy6U,ZW070448,ZW07,,,,,,ZHI,,,,,
+Midlands,Mberengwa,Mberengwa,Vurasha Rural Health Centre,Vurasha - 101753 - Rural Health Centre,Ffe71rF6iVh,ZW070606,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,Open
+Midlands,Mberengwa,Mberengwa,Vutsanana,Vutsanana - 101754 - Clinic,nyYPQGMntMU,ZW070641,ZW07,,,,,,ZHI,,,,,
+Mashonaland East,Marondera,Marondera,Waddilove Clinic,Waddilove - 101755 - Clinic,S3SoJCAyzta,ZW030586,ZW03,,,,,,ZIMTTECH,RHC,Government,Urban,clinic,Active
+Matabeleland South,Insiza,Insiza,Wanezi Mission Hospital,Wanezi - 101757 - Rural Hospital,b3PU8AeeaQC,ZW06040D,ZW06,,,,,,ZACC,Mission Hospital,Mission,Rural,,
+Midlands,Mberengwa,Mberengwa,Wanezi Rural Health Centre,Wanezi Rural Hospital,tDPdTZDx9V6,ZW070607,ZW07,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,Open
+Harare,ha Western District,Harare,ha Warren Park PolyClinic,Warren Park - 101760 - Poly clinic,sA086jVRd7Z,ZW000A39,ZW00,,,,,172.16.28.131,Zimtech,RHC,Town/City Council,Urban,Primary,
+Harare,ha Southern District,Harare,ha Waterfalls Clinic,Waterfalls - 101761 - Clinic,YsapFO7P1Qn,ZW000A41,ZW00,,,,,172.16.43.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Mashonaland East,Murewa,Murewa,Waterloo Clinic,Waterloo - 101762 - Clinic,WdsXmSQA2PZ,ZW030747,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Mashonaland West,Chegutu,Chegutu,Watyoka Clinic,Watyoka - 101763 - Council Clinic,ZlGUHP6gHLu,ZW040130,ZW04,,,,,10.67.36.2,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Mashonaland West,Sanyati,Sanyati,Waverly Municipal Clinic,Waverly - 101764 - Clinic,oiEL7cgDRNN,ZW040639,ZW04,,,,,192.168.10.1,ZIMTTECH,RHC,Town/City Council,Urban,Primary,Open
+Mashonaland East,Marondera,Marondera,Wenimbi Rural Health Centre,Wenimbe - 101771 - Rural Health Centre,SNzJDnz5e9q,ZW030506,ZW03,,,,,,ZIMTTECH,RHC,Rural Council,Rural,clinic,Active
+Matabeleland South,Gwanda,Gwanda,West Nicholson Clinic,West Nicolson - 101772 - Clinic,cUPFcuov2Fc,ZW060382,ZW06,,,,,,,RDC,Government,Peri-Urban,,
+Harare,ha South Western District,Harare,Western Triangle Clinic,Western Triangle - 101773 - Clinic,AvzEH5UhMeW,ZW000A42,ZW00,,,,,172.16.32.3,Zimtech,RHC,Town/City Council,Urban,Primary,
+Manicaland,Makoni,Makoni,Weya Rural Hospital,Weya - 101774 - Rural Hospital,nrMK5a1kkjl,ZW01040B,ZW01,,,,,,,Rural Hospital,Government,Rural,Primary ,Open
+Harare,ha Western District,Harare,Wilkins Infectious Disease Hospital,Wilkins Infectious Disease Hospital - 101775 - Infectious Disease Hospital,HRaxyjNZcaJ,ZW000A0D,ZW00,,,,,172.16.24.3,Zimtech,,Town/City Council,Urban,,
+Mashonaland East,Goromonzi,Goromonzi,Xanadu,Xanadu Clinic,mE1sxp2Mlzy,ZW030281,ZW03,,,,,,ZIMTTECH,RDC,Rural Council,Rural,clinic,Active
+Manicaland,Chipinge,Chipinge,Zamuchiya Clinic,Zamchiya - 101779 - Clinic,IfKqyKB6VCQ,ZW010337,ZW01,,,,,10.20.30.10,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Zano Clinic,Zano - 101781 - Clinic,RPaFuf61WaI,ZW080536,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,RDC,Rural,Primary,Open
+Harare,Chitungwiza,Harare,Zengeza Clinic,Zengeza Clinic - 100305 - Council Clinic,dgPACqSJZIT,ZW000B04,ZW00,,,,,192.168.10.1,Ophid,Clinic,Town/City Council,Urban,Primary,Open
+Matabeleland North,Nkayi,Nkayi,Zenka Rural Health Centre,Zenka - 101785 - Rural Health Centre,S8UmuTF3pVu,ZW050506,ZW05,,,,,192.168.10.1,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Matabeleland South,Beitbridge,Beitbridge,Zezani Clinic,Zezane - 101787 - Clinic,T9MjXsATFab,ZW060131,ZW06,,,,,10.84.35.3,Ophid,RDC,Rural Council,Rural,,
+Mashonaland East,Seke,Seke,Zhakata Rural Health Centre,Zhakata - 101788 - Rural Health Centre,chIGBlc6iFM,ZW030902,ZW03,,,,,,ZIMTTECH,RHC,Government,Rural,clinic,Active
+Midlands,Gokwe South,Gokwe South,Zhamba Clinic,Zhamba - 101789 - Clinic,OkK9ixbSp7W,ZW070312,ZW07,,,,,,ZHI,RDC,Rural Council,Rural,Primary,
+Midlands,Kwekwe,Kwekwe,Zhombe Mission Hospital,Zhombe - 101792 - Mission Clinic,RgkNZppVRq4,ZW07050C,ZW07,,,,,10.54.19.5,ZHI,Mission Hospital,Mission,Rural,Secondary,
+Matabeleland South,Insiza,Insiza,Zhulube Clinic,Zhulube - 101793 - Clinic,krUJBXgxsij,ZW060426,ZW06,,,,,192.168.10.1,Ophid,RHC,Rural Council,Rural,,
+Masvingo,Zaka,Zaka,Zibwowa Rural Health Centre,Zibwowa - 101795 - Private Clinic,w4buke8xk7w,ZW080705,ZW08,,,,,,,RHC,Mission,Rural,Primary,Open
+Mashonaland West,Chegutu,Chegutu,Zimbabwe Mining Development Corporation Clinic,Zimbabwe Mining Development Corporation Clinic,NxcJJW9DTyv,ZW040176,ZW04,,,,,,ZIMTTECH,RHC,Private,Peri-Urban,Primary,Open
+Matabeleland South,Umzingwane,Umzingwane,Zimbili Clinic,Zimbili - 101911 - Clinic,cMnfYLDG3wb,ZW060634,ZW06,,,,,192.168.10.1,Ophid,RDC,Rural Council,Rural,,
+Manicaland,Mutare,Mutare,Zimunya Clinic,Zimunya - 101805 - Clinic,s5QteHELIvJ,ZW010539,ZW01,,,,,10.20.31.3,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Zimuto Mission Clinic,Zimuto - 101864 -Clinic,jxhWSl9Wogp,ZW080593,ZW08,,,,,,,Clinic,Mission,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Zimuto BC Clinic,Zimuto BC-101885-Clinic,l3E01g797F0,ZW080534,ZW08,,,,,192.168.10.1,OPHID/Kapinek,Clinic,RDC,Rural,Primary,Open
+Manicaland,Mutasa,Mutasa,Zindi Clinic,Zindi - 101807 - Clinic,xRiIyDXPWV5,ZW010635,ZW01,,,,,,,RDC,Rural Council,Rural,,Open
+Masvingo,Gutu,Gutu,Zinhata Clinic,Zinhata - 101809 - Clinic,zlK0QVfBy4S,ZW080432,ZW08,,,,,,,RHC,Rural Council,Rural,Primary,Open
+Masvingo,Chivi,Chivi,Zivuku Clinic,Ziviku - 101812 - Clinic,qlF46STsFVq,ZW080324,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Rural Council,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Zowa RDCClinic,Zowa - 101815 - Council Clinic,ICncDePcpfs,ZW040749,ZW04,,,,,,ZIMTTECH,Rural Hospital,Government,Rural,Primary,RURAL
+Matabeleland North,Umguza,Umguza,ZPS Anju Rural Health Centre,ZPS Anju Rural Health Centre,ZW050711,ZW050711,,,,,,,,,,,,
+Midlands,Gweru,Gweru,ZPS Whawha Prison Clinic,ZPS Whawha Prison- Clinic - DEL,zZXWPXydW2S,ZW070414,ZW07,,,,,192.168.10.1,ZHI,RHC,ZPS,Peri-Urban,Primary,
+Mashonaland West,Makonde,Makonde,Zumbara Rural Health Centre,Zumbara - 101817 - Clinic,Ro85zYALRyz,ZW040408,ZW04,,,,,,ZIMTTECH,RHC,Government,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Zumbare Clinic,Zumbare - 101818 - Clinic,rotRV33ogHc,ZW010540,ZW01,,,,,,ZHI,RDC,Rural Council,Rural,Primary,Open
+Masvingo,Masvingo,Masvingo,Zvamahande Clinic,Zvamahande - 101821 - Rural Health Centre,bfcqsUA785y,ZW080543,ZW08,,,,,,,Clinic,RDC,Rural,Primary,Open
+Masvingo,Gutu,Gutu,Zvavahera Rural Health Centre,Zvavahera - 101824 - Clinic,diROooYxyaE,ZW080409,ZW08,,,,,192.168.10.1,OPHID/Kapinek,RHC,Government,Rural,Primary,Open
+Mashonaland West,Zvimba,Zvimba,Zvimba Rural Hospital,Zvimba - 101826 - Rural Hospital,AePpRuUfCzM,ZW04070G,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Peri-Urban,Primary,RURAL
+Mashonaland West,Hurungwe,Hurungwe,Zvipani Rural Health Centre,Zvipani - 101827 - Clinic,kBWmV90JkOu,ZW040206,ZW04,,,,,192.168.10.1,ZIMTTECH,RDC,Rural Council,Rural,Primary,Open
+Manicaland,Mutare,Mutare,Zvipiripiri Rural Health Centre,Zvipiripiri - 101828 - Clinic,icwINxeOGNY,ZW010513,ZW01,,,,,192.168.10.1,ZHI,RHC,Government,Rural,Primary,Open
+Matabeleland South,Gwanda,Gwanda,Sengezane Clinic,Sengezane Clinic,ZW060330,ZW060330,ZW06,,,,,192.168.1.254,Ophid,RDC,Rural Council,Rural,,
+Matabeleland South,Insiza,Insiza,Mbondo,Mbondo,ZW060431,ZW060431,ZW06,,,,,192.168.1.254,Ophid,,,,,
+Matabeleland South,Umzingwane,Umzingwane,Shale Clinic,Shale Clinic,ZW060636,ZW060636,ZW06,,,,,192.168.1.254,Ophid,RDC,Rural Council,Rural,,
+Midlands,Kwekwe,Kwekwe,Zrdc clinic,Zrdc clinic,ZW070557,ZW070557,ZW07,,,,,192.168.1.254,Ophid,,,,,
+Bulawayo,Northern Surbubs,Bulawayo,Emgwaninini,Emgwaninini,ZW090A65,ZW090A65,ZW09,,,,,192.168.1.254,Ophid,,,,,
+Matabeleland South,Beitbridge,Beitbridge,Beitbridge district hospital,,,,,,,,,,,,,,,
+Matabeleland South,Beitbridge,Beitbridge,Beitbridge Satellite Tshitaudze Clinic,,,,,,,,,,,,,,,
+Matabeleland South,Beitbridge,Beitbridge,Beitbridge Wellness Clinic,,,,,,,,,,,,,,,
+Matabeleland South,Beitbridge,Beitbridge,Beitbridge ZRP Clinic,,,,,,,,,,,,,,,
+Matabeleland South,Matobo,Matobo,Beula-seula Rural Health Centre,,,,,,,,,,,,,,,
+Matabeleland South,Bulilima,Bulilima,Bezu Clinic ,,,,,,,,,,,,,,,
+Manicaland,Makoni,Makoni,Bingaguru Clinic,,,,,,,,,,,,,,,
+Bulawayo,Bulawayo,Bulawayo,Blessed Heart Health Care,,,,,,,,,,,,,,,
+Matabeleland South,Mangwe,Mangwe,Plumtree Boarder,,,,,,,,,,,,,,,
+Midlands,Gokwe south,Gokwe south,BURURE ,,,,,,,,,,,,,,,
+Manicaland,Makoni,Makoni,Mabvazuva,,,,,,,,,,,,,,,
+Matabeleland North,Lupane,Lupane,ZPS Lupane Prison Clinic,,,,,,,,,,,,,,,
+Masvingo,Chiredzi,Chiredzi,Hippo Valley Private Hospital,,,,,,,,,,,,,,,
+Masvingo,Chivi,Chivi,Gororo Clinic,,,,,,,,,,,,,,,
+Masvingo,Mwenezi,Mwenezi,Bubye River Ranch,,,,,,,,,,,,,,,
+Bulawayo,Northern Surbubs,Bulawayo,Mpilo Central Hospital,,,,,,,,,,,,,,,
+Matabeleland North,Bubi,Bubi,Bona Clinic,,,,,,,,,,,,,,,

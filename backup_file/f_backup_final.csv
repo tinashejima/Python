@@ -1,0 +1,682 @@
+site_id,August,July,September,Province,District,Facility
+ZW02050B,1,1,1,Mashonaland Central,Mt Darwin,KARANDA HOSPITAL
+ZW05020A,0,1,0,Matabeleland North,Bubi,Inyathi District Hospital
+ZW060507,0,0,0,Matabeleland South,Matobo,Silozwi
+ZW010434,0,0,0,Manicaland,Makoni,Tandi Clinic
+ZW060628,1,1,1,Matabeleland South,Umzingwane,Mhlahlandlela Clinic
+ZW060627,1,1,0,Matabeleland South,Umzingwane,Mawabeni Clinic
+ZW090A17,1,0,0,Bulawayo,Nkulumane,Nketa Clinic
+ZW04070C,0,0,0,Mashonaland West,Zvimba,Darwendale Rural Hospital
+ZW04040A,0,0,0,Mashonaland West,Makonde,Chinhoyi Provincial Hospital
+ZW08020B,1,1,0,Masvingo,Chiredzi,Chikombedzi Mission Hospital
+ZW030302,0,0,0,Mashonaland East,UMP,Karimbika Rural Health Centre
+ZW03030A,0,0,0,Mashonaland East,UMP,Mutawatawa District Hospital
+ZW050630,0,0,0,Matabeleland North,Tsholotsho,Nkunzi Clinic
+ZW05060A,1,0,1,Matabeleland North,Tsholotsho,Tsholotsho District Hospital
+ZW030926,0,0,0,Mashonaland East,Seke,Epworth Polyclinic
+ZW090A12,1,1,0,Bulawayo,Northern Surbubs,Princess Margaret Clinic
+ZW050631,0,0,1,Matabeleland North,Tsholotsho,Tsholotsho Urban Clinic
+ZW050404,0,0,0,Matabeleland North,Lupane,Gomoza Rural Health Centre
+ZW010137,1,0,1,Manicaland,Buhera,Nerutanga
+ZW07050A,0,1,0,Midlands,Kwekwe,Kwekwe General Hospital
+ZW070467,1,0,0,Midlands,Gweru,Senga Clinic
+ZW090A33,1,1,0,Bulawayo,Nkulumane,Maqhawe Clinic
+ZW030723,1,1,1,Mashonaland East,Murewa,Chitowa 1 Clinic
+ZW03090A,0,0,0,Mashonaland East,Seke,Beatrice Rural Hospital
+ZW060201,0,0,0,Matabeleland South,Bulilima,Village 13 Rural Health Centre
+ZW01060C,0,0,0,Manicaland,Mutasa,Old MutareMission Hospital
+ZW070464,1,0,0,Midlands,Gweru,Monomutapa Clinic
+ZW080493,1,1,1,Masvingo,Gutu,Mukaro Mission Hospital
+ZW080204,1,1,1,Masvingo,Chiredzi,Chizvirizvi Rural Health Centre
+ZW08060B,1,0,0,Masvingo,Mwenezi,Matibi Mission Hospital
+ZW010319,1,1,0,Manicaland,Chipinge,Changazi clinic
+ZW090A07,0,0,0,Bulawayo,Emakandeni,Magwegwe Clinic
+ZW000A01,1,0,1,Harare,ha North Western District,ha Avondale Clinic
+ZW08070C,0,0,0,Masvingo,Zaka,Musiso Mission Hospital
+ZW090A11,0,0,1,Bulawayo,Nkulumane,Pelandaba Clinic
+ZW020488,0,0,1,Mashonaland Central,Mazowe,SUOGURU
+ZW010435,1,1,0,Manicaland,Makoni,Toriro Clinic
+ZW04070A,1,1,0,Mashonaland West,Zvimba,Banket District Hospital
+ZW01030B,1,1,0,Manicaland,Chipinge,Chikore Mission Hospital
+ZW010329,1,1,1,Manicaland,Chipinge,Madhuku Clinic
+ZW02080B,1,1,1,Mashonaland Central,Mbire,Chitsungo Mission Hospital
+ZW020343,0,0,0,Mashonaland Central,Guruve,mc Ruyamuro Clinic
+ZW060126,0,1,0,Matabeleland South,Beitbridge,Dulibadzimu Clinic
+ZW030325,1,1,1,Mashonaland East,UMP,Borera Clinic
+ZW060745,0,0,0,Matabeleland South,Mangwe,Dingumuzi Clinic
+ZW050698,1,1,1,Matabeleland North,Tsholotsho,Sikente Clinic
+ZW060431,0,0,0,Matabeleland South,Insiza,Mbondo
+ZW000A13,0,0,0,Harare,ha West South West District,ha Glen View PolyClinic
+ZW080304,0,0,0,Masvingo,Chivi,Ngundu Rural Health Centre
+ZW000A05,0,0,0,Harare,ha North Western District,Belvedere Poly clinic
+ZW090A05,1,0,0,Bulawayo,Northern Surbubs,Khami Road Clinic
+ZW050426,0,0,0,Matabeleland North,Lupane,Jotsholo Clinic
+ZW090A35,0,0,0,Bulawayo,Emakandeni,Pumula South Clinic
+ZW080726,1,1,0,Masvingo,Zaka,Bvukururu Clinic
+ZW080592,1,1,1,Masvingo,Masvingo,Shonganiso Clinic
+ZW020821,0,1,1,Mashonaland Central,Mbire,Angwa Clinic
+ZW020802,0,0,0,Mashonaland Central,Mbire,Masomo Clinic
+ZW070406,0,0,0,Midlands,Gweru,Ntabamhlope Rural Health Centre
+ZW040746,0,0,0,Mashonaland West,Zvimba,Nyabira RDC Clinic
+ZW03050B,0,0,0,Mashonaland East,Marondera,Chiota Rural Hospital
+ZW060179,1,1,1,Matabeleland South,Beitbridge,Mtetengwe Clinic
+ZW000A21,0,0,1,Harare,ha North Western District,ha Mabelreign Satellite Clinic
+ZW080737,0,0,1,Masvingo,Zaka,Siyawareva Clinic
+ZW020832,0,0,0,Mashonaland Central,Mbire,Musengezi Clinic
+ZW010565,1,1,1,Manicaland,MutareCity,Florida Clinic
+ZW090A10,0,0,0,Bulawayo,Nkulumane,Nkulumane Clinic
+ZW070339,1,1,0,Midlands,Gokwe South,Tongwe Clinic
+ZW080692,1,1,0,Masvingo,Mwenezi,Lundi Clinic
+ZW000A68,1,1,1,Harare,Harare,Kuwadzana Satelite Clinic
+ZW060405,0,0,0,Matabeleland South,Insiza,Nkankezi Rural Health Centre
+ZW030746,0,0,0,Mashonaland East,Murewa,Virginia Clinic
+ZW080328,1,0,0,Masvingo,Chivi,Shindi Satellite Clinic
+ZW010412,0,1,1,Manicaland,Makoni,Masvosva Rural Health Centre
+ZW090A13,0,0,0,Bulawayo,Emakandeni,Pumula Clinic
+ZW030338,0,0,0,Mashonaland East,UMP,Dewe Council Clinic
+ZW050733,0,0,1,Matabeleland North,Umguza,Mbembesi Rural health Centre
+ZW050226,0,0,0,Matabeleland North,Bubi,Siganda Clinic
+ZW06050B,1,1,1,Matabeleland South,Matobo,Kezi Rural Hospital
+ZW080734,0,0,0,Masvingo,Zaka,Gumbo
+ZW080303,1,1,0,Masvingo,Chivi,Mandamabwe Rural Health Centre
+ZW000A09,0,0,0,Harare,ha West South West District,ha Budiriro PolyClinic
+ZW000B02,0,0,0,Harare,Chitungwiza,Seke North Clinic
+ZW040636,0,0,0,Mashonaland West,Sanyati,Ingezi clinic
+ZW020489,1,1,0,Mashonaland Central,Mazowe,SANDRINGHAM
+ZW080532,0,0,1,Masvingo,Masvingo,Rukovo Clinic
+ZW06070A,0,0,0,Matabeleland South,Mangwe,Plumtree District Hospital
+ZW070606,0,0,0,Midlands,Mberengwa,Vurasha Rural Health Centre
+ZW06030C,0,0,0,Matabeleland South,Gwanda,Mtshabezi Mission Hospital
+ZW05040B,0,1,0,Matabeleland North,Lupane,St Luke's Mission Hospital
+ZW020820,0,0,0,Mashonaland Central,Mbire,Chapoto Clinic
+ZW020432,0,0,0,Mashonaland Central,Mazowe,NZVIMBO
+ZW010564,0,0,0,Manicaland,MutareCity,Sakubva Clinic
+ZW040462,0,0,0,Mashonaland West,Makonde,Chikonohono Munic Clinic
+ZW060302,0,0,0,Matabeleland South,Gwanda,Makwe RHC
+ZW060177,0,0,0,Matabeleland South,Beitbridge,Chamnangana Clinic
+ZW050628,1,1,0,Matabeleland North,Tsholotsho,Jimila Clinic
+ZW080210,1,0,1,Masvingo,Chiredzi,Nyangambe Rural Health Centre
+ZW08070A,1,1,1,Masvingo,Zaka,Ndanga District Hospital
+ZW01050G,0,0,0,Manicaland,Mutare,St Josephs Mission Hospital
+ZW090A08,0,0,0,Bulawayo,Northern Surbubs,Mzilikazi Clinic
+ZW020803,0,0,0,Mashonaland Central,Mbire,Mushumbi RHC
+ZW020327,0,0,0,Mashonaland Central,Guruve,mc Bepura Clinic
+ZW070563,1,1,0,Midlands,Kwekwe,Mbizo II Clinic
+ZW010119,0,0,0,Manicaland,Buhera,Munyanyi Clinic
+ZW070401,0,1,1,Midlands,Gweru,Gunde Rural Health Centre
+ZW050230,0,0,0,Matabeleland North,Bubi,Mdutshane Rural Health Centre
+ZW080582,0,1,0,Masvingo,Masvingo,Rujeko Clinic
+ZW000A19,0,0,0,Harare,ha Western District,ha Kambuzuma PolyClinic
+ZW04020C,0,0,0,Mashonaland West,Hurungwe,Mwami Rural Hospital
+ZW090A49,1,1,1,Bulawayo,Northern Surbubs,Ceshhar Clinic
+ZW070491,0,1,0,Midlands,Gweru,Lower Gweru clinic
+ZW090A03,1,0,0,Bulawayo,Northern Surbubs,EF Watson Clinic
+ZW030561,0,0,0,Mashonaland East,Marondera,Dombotombo Council Clinic
+ZW08030B,0,0,0,Masvingo,Chivi,Chivi Rural Hospital
+ZW080230,0,0,0,Masvingo,Chiredzi,Rupangwana Clinic
+ZW08040B,0,0,0,Masvingo,Gutu,Chimombe Rural Hospital
+ZW030337,0,0,0,Mashonaland East,UMP,Muskwe Clinic
+ZW060225,0,0,0,Matabeleland South,Bulilima,Dombodema Clinic
+ZW04020D,0,0,0,Mashonaland West,Hurungwe,Chidamoyo Mission Hospital
+ZW030391,0,0,0,Mashonaland East,UMP,Dindi Clinic
+ZW000A35,0,1,0,Harare,ha South Western District,ha Southerton Clinic
+ZW060331,0,0,0,Matabeleland South,Gwanda,Garanyemba Clinic
+ZW000A14,0,0,0,Harare,ha West South West District,ha Glen View Satellite Clinic
+ZW050626,1,0,0,Matabeleland North,Tsholotsho,Dlamini Clinic
+ZW060291,1,1,0,Matabeleland South,Bulilima,Solusi Mission Clinic
+ZW010529,1,0,0,Manicaland,Mutare,Chitakatira Clinic
+ZW01040A,0,0,0,Manicaland,Makoni,Rusape District Hospital
+ZW030339,0,1,1,Mashonaland East,UMP,Tsokodeka clinic
+ZW010347,1,0,0,Harare,Harare,Gazaland Comm Post
+ZW000A33,0,0,0,Harare,ha North Western District,ha Rujeko PolyClinic
+ZW000A45,1,1,0,Harare,ha North Western District,ha Marlborough Satellite Clinic
+ZW030329,0,0,0,Mashonaland East,UMP,Chitsungo Clinic
+ZW000A44,0,0,0,Harare,ha Harare Central South Eastern District,ha Hatfield Clinic
+ZW050506,0,0,0,Matabeleland North,Nkayi,Zenka Rural Health Centre
+ZW060106,0,0,0,Matabeleland South,Beitbridge,Shabwe Rural Health Centre
+ZW08050C,0,0,0,Masvingo,Masvingo,Nyajena Rural Hospital
+ZW080736,0,0,0,Masvingo,Zaka,Nyakunhuwa Clinic
+ZW030333,0,0,1,Mashonaland East,UMP,Nhakiwa Clinic
+ZW050697,0,0,0,Matabeleland North,Tsholotsho,Mpanedziba Clinic
+ZW070532,1,1,0,Midlands,Kwekwe,Sidakeni Clinic
+ZW080226,0,0,0,Masvingo,Chiredzi,Chipiwa Clinic
+ZW030922,0,0,0,Mashonaland East,Seke,Jonasi Clinic
+ZW090A06,0,0,0,Bulawayo,Emakandeni,Luveve Clinic
+ZW070311,1,1,0,Midlands,Gokwe South,Svisvi Clinic
+ZW070427,1,1,0,Midlands,Gweru,Madikani Clinic
+ZW040523,0,0,0,Mashonaland West,Mhondoro,Murambwa RDC Clinic
+ZW000A69,0,0,0,Harare,ha West South West District,ha Budiriro Satellite Clinic
+ZW010102,0,1,0,Manicaland,Buhera,Betera
+ZW070602,0,0,0,Midlands,Mberengwa,Mataga Rural Health Centre
+ZW080506,1,1,0,Masvingo,Masvingo,Nemamwa Rural Health Centre
+ZW07060D,0,1,0,Midlands,Mberengwa,Masase Mission Hospital
+ZW080591,0,0,0,Masvingo,Masvingo,Bondolfi Clinic
+ZW080628,1,0,0,Masvingo,Mwenezi,Mwenezi Clinic
+ZW030722,0,0,0,Mashonaland East,Murewa,Murewa Polyclinic
+ZW000A23,1,1,1,Harare,ha Eastern District,ha Mabvuku PolyClinic
+ZW060220,1,0,0,Matabeleland South,Bulilima,Hingwe Rural Health Centre
+ZW070586,0,1,0,Midlands,Kwekwe,Al Davies Clinic
+ZW01040E,0,1,0,Manicaland,Makoni,St Michael's Tanda Mission Hospital
+ZW040189,0,0,0,Mashonaland West,Chegutu,Padre Pio Poly Clinic
+ZW04040D,0,0,0,Mashonaland West,Makonde,Makonde Christ Hosp
+ZW060732,0,0,0,Matabeleland South,Mangwe,Tshitshi Clinic
+ZW07050B,1,1,0,Midlands,Kwekwe,Silobela District Hospital
+ZW080530,1,0,0,Masvingo,Masvingo,Bere Clinic
+ZW000A41,0,0,0,Harare,ha Southern District,ha Waterfalls Clinic
+ZW030701,1,0,1,Mashonaland East,Murewa,Chitate Rural Health Centre
+ZW08030A,1,1,0,Masvingo,Chivi,Chivi District Hospital
+ZW01010B,1,0,0,Manicaland,Buhera,Birchenough
+ZW030328,1,1,1,Mashonaland East,UMP,Chitimbe Clinic
+ZW020834,0,0,0,Mashonaland Central,Mbire,Chirunya Clinic
+ZW080542,0,1,0,Masvingo,Masvingo,Nyamande Clinic
+ZW05050A,0,0,0,Matabeleland North,Nkayi,Nkayi District Hospital
+ZW010527,0,0,0,Manicaland,Mutare,Chipfatsura
+ZW010134,0,0,0,Manicaland,Buhera,Mutepfe
+ZW070504,0,0,0,Midlands,Kwekwe,Msilahobe Rural Health Centre
+ZW04050B,0,0,0,Mashonaland West,Mhondoro,St Michael's Mission Hospital
+ZW080702,0,0,0,Masvingo,Zaka,Harava Rural Health Centre
+ZW060231,0,0,0,Matabeleland South,Bulilima,Sikhathini Clinic
+ZW07030C,0,0,0,Midlands,Gokwe South,Kana Mission Hospital
+ZW010447,0,0,0,Manicaland,Makoni,Sangano Clinic
+ZW070561,1,1,0,Midlands,Kwekwe,Amaveni Clinic
+ZW03090B,0,0,0,Mashonaland East,Seke,Kunaka Hospital
+ZW020350,0,0,0,Mashonaland Central,Guruve,mc Nyamupfuta Clinic
+ZW090A09,0,0,0,Bulawayo,Emakandeni,Njube Clinic
+ZW090A27,0,0,0,Bulawayo,Emakandeni,Cowdray Park Clinic
+ZW01060B,0,0,0,Manicaland,Mutasa,Bonda Mission Hospital
+ZW05060B,0,0,1,Matabeleland North,Tsholotsho,Siphepha Rural Hospital
+ZW080403,1,0,1,Masvingo,Gutu,Matizha Rural Health Centre
+ZW070627,0,0,0,Midlands,Mberengwa,Chidembeko Clinic
+ZW080606,1,1,0,Masvingo,Mwenezi,Rutenga Clinic
+ZW090A66,1,1,0,Bulawayo,Northern Surbubs,Mahatshula Private Clinic
+ZW020485,0,0,0,Mashonaland Central,Mazowe,FORRESTER
+ZW010419,1,0,0,Manicaland,Makoni,Nyahukwe Rural Health Centre
+ZW000A29,0,0,0,Harare,ha West South West District,ha Mufakose PolyClinic
+ZW070423,1,0,1,Midlands,Gweru,Rubi Clinic
+ZW060425,0,0,0,Matabeleland South,Insiza,Singwango Clinic
+ZW050406,0,0,0,Matabeleland North,Lupane,Lupane Rural Health Centre
+ZW020447,1,1,1,Mashonaland Central,Mazowe,TSUNGUBVI
+ZW020833,0,1,1,Mashonaland Central,Mbire,Mahuwe Clinic
+ZW04060C,0,1,0,Mashonaland West,Sanyati,Sanyati Mission Hospital
+ZW040249,0,0,0,Mashonaland West,Hurungwe,Tengwe Clinic
+ZW020532,0,0,0,Mashonaland Central,Mt Darwin,MATOPE
+ZW070564,0,1,0,Midlands,Kwekwe,Rutendo Clinic
+ZW060362,0,0,0,Matabeleland South,Gwanda,Phakama Clinic
+ZW060626,0,0,0,Matabeleland South,Umzingwane,Habane Clinic
+ZW030706,0,1,0,Mashonaland East,Murewa,Munamba Rural Health Centre
+ZW060230,0,0,0,Matabeleland South,Bulilima,Ndiweni Clinic
+ZW06020B,0,0,0,Matabeleland South,Bulilima,Lady Barring Rural Hospital
+ZW08040E,1,1,0,Masvingo,Gutu,Gutu Mission Hospital
+ZW040624,0,0,0,Mashonaland West,Sanyati,Patchway RDC Clinic
+ZW020534,0,1,1,Mashonaland Central,Mt Darwin,CHITSE
+ZW000A37,0,0,0,Harare,ha Southern District,ha Sunningdale Clinic
+ZW07040A,0,0,0,Midlands,Gweru,Gweru Provincial Hospital
+ZW010325,0,1,0,Manicaland,Chipinge,Chibuwe Clinic
+ZW070445,0,0,0,Midlands,Gweru,Somabhula Clinic
+ZW030248,0,0,0,Mashonaland East,Goromonzi,Kubatsirana Clinic
+ZW010512,0,0,0,Manicaland,Mutare,Nyamazura Rural Health Centre
+ZW010118,1,0,0,Manicaland,Buhera,Garamwera
+ZW010560,0,0,0,Manicaland,MutareCity,Hobhouse Clinic
+ZW01050E,0,1,0,Manicaland,Mutare,Marange Rural Hospital
+ZW070313,1,1,0,Midlands,Gokwe South,Cheziya Clinic
+ZW06070E,0,0,0,Matabeleland South,Mangwe,Embakwe Mission Hospital
+ZW030990,0,0,1,Mashonaland East,Seke,Epworth Mission Clinic
+ZW010433,1,1,0,Manicaland,Makoni,Rukweza Clinic
+ZW080602,1,0,0,Masvingo,Mwenezi,Chirindi Rural Health Centre
+ZW030326,0,0,0,Mashonaland East,UMP,Chikuhwa Clinic
+ZW040621,1,0,0,Mashonaland West,Sanyati,Chirikiti - 100267 - Council Clinic
+ZW090A14,0,0,1,Bulawayo,Nkulumane,Dr Shennan Clinic
+ZW080305,0,0,0,Masvingo,Chivi,Razi Rural Health Centre
+ZW020427,0,0,0,Mashonaland Central,Mazowe,JINGAMVURA
+ZW000A47,1,1,0,Harare,ha Eastern District,ha Mabvuku Satellite
+ZW010693,0,0,1,Manicaland,Mutasa,St Augustine's Clinic
+ZW030340,0,0,0,Mashonaland East,UMP,Hombiro Clinic
+ZW030504,0,0,0,Mashonaland East,Marondera,Kushinga Phikhelela Rural Health Centre
+ZW060506,0,1,0,Matabeleland South,Matobo,Fumugwe
+ZW090A02,1,0,1,Bulawayo,Nkulumane,Tshabalala Clinic
+ZW000B04,0,0,0,Harare,Chitungwiza,Zengeza Clinic
+ZW060429,0,1,0,Matabeleland South,Insiza,Saphila RDC
+ZW060131,0,1,0,Matabeleland South,Beitbridge,Zezani Clinic
+ZW030927,0,0,0,Mashonaland East,Seke,Overspill Clinic
+ZW060234,0,0,0,Matabeleland South,Bulilima,Bezu Clinic 
+ZW060368,1,0,0,Matabeleland South,Gwanda,Silikwe Clinic
+ZW010136,1,0,1,Manicaland,Buhera,Muzokomba
+ZW07060B,1,0,0,Midlands,Mberengwa,Jeka Rural Hospital
+ZW04020A,0,0,0,Mashonaland West,Hurungwe,Karoi District Hospital
+ZW090A04,1,0,1,Bulawayo,Northern Surbubs,Entumbane Clinic
+ZW070607,0,1,0,Midlands,Mberengwa,Wanezi Rural Health Centre
+ZW010441,0,0,0,Manicaland,Makoni,Mubvurungwa Clinic
+ZW04070E,0,0,0,Mashonaland West,Zvimba,Father O'Hea Mission Hospital
+ZW080536,1,0,0,Masvingo,Masvingo,Zano Clinic
+ZW020345,0,0,0,Mashonaland Central,Guruve,mc Mugarakamwe Clinic
+ZW070588,0,0,0,Midlands,Kwekwe,Dambridge Clinic
+ZW020475,1,1,1,Mashonaland Central,Mazowe,HENDERSON
+ZW04040B,0,0,0,Mashonaland West,Makonde,St Rupert's Mission Hospital
+ZW030503,1,0,1,Mashonaland East,Marondera,Dimbiti Rural Health Centre
+ZW070424,0,0,0,Midlands,Gweru,Chinamasa Clinic
+ZW070426,0,0,0,Midlands,Gweru,Maboleni Clinic
+ZW030727,0,0,0,Mashonaland East,Murewa,Kadzere Rural Health Centre
+ZW080526,0,1,0,Masvingo,Masvingo,Chatikobo Clinic
+ZW05070A,0,0,0,Matabeleland North,Umguza,Nyamandlovu District Hospital
+ZW070463,0,0,1,Midlands,Gweru,Mkoba PolyClinic
+ZW080507,1,0,0,Masvingo,Masvingo,Nyikavanhu Rural Health Centre
+ZW080601,1,1,1,Masvingo,Mwenezi,Chimbudzi Rural Health Centre
+ZW04010A,0,0,0,Mashonaland West,Chegutu,Chegutu District Hospital
+ZW010536,0,1,0,Manicaland,Mutare,Nzvenga Clinic
+ZW080308,1,1,1,Masvingo,Chivi,Nyahombe Rural Health Centre
+ZW020425,1,0,1,Mashonaland Central,Mazowe,BARE
+ZW040461,0,0,0,Mashonaland West,Makonde,Chinhoyi Munic Clinic
+ZW070462,1,0,0,Midlands,Gweru,Mkoba I Clinic
+ZW080324,1,0,1,Masvingo,Chivi,Zivuku Clinic
+ZW030529,0,0,0,Mashonaland East,Marondera,Chipararwe Council Clinic
+ZW030728,0,0,0,Mashonaland East,Murewa,Nyamutumbu Rural Health Centre
+ZW060705,0,0,0,Matabeleland South,Mangwe,Marula Clinic
+ZW000A34,0,1,0,Harare,ha South Western District,ha Rutsanana PolyClinic
+ZW060606,0,0,0,Matabeleland South,Umzingwane,Mzingwane RHC
+ZW040147,0,0,0,Mashonaland West,Chegutu,Katanga Utano Clinic
+ZW050532,0,0,0,Matabeleland North,Nkayi,Guwe Clinic
+ZW030226,0,0,0,Mashonaland East,Goromonzi,Chinyika Clinic
+ZW080504,0,0,0,Masvingo,Masvingo,Musvovi Rural Health Centre
+ZW060501,0,1,0,Matabeleland South,Matobo,Natisa Rural Health Centre
+ZW010436,1,0,0,Manicaland,Makoni,Tsanzaguru Clinic
+ZW000A27,1,1,0,Harare,ha Southern District,ha Mbare PolyClinic
+ZW070396,1,1,0,Midlands,Gokwe South,Sessame Clinic
+ZW010104,0,0,0,Manicaland,Buhera,Mombeyarara
+ZW060408,0,1,0,Matabeleland South,Insiza,Gwanda State University
+ZW080630,1,0,0,Masvingo,Mwenezi,Mlelezi Clinic
+ZW080503,0,0,0,Masvingo,Masvingo,Mushandike Rural Health Centre
+ZW020841,0,0,0,Mashonaland Central,Mbire,Chidodo Clinic
+ZW070605,0,1,1,Midlands,Mberengwa,Mwanezi Rural Health Centre
+ZW010511,0,0,0,Manicaland,Mutare,Nyagundi Clinic
+ZW030247,0,0,0,Mashonaland East,Goromonzi,Henry John Reimer Clinic
+ZW060235,0,0,0,Matabeleland South,Bulilima,Masendu Clinic
+ZW080408,1,0,1,Masvingo,Gutu,Chitando Rural Health Centre
+ZW06040B,0,1,0,Matabeleland South,Insiza,Shangani Rural Hospital
+ZW010544,0,0,0,Manicaland,Mutare,Chipendeke Clinic
+ZW080583,0,0,0,Masvingo,Masvingo,Runyararo Clinic
+ZW080535,0,0,0,Masvingo,Masvingo,Mucheke Clinic
+ZW030704,0,0,0,Mashonaland East,Murewa,Kadenge Rural Health Centre
+ZW05050C,0,0,0,Matabeleland North,Nkayi,Mbuma Mission Hospital
+ZW05050B,0,0,0,Matabeleland North,Nkayi,Dakamela Rural Hospital
+ZW070505,0,1,0,Midlands,Kwekwe,Nyoni Rural Health Centre
+ZW060430,0,0,0,Matabeleland South,Insiza,Amazon Clinic
+ZW050402,0,1,0,Matabeleland North,Lupane,Dandanda Rural Health Centre
+ZW020503,0,0,0,Mashonaland Central,Mt Darwin,MUKUMBURA
+ZW040407,0,0,0,Mashonaland West,Makonde,Murereka Rural Health Centre
+ZW020506,1,0,0,Mashonaland Central,Mt Darwin,TSAKARE
+ZW070301,0,0,0,Midlands,Gokwe South,Gwanyika Rural Health Centre
+ZW000A25,1,1,0,Harare,ha Southern District,ha Matapi Clinic
+ZW02050A,0,0,0,Mashonaland Central,Mt Darwin,DARWIN HOSPITAL
+ZW080608,1,0,0,Masvingo,Mwenezi,Chingwizi Clinic
+ZW020348,0,0,0,Mashonaland Central,Guruve,mc Brandon Clinic
+ZW030225,0,0,0,Mashonaland East,Goromonzi,Chinamhora Clinic
+ZW070628,1,1,0,Midlands,Mberengwa,Chingezi Clinic
+ZW05040A,0,0,0,Matabeleland North,Lupane,St Paul's Mission Hospital
+ZW060502,0,0,0,Matabeleland South,Matobo,Sankonjane Rural Health Centre
+ZW01010A,0,0,0,Manicaland,Buhera,Buhera Rural Clinic
+ZW01060A,0,0,0,Manicaland,Mutasa,Tsonzo Rural Hospital
+ZW020326,0,1,0,Mashonaland Central,Guruve,mc Bakasa Clinic
+ZW020308,0,0,0,Mashonaland Central,Guruve,mc Guruve Centre Rural Health Clinic
+ZW070428,0,0,0,Midlands,Gweru,Makepesi Clinic
+ZW06060A,0,0,0,Matabeleland South,Umzingwane,Esigodini District Hospital
+ZW020502,0,1,0,Mashonaland Central,Mt Darwin,KAMUTSENZERE
+ZW070306,0,1,1,Midlands,Gokwe South,Mateta Rural Health Centre
+ZW080202,0,0,0,Masvingo,Chiredzi,Chilonga Rural Health Centre
+ZW010403,0,0,0,Manicaland,Makoni,Chinhenga Rural Health Centre
+ZW000B03,0,0,0,Harare,Chitungwiza,St Mary's Clinic
+ZW050703,0,0,1,Matabeleland North,Umguza,Igusi Rural Health Centre
+ZW080631,1,0,0,Masvingo,Mwenezi,Boterere Clinic
+ZW04060A,1,0,0,Mashonaland West,Sanyati,Kadoma General Hospital
+ZW020476,0,0,0,Mashonaland Central,Mazowe,I/DUKE
+ZW030729,0,0,0,Mashonaland East,Murewa,Shambamuto Rural Health Centre
+ZW000A02,0,0,0,Harare,ha Harare Central South Eastern District,ha Arcadia Clinic
+ZW010515,0,0,0,Manicaland,Mutare,Bvumba
+ZW080430,0,0,0,Masvingo,Gutu,Munyikwa Clinic
+ZW070333,0,0,0,Midlands,Gokwe South,Manoti Clinic
+ZW06040C,0,0,0,Matabeleland South,Insiza,Avoca Rural Hospital
+ZW070566,0,1,0,Midlands,Kwekwe,Sherwood Clinic
+ZW06030B,0,0,0,Matabeleland South,Gwanda,Manama Mission Hospital
+ZW07040C,1,0,0,Midlands,Gweru,Chikwingwizha Mission Hospital
+ZW010328,0,1,0,Manicaland,Chipinge,Kondo Clinic
+ZW000A28,0,0,0,Harare,ha Northern District,ha Mount Pleasant Clinic
+ZW030562,0,0,0,Mashonaland East,Marondera,Nyameni Council Clinic
+ZW040426,0,0,0,Mashonaland West,Makonde,Mukohwe RDC Clinic
+ZW03020D,0,1,0,Mashonaland East,Goromonzi,Chikwaka Rural Hospital
+ZW02030B,0,0,0,Mashonaland Central,Guruve,mc Guruve District Hospital
+ZW080725,0,0,0,Masvingo,Zaka,Bota Clinic
+ZW060202,0,0,0,Matabeleland South,Bulilima,Huwana Clinic
+ZW060228,0,0,0,Matabeleland South,Bulilima,Madlambudzi Clinic
+ZW01030C,0,0,0,Manicaland,Chipinge,Mount Selinda Mission Hospital
+ZW06050C,1,1,0,Matabeleland South,Matobo,Matopo Rural Hospital
+ZW020801,0,0,0,Mashonaland Central,Mbire,Masoka Clinic
+ZW060632,0,0,0,Matabeleland South,Umzingwane,Irrisvale RHC
+ZW07030A,1,1,1,Midlands,Gokwe South,Gokwe South District Hospital
+ZW04010B,0,0,0,Mashonaland West,Chegutu,Mhondoro Rural Hospital
+ZW040790,0,0,0,Mashonaland West,Zvimba,Bervking
+ZW060208,0,0,0,Matabeleland South,Bulilima,Nswazwi Rural Health Centre
+ZW060630,0,0,0,Matabeleland South,Umzingwane,Nswazi Clinic
+ZW07060A,0,0,0,Midlands,Mberengwa,Mberengwa District Hospital
+ZW060631,0,0,0,Matabeleland South,Umzingwane,Ntshamathe Clinic
+ZW070414,0,1,0,Midlands,Gweru,ZPS Whawha Prison Clinic
+ZW000A17,1,0,0,Harare,ha Northern District,ha Hatcliffe PolyClinic
+ZW000A20,0,0,0,Harare,ha Western District,ha Kuwadzana PolyClinic
+ZW040235,0,0,0,Mashonaland West,Hurungwe,Moy RDC Clinic
+ZW020525,0,1,1,Mashonaland Central,Mt Darwin,CHAWANDA
+ZW060703,0,0,0,Matabeleland South,Mangwe,Ingwizi Rural Health Centre
+ZW08030C,0,0,0,Masvingo,Chivi,Berejena Mission Hospital
+ZW08060A,0,0,0,Masvingo,Mwenezi,Neshuro District Hospital
+ZW010442,0,0,0,Manicaland,Makoni,Vengere Clinic
+ZW06070D,0,0,0,Matabeleland South,Mangwe,St Annes Mission Hospital (Brunapeg)
+ZW050533,0,0,0,Matabeleland North,Nkayi,Gwelutshena Clinic
+ZW020406,0,0,1,Mashonaland Central,Mazowe,DONJE
+ZW040748,0,0,0,Mashonaland West,Zvimba,Trelawney RDC Clinic
+ZW060330,1,1,0,Matabeleland South,Gwanda,Sengezane Clinic
+ZW000A18,0,1,0,Harare,ha South Western District,ha Highfield PolyClinic
+ZW07050C,0,0,0,Midlands,Kwekwe,Zhombe Mission Hospital
+ZW040433,0,0,0,Mashonaland West,Makonde,Runene RDCClinic
+ZW030750,1,0,1,Mashonaland East,Murewa,Muchinjike Rural Health Centre
+ZW000A53,0,1,0,Harare,ha Southern District,ha Hopley Clinic
+ZW040206,0,0,0,Mashonaland West,Hurungwe,Zvipani Rural Health Centre
+ZW080211,0,0,1,Masvingo,Chiredzi,Faversham Clinic
+ZW070562,0,0,0,Midlands,Kwekwe,Mbizo I Clinic
+ZW020830,0,0,0,Mashonaland Central,Mbire,Chikafa Clinic
+ZW010563,0,0,0,Manicaland,MutareCity,Dangamvura Clinic
+ZW040162,0,0,0,Mashonaland West,Chegutu,Chinengundu Clinic
+ZW050534,0,0,0,Matabeleland North,Nkayi,Sesemba Clinic
+ZW01010C,0,0,0,Manicaland,Buhera,Murambinda
+ZW05060C,0,0,0,Matabeleland North,Tsholotsho,Phumula Mission Hospital
+ZW030303,0,0,0,Mashonaland East,UMP,Sowa Rural Health Centre
+ZW030330,0,0,0,Mashonaland East,UMP,Manyika Clinic
+ZW070413,0,0,0,Midlands,Gweru,ZPS Connemara Prison Clinic
+ZW050428,0,0,0,Matabeleland North,Lupane,Lake-Alice Clinic
+ZW010562,0,0,0,Manicaland,MutareCity,Chikanga Clinic
+ZW060792,0,0,0,Matabeleland South,Mangwe,Empandeni Mission Clinic
+ZW060525,0,0,0,Matabeleland South,Matobo,Mbembeswane Clinic
+ZW070559,0,1,0,Midlands,Kwekwe,Redcliff Clinic
+ZW010506,0,1,0,Manicaland,Mutare,Muromo Rural Health Centre
+ZW010635,0,0,0,Manicaland,Mutasa,Zindi Clinic
+ZW040299,0,0,0,Mashonaland West,Hurungwe,Doro Clinic
+ZW090A65,0,0,0,Bulawayo,Northern Surbubs,Emgwaninini
+ZW010492,0,0,0,Manicaland,Makoni,Arnoldine Mission Clinic
+ZW020446,0,0,0,Mashonaland Central,Mazowe,HOLME EDEN
+ZW000A26,0,0,0,Harare,ha Southern District,ha Mbare Hostels Clinic
+ZW07060E,0,0,0,Midlands,Mberengwa,Musume Mission Hospital
+ZW050228,0,0,0,Matabeleland North,Bubi,Majiji Clinic
+ZW020347,0,0,0,Mashonaland Central,Guruve,mc Camsasa Clinic
+ZW050603,0,0,0,Matabeleland North,Tsholotsho,Makhaza Rural Health Centre
+ZW050729,0,0,1,Matabeleland North,Umguza,Ntabazinduna Clinic
+ZW040629,1,0,0,Mashonaland West,Sanyati,Muuyu - 101186 - Council Clinic
+ZW02040A,0,0,0,Mashonaland Central,Mazowe,CONCESSION
+ZW000A30,0,0,0,Harare,ha Harare Central South Eastern District,ha Parirenyatwa Clinic
+ZW000A39,0,1,0,Harare,ha Western District,ha Warren Park PolyClinic
+ZW020831,1,0,0,Mashonaland Central,Mbire,Gonono Clinic
+ZW020484,0,0,0,Mashonaland Central,Mazowe,DAMBO
+ZW070325,0,0,0,Midlands,Gokwe South,Chemahororo Clinic
+ZW060605,0,0,0,Matabeleland South,Umzingwane,Mpisini RHC
+ZW070330,0,0,0,Midlands,Gokwe South,Krima Clinic
+ZW050526,0,0,0,Matabeleland North,Nkayi,Nesigwe Clinic
+ZW08040A,0,0,0,Masvingo,Gutu,Gutu Rural Hospital
+ZW07060C,0,1,0,Midlands,Mberengwa,Mnene Mission Hospital
+ZW02040E,0,0,1,Mashonaland Central,Mazowe,MVURWI
+ZW050625,0,0,0,Matabeleland North,Tsholotsho,Bubude Clinic
+ZW010538,0,0,0,Manicaland,Mutare,Odzi Clinic
+ZW020430,0,0,0,Mashonaland Central,Mazowe,Christon Bank
+ZW000B01,1,0,0,Harare,Chitungwiza,Seke South Clinic
+ZW070633,0,0,0,Midlands,Mberengwa,Mketi Clinic
+ZW000A38,1,1,1,Harare,ha Eastern District,ha Tafara FHS Clinic
+ZW060404,0,1,0,Matabeleland South,Insiza,Mabuze Rural Health Centre
+ZW070639,1,1,0,Midlands,Mberengwa,Mposi Clinic
+ZW020410,0,0,0,Mashonaland Central,Mazowe,DAVAAR
+ZW020305,0,0,0,Mashonaland Central,Guruve,mc Negomo Rural Health Centre
+ZW06050A,0,0,0,Matabeleland South,Matobo,Maphisa District Hospital
+ZW010410,0,0,0,Manicaland,Makoni,Katsenga Rural Health Centre
+ZW010349,0,0,0,Manicaland,Chipinge,Chipinge Town Clinic
+ZW010535,0,1,0,Manicaland,Mutare,Mushunje Clinic
+ZW060676,0,1,0,Matabeleland South,Umzingwane,How Mine Clinic
+ZW090A18,0,0,0,Bulawayo,Northern Surbubs,Northern Suburbs Clinic
+ZW060601,0,0,0,Matabeleland South,Umzingwane,Kumbudzi RHC
+ZW040228,0,0,0,Mashonaland West,Hurungwe,Nyamakate Clinic
+ZW070636,0,0,0,Midlands,Mberengwa,Ngungumbane Clinic
+ZW030203,0,0,0,Mashonaland East,Goromonzi,Mwanza Rural Health Centre
+ZW080540,0,0,0,Masvingo,Masvingo,Guwa Rural Health Centre
+ZW010627,0,0,0,Manicaland,Mutasa,Hauna Clinic
+ZW010539,0,0,0,Manicaland,Mutare,Zimunya Clinic
+ZW070625,0,0,0,Midlands,Mberengwa,Bonda Clinic
+ZW090A01,0,0,1,Bulawayo,Emakandeni,Emakhandeni Clinic
+ZW010427,0,0,1,Manicaland,Makoni,Nyazura Clinic
+ZW080533,0,0,0,Masvingo,Masvingo,Shumba Clinic
+ZW000A11,0,0,0,Harare,ha South Western District,ha Glen Norah Satellite Clinic
+ZW020535,0,0,0,Mashonaland Central,Mt Darwin,CHITEPO
+ZW040502,0,0,0,Mashonaland West,Mhondoro,Donain Rural Health Centre
+ZW010333,0,0,0,Manicaland,Chipinge,Mutema Clinic
+ZW06050E,0,0,0,Matabeleland South,Matobo,St Joseph's Mission Hospital
+ZW060508,1,1,0,Matabeleland South,Matobo,Ndabankulu Clinic
+ZW060125,0,0,0,Matabeleland South,Beitbridge,Chaswingo Clinic
+ZW000A46,1,0,0,Harare,ha Eastern District,ha Highlands Primary Care Clinic
+ZW070637,0,0,0,Midlands,Mberengwa,Svita Clinic
+ZW040747,0,0,0,Mashonaland West,Zvimba,TRB RDC Clinic
+ZW020501,0,1,1,Mashonaland Central,Mt Darwin,DOTITO
+ZW030334,0,0,0,Mashonaland East,UMP,Nyakasoro Clinic
+ZW03050C,0,0,0,Mashonaland East,Marondera,Mahusekwa District Hospital
+ZW010336,0,0,0,Manicaland,Chipinge,Veneka Clinic
+ZW010491,0,0,0,Manicaland,Makoni,Nyazura Mission Clinic
+ZW060727,0,0,0,Matabeleland South,Mangwe,Madabe Clinic
+ZW01050C,0,0,0,Manicaland,Mutare,Sakubva District Hospital
+ZW010545,1,0,0,Manicaland,Mutare,Burma Valley Clinic
+ZW080425,0,1,0,Masvingo,Gutu,Cheshuro Clinic
+ZW060402,0,1,0,Matabeleland South,Insiza,Gwatemba Rural Health Centre
+ZW020346,0,0,0,Mashonaland Central,Guruve,mc Kemutamba Clinic
+ZW010125,0,0,0,Manicaland,Buhera,Bangure
+ZW000A08,0,0,0,Harare,ha Harare Central South Eastern District,ha Braeside FHS Clinic
+ZW080391,0,1,0,Masvingo,Chivi,Chivi Mission Clinic
+ZW01030D,0,0,0,Manicaland,Chipinge,St Peters Hospital
+ZW000A15,0,0,0,Harare,ha Eastern District,ha Greendale FHS Clinic
+ZW010337,0,1,0,Manicaland,Chipinge,Zamuchiya Clinic
+ZW030301,0,0,0,Mashonaland East,UMP,Kafura Rural Health Centre
+ZW060326,0,0,0,Matabeleland South,Gwanda,Kafusi Clinic
+ZW040522,0,0,0,Mashonaland West,Mhondoro,Mukarati - 101092 - Council Clinic
+ZW020507,0,1,0,Mashonaland Central,Mt Darwin,MUTUNGAGORE
+ZW060709,0,0,0,Matabeleland South,Mangwe,Bango Rural Health Centre
+ZW010135,0,0,0,Manicaland,Buhera,Mutiusinazita
+ZW020333,0,0,0,Mashonaland Central,Guruve,mc Matsvitsi Clinic
+ZW040227,0,0,0,Mashonaland West,Hurungwe,Kazangarare Clinic
+ZW020339,0,0,0,Mashonaland Central,Guruve,mc Nyakapupu Clinic
+ZW070403,0,0,0,Midlands,Gweru,Mangwandi Rural Health Centre
+ZW050629,0,0,1,Matabeleland North,Tsholotsho,Madlangombe Clinic
+ZW050750,0,0,0,Matabeleland North,Umguza,Umguza Council Clinic 
+ZW020835,1,0,0,Mashonaland Central,Mbire,Nyambudzi Clinic
+ZW010127,1,0,1,Manicaland,Buhera,Chapanduka
+ZW01040C,0,0,0,Manicaland,Makoni,Makoni Rural Hospital
+ZW030252,0,0,0,Mashonaland East,Goromonzi,St Joseph's Clinic
+ZW070526,0,0,0,Midlands,Kwekwe,Exchange Clinic
+ZW080491,0,0,0,Masvingo,Gutu,Serima Mission Hospital
+ZW060625,0,0,0,Matabeleland South,Umzingwane,Esibomvu Clinic
+ZW000A0D,1,1,0,Harare,ha Western District,Wilkins Infectious Disease Hospital
+ZW010510,0,0,0,Manicaland,Mutare,Munyarari Clinic
+ZW000A07,0,0,0,Harare,ha Northern District,ha Borrowdale Clinic
+ZW010561,0,1,0,Manicaland,MutareCity,MutareCity Health Clinic
+ZW010348,0,0,0,Manicaland,Chipinge,Junction Gate Clinic
+ZW000A114,0,0,0,Harare,ha West South West District,ha Mufakose FHS
+ZW070629,0,0,0,Midlands,Mberengwa,Makuwerere Clinic
+ZW030501,0,0,0,Mashonaland East,Marondera,Border Church Rural Health Centre
+ZW010440,0,0,0,Manicaland,Makoni,Headlands Clinic
+ZW060206,0,0,0,Matabeleland South,Bulilima,Matjinge Rural Health Centre
+ZW060325,0,0,0,Matabeleland South,Gwanda,Buvuma Clinic
+ZW060303,0,0,0,Matabeleland South,Gwanda,Nhwali RHC
+ZW080233,0,0,0,Masvingo,Chiredzi,Tshovani Clinic
+ZW080729,0,0,0,Masvingo,Zaka,Chiredzana Clinic
+ZW050502,0,0,0,Matabeleland North,Nkayi,Mateme Rural Health Centre
+ZW070318,0,0,0,Midlands,Gokwe South,Njelele clinic
+ZW020477,0,0,0,Mashonaland Central,Mazowe,MAZ MINE
+ZW040127,0,0,0,Mashonaland West,Chegutu,Mhondoro North Clinic
+ZW070554,0,0,0,Midlands,Kwekwe,Torwood Clinic
+ZW030901,0,0,0,Mashonaland East,Seke,Acton Reynolds Rural Health Centre
+ZW040447,0,0,0,Mashonaland West,Makonde,Matoranjera RDC Clinic
+ZW080739,0,0,0,Masvingo,Zaka,Jerera Satellite Clinic
+ZW060328,0,0,0,Matabeleland South,Gwanda,Mzimuni Clinic
+ZW070527,0,1,0,Midlands,Kwekwe,Malisa Joshepha Clinic
+ZW04020B,0,0,0,Mashonaland West,Hurungwe,Hurungwe Rural Hospital
+ZW080402,0,0,0,Masvingo,Gutu,Majada Rural Health Centre
+ZW060733,0,0,0,Matabeleland South,Mangwe,Sanzukwi Clinic
+ZW01060F,0,0,0,Manicaland,Mutasa,Hauna District Hospital
+ZW020528,0,0,1,Mashonaland Central,Mt Darwin,PACHANZA
+ZW01040D,0,0,0,Manicaland,Makoni,Nedewedzo Rural Hospital
+ZW040405,0,0,0,Mashonaland West,Makonde,Kamhonde Rural Health Centre
+ZW080427,0,0,0,Masvingo,Gutu,Dewure Clinic
+ZW010131,0,0,0,Manicaland,Buhera,Chiweshe
+ZW000A2601,0,0,0,Harare,ha Southern District,ha Cceshar Clinic
+ZW090A0E,0,0,0,Bulawayo,Northern Surbubs,Thorngrove Infectious Diseases Hospital
+ZW040129,1,0,0,Mashonaland West,Chegutu,Rwizi Clinic
+ZW050257,0,0,0,Matabeleland North,Bubi,Turk Mine Clinic
+ZW050407,0,0,0,Matabeleland North,Lupane,Lupaka Clinic
+ZW000A10,0,0,0,Harare,ha Eastern District,ha Eastley FHS Clinic
+ZW06050D,0,0,0,Matabeleland South,Matobo,Tshelanyemba Mission Hospital
+ZW03070C,0,0,0,Mashonaland East,Murewa,Nhowe Mission Hospital
+ZW020411,0,0,0,Mashonaland Central,Mazowe,VONABO
+ZW070425,0,0,0,Midlands,Gweru,Chiwundura Clinic
+ZW000A42,0,1,0,Harare,ha South Western District,Western Triangle Clinic
+ZW030202,0,0,0,Mashonaland East,Goromonzi,Domboshava Rural Health Centre
+ZW010390,0,0,0,Manicaland,Chipinge,Gwenzi Clinic
+ZW040133,0,0,0,Mashonaland West,Chegutu,Selous Clinic
+ZW08050D,0,1,0,Masvingo,Masvingo,Morgenster Mission Hospital
+ZW030924,0,0,0,Mashonaland East,Seke,Marirangwe Clinic
+ZW040226,0,0,0,Mashonaland West,Hurungwe,Chundu Clinic
+ZW020329,0,0,0,Mashonaland Central,Guruve,mc Chipuriro Clinic
+ZW060104,0,0,0,Matabeleland South,Beitbridge,Majini Rural Health Centre
+ZW070643,0,0,0,Midlands,Mberengwa,Neta Clinic
+ZW07040B,0,0,0,Midlands,Gweru,Gweru District Hospital
+ZW060236,0,0,0,Matabeleland South,Bulilima,Tokwana Clinic
+ZW010312,0,0,0,Manicaland,Chipinge,Paidamoyo Rural Health Centre
+ZW040783,0,0,0,Mashonaland West,Zvimba,Mapinga RDC Clinic
+ZW080704,0,0,0,Masvingo,Zaka,Svuure Rural Health Centre
+ZW030227,0,0,0,Mashonaland East,Goromonzi,Kowoyo Clinic
+ZW020529,0,0,0,Mashonaland Central,Mt Darwin,BVEKE
+ZW010362,0,0,0,Manicaland,Chipinge,Clearwater Clinic
+ZW060735,0,1,0,Matabeleland South,Mangwe,Macingwana 
+ZW080576,0,0,0,Masvingo,Masvingo,Renco Mine Clinic
+ZW040261,0,0,0,Mashonaland West,Hurungwe,Karoi Static Clinic
+ZW010541,1,1,0,Manicaland,Mutare,Dora Clinic
+ZW030304,0,0,0,Mashonaland East,UMP,Marembera Rural Health Centre
+ZW010521,0,0,0,Manicaland,Mutare,Leekuil Takunda Clinic
+ZW060333,0,0,0,Matabeleland South,Gwanda,Lushongwe Clinic
+ZW080405,0,0,0,Masvingo,Gutu,Nemashakwe Rural Health Centre
+ZW01030A,0,0,0,Manicaland,Chipinge,Chipinge District Hospital
+ZW030332,0,0,0,Mashonaland East,UMP,Mashambanhaka Clinic
+ZW020306,0,0,0,Mashonaland Central,Guruve,mc Nyamhondoro Rural Health Centre
+ZW020509,0,0,0,Mashonaland Central,Mt Darwin,CHIBULI
+ZW06040D,0,0,0,Matabeleland South,Insiza,Wanezi Mission Hospital
+ZW070676,0,0,0,Midlands,Mberengwa,Gaha Clinic
+ZW030525,0,0,0,Mashonaland East,Marondera,Masikana Council Clinic
+ZW030925,0,0,0,Mashonaland East,Seke,Muda Clinic
+ZW000A0C,0,0,0,Harare,ha Western District,Beatrice Road Infectious Diseases Hosp
+ZW040487,0,0,0,Mashonaland West,Makonde,Manyamba Rural Health Centre
+ZW04070G,0,0,0,Mashonaland West,Zvimba,Zvimba Rural Hospital
+ZW070336,0,0,0,Midlands,Gokwe South,Musita Clinic
+ZW060503,0,0,0,Matabeleland South,Matobo,Homestead Rural Health Centre
+ZW04070F,0,0,0,Mashonaland West,Zvimba,Mutorashanga RDC Hospital
+ZW060426,0,0,0,Matabeleland South,Insiza,Zhulube Clinic
+ZW01010D,0,0,0,Manicaland,Buhera,Nyashanu
+ZW030245,0,1,0,Mashonaland East,Goromonzi,Bromley Clinic
+ZW030280,1,0,0,Mashonaland East,Goromonzi,Chabwino Clinic
+ZW080404,0,0,0,Masvingo,Gutu,Mutema Rural Health Centre
+ZW010537,0,0,0,Manicaland,Mutare,Rowa Clinic
+ZW060629,0,0,0,Matabeleland South,Umzingwane,Nhlangano Clinic
+ZW010124,0,0,0,Manicaland,Buhera,Mudanda
+ZW030747,0,0,0,Mashonaland East,Murewa,Waterloo Clinic
+ZW060204,0,0,0,Matabeleland South,Bulilima,Makhulela Rural Health Centre
+ZW060602,0,0,0,Matabeleland South,Umzingwane,Mbizingwe RHC
+ZW060635,0,0,0,Matabeleland South,Umzingwane,Dula Clinic
+ZW040448,0,0,0,Mashonaland West,Makonde,Umboe RDC Clinic
+ZW020428,0,0,0,Mashonaland Central,Mazowe,MAKOPE
+ZW040637,0,0,0,Mashonaland West,Sanyati,Rimuka MCH Municipal Clinic
+ZW020331,0,0,0,Mashonaland Central,Guruve,mc Kachuta Clinic
+ZW060363,0,0,0,Matabeleland South,Gwanda,Selonga Clinic
+ZW040725,0,0,0,Mashonaland West,Zvimba,Masiyarwa RDC Clinic
+ZW020445,0,0,0,Mashonaland Central,Mazowe,BELGOWNIE
+ZW040492,0,0,0,Mashonaland West,Makonde,Kamuzingizi - 101919 - Council Clinic
+ZW010591,0,0,0,Manicaland,Mutare,Chikwariro Clinic
+ZW020491,0,0,1,Mashonaland Central,Mazowe,CRANHAM
+ZW08020A,1,1,0,Masvingo,Chiredzi,Chiredzi District Hospital
+ZW020505,0,0,0,Mashonaland Central,Mt Darwin,PFUNYANGUWO
+ZW080534,0,0,0,Masvingo,Masvingo,Zimuto BC Clinic
+ZW030749,1,0,0,Mashonaland East,Murewa,Kambarami Rural Health Centre
+ZW01040F,0,0,0,Manicaland,Makoni,St Therese's Mission Hospital
+ZW010513,0,0,0,Manicaland,Mutare,Zvipiripiri Rural Health Centre
+ZW060178,0,0,0,Matabeleland South,Beitbridge,Makombe Clinic
+ZW000A52,0,1,0,Harare,ha Northern District,ha Highlands FHS Clinic
+ZW080605,0,0,0,Masvingo,Mwenezi,Nehanda Rural Health Centre
+ZW04050A,0,0,0,Mashonaland West,Mhondoro,Ngezi (mhondoro) Rural Hospital
+ZW030905,0,0,0,Mashonaland East,Seke,Masasa Rural Health Centre
+ZW020408,0,0,0,Mashonaland Central,Mazowe,ARDURA
+ZW030281,0,0,0,Mashonaland East,Goromonzi,Xanadu
+ZW040187,0,0,0,Mashonaland West,Chegutu,Beersheba Mission Clinic
+ZW070534,0,0,0,Midlands,Kwekwe,Simana Clinic
+ZW020334,0,0,0,Mashonaland Central,Guruve,mc Gota Clinic
+ZW060636,0,1,0,Matabeleland South,Umzingwane,Shale Clinic
+ZW010507,0,0,0,Manicaland,Mutare,St Werburghs Clinic
+ZW02040D,0,0,0,Mashonaland Central,Mazowe,MAZ CITRUS
+ZW060707,0,0,0,Matabeleland South,Mangwe,Mayobodo Rural Health Centre
+ZW060406,0,0,0,Matabeleland South,Insiza,Nyamime Rural Health Centre
+ZW030586,0,0,0,Mashonaland East,Marondera,Waddilove Clinic
+ZW080528,0,0,0,Masvingo,Masvingo,Mapanzure Clinic
+ZW040525,0,0,0,Mashonaland West,Mhondoro,Twintops RDC Clinic
+ZW010103,0,0,0,Manicaland,Buhera,Madzimbashuro
+ZW060301,0,0,0,Matabeleland South,Gwanda,Gungwe RHC
+ZW020526,0,0,0,Mashonaland Central,Mt Darwin,KAITANO
+ZW060427,0,0,0,Matabeleland South,Insiza,Singwambizi Clinic
+ZW020401,0,0,0,Mashonaland Central,Mazowe,CHINEHASHA
+ZW070531,0,0,0,Midlands,Kwekwe,Senkwazi Clinic
+ZW080541,0,0,0,Masvingo,Masvingo,Gurajena Rural Health Centre
+ZW060477,0,0,0,Matabeleland South,Insiza,Shangani Clinic
+ZW060102,0,0,0,Matabeleland South,Beitbridge,Chituripasi
+ZW01040B,0,0,1,Manicaland,Makoni,Weya Rural Hospital
+ZW020403,0,0,0,Mashonaland Central,Mazowe,SHUTU
+ZW060382,0,0,0,Matabeleland South,Gwanda,West Nicholson Clinic
+ZW060734,0,0,0,Matabeleland South,Mangwe,Maninji Clinic
+ZW060403,0,0,0,Matabeleland South,Insiza,Insiza Rural Health Centre
+ZW020402,0,0,0,Mashonaland Central,Mazowe,NYAKUDYA
+ZW010128,0,0,0,Manicaland,Buhera,Chapwanya
+ZW010508,0,0,0,Manicaland,Mutare,Chiwere Clinic
+ZW010431,0,0,0,Manicaland,Makoni,Nyamidzi Clinic
+ZW030923,0,0,0,Mashonaland East,Seke,Makanyazingwa Clinic
+ZW060592,0,0,0,Matabeleland South,Matobo,Bazha Mission Clinic
+ZW020344,0,0,0,Mashonaland Central,Guruve,mc Birkdale Clinic
+ZW010335,0,0,0,Manicaland,Chipinge,Rimbi Clinic
+ZW070503,0,0,0,Midlands,Kwekwe,Mazebe Rural Health Centre
+ZW030249,0,0,0,Mashonaland East,Goromonzi,Rusike Clinic
+ZW070678,0,0,0,Midlands,Mberengwa,Sandawana Clinic
+ZW050227,0,0,0,Matabeleland North,Bubi,Balanda Clinic
+ZW030772,0,0,0,Mashonaland East,Murewa,Goso Rural Health Centre
+ZW060581,0,0,0,Matabeleland South,Matobo,Gulati Rural Health Center
+ZW080409,0,0,0,Masvingo,Gutu,Zvavahera Rural Health Centre
+ZW060504,0,0,0,Matabeleland South,Matobo,Beula-seula Rural Health Centre
+ZW020478,0,0,0,Mashonaland Central,Mazowe,STORIS
+ZW020533,0,0,0,Mashonaland Central,Mt Darwin,BANDIMBA
+ZW050798,0,0,0,Matabeleland North,Umguza,Umuntu Clinic
+ZW040201,0,0,0,Mashonaland West,Hurungwe,Chirundu Rural Health Centre
+ZW020536,0,0,0,Mashonaland Central,Mt Darwin,MURONGWE
+ZW020504,0,0,0,Mashonaland Central,Mt Darwin,NYAMAHOBOGO
+ZW070603,0,0,0,Midlands,Mberengwa,Mavorovondo Rural Health Centre
+ZW030731,1,0,0,Mashonaland East,Murewa,Matututu Clinic
+ZW070583,0,0,0,Midlands,Kwekwe,Gomola
+ZW060407,0,0,0,Matabeleland South,Insiza,Sanale Rural Health Centre
+ZW060130,0,0,0,Matabeleland South,Beitbridge,Tongwe Clinic
+ZW080525,0,0,0,Masvingo,Masvingo,Charumbira Clinic
+ZW030724,1,0,0,Mashonaland East,Murewa,Chitowa 2 Clinic
+ZW040743,0,0,0,Mashonaland West,Zvimba,Kutama RDC Clinic
+ZW020538,0,0,1,Mashonaland Central,Mt Darwin,KANDEYA
+ZW060109,0,0,0,Matabeleland South,Beitbridge,Nottingham Rural Health Centre
+ZW070634,0,0,0,Midlands,Mberengwa,Negove Clinic
+ZW020508,0,1,0,Mashonaland Central,Mt Darwin,MUTASA
+ZW010439,0,0,0,Manicaland,Makoni,Mufusire Clinic
+ZW020490,0,0,0,Mashonaland Central,Mazowe,HORTA
+ZW030228,0,0,0,Mashonaland East,Goromonzi,Masikandoro Clinic
+ZW010438,0,0,0,Manicaland,Makoni,Maurice Nyagumbo Clinic
+ZW060329,0,0,0,Matabeleland South,Gwanda,Ntalale Clinic
+ZW050781,0,0,0,Matabeleland North,Umguza,TG Silundika Clinic
+ZW050256,0,0,0,Matabeleland North,Bubi,Isabella Mine Clinic
+ZW010406,0,0,0,Manicaland,Makoni,Chinyudze Rural Health Centre
+ZW060729,0,0,0,Matabeleland South,Mangwe,Mambale Clinic
+ZW040134,0,0,0,Mashonaland West,Chegutu,Sandringham Clinic
+ZW010520,0,0,0,Manicaland,Mutare,Matanda Clinic
+ZW040780,0,0,0,Mashonaland West,Zvimba,Dzivaresekwa gvt Clinic
