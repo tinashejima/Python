@@ -1,0 +1,12 @@
+Data Collection: To gather a comprehensive dataset from public data sources.
+
+Feature Engineering: Identifying and selecting relevant features that contribute to diabetes risk.
+
+Model Development: To employ different ML techniques which are recommended for classification tasks and these include Random Forest, Logistic Regression and Support Vector Machine.
+
+Training and  validation:  To train the models assess model performance using and metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
+
+Interpretability integration: To integrate tools such as SHAP (SHapley Additive exPlanations, LIME and Feature Importance) to each of the three models to enhance model transparency.
+
+Model selection: To determine which model performs the best and is suitable for deployment based on the project needs, interpretability insights and assessment metrics.
+Deployment and Evaluation: To deploy the selected model for practical practice and asses its performance
