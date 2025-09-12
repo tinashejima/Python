@@ -30,7 +30,7 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #667eea 0%, rgba 100%);
             min-height: 100vh;
             color: var(--text-color);
         }
@@ -180,13 +180,13 @@
         }
 
         .btn-warning-custom {
-            background: linear-gradient(135deg, var(--warning-color), #d97706);
+            background: linear-gradient(135deg, var(--info-color), #0891b2);
             color: white;
         }
 
         .btn-warning-custom:hover {
             transform: translateY(-1px);
-            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+            box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
         }
 
         .facility-grid {
@@ -495,7 +495,7 @@
             <div class="dashboard-card">
                 <div class="card-header-custom card-header-info">
                     <i class="fas fa-chart-bar"></i>
-                    Facility Status Analysis
+                    Facility Status Analysis by Selected Date
                 </div>
                 <div class="card-body-custom">
                     <form id="queryForm">
