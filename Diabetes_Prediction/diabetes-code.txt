@@ -1,0 +1,244 @@
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, roc_curve, auc
+from sklearn.preprocessing import StandardScaler
+import plotly.graph_objects as go
+import plotly.express as px
+from plotly.subplots import make_subplots
+
+class DiabetesEnsembleModel:
+    def __init__(self):
+        # Initialize individual models
+        self.rf_model = RandomForestClassifier(
+            n_estimators=100, 
+            random_state=42, 
+            max_depth=10,
+            min_samples_split=5
+        )
+        
+        self.lr_model = LogisticRegression(
+            random_state=42, 
+            max_iter=1000,
+            solver='liblinear'
+        )
+        
+        self.svm_model = SVC(
+            random_state=42, 
+            probability=True,
+            kernel='rbf',
+            gamma='scale'
+        )
+        
+        # Create ensemble
+        self.ensemble = VotingClassifier(
+            estimators=[
+                ('rf', self.rf_model),
+                ('lr', self.lr_model),
+                ('svm', self.svm_model)
+            ],
+            voting='soft'
+        )
+        
+        self.scaler = StandardScaler()
+        self.is_trained = False
+        
+    def train(self, X, y):
+        """Train the ensemble model"""
+        # Split data
+        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
+            X, y, test_size=0.2, random_state=42, stratify=y
+        )
+        
+        # Scale features for SVM and Logistic Regression
+        X_train_scaled = self.scaler.fit_transform(self.X_train)
+        X_test_scaled = self.scaler.transform(self.X_test)
+        
+        # Train individual models
+        self.rf_model.fit(self.X_train, self.y_train)
+        self.lr_model.fit(X_train_scaled, self.y_train)
+        self.svm_model.fit(X_train_scaled, self.y_train)
+        
+        # Create scaled ensemble for models that need scaling
+        self.ensemble_scaled = VotingClassifier(
+            estimators=[
+                ('rf', self.rf_model),
+                ('lr', self.lr_model),
+                ('svm', self.svm_model)
+            ],
+            voting='soft'
+        )
+        
+        # We need to create a custom ensemble that handles scaling
+        self.is_trained = True
+        
+        # Store feature names
+        self.feature_names = X.columns.tolist()
+        
+    def predict(self, X):
+        """Make predictions using the ensemble"""
+        if not self.is_trained:
+            raise ValueError("Model must be trained first")
+        
+        # Get predictions from each model
+        rf_pred = self.rf_model.predict(X)
+        
+        X_scaled = self.scaler.transform(X)
+        lr_pred = self.lr_model.predict(X_scaled)
+        svm_pred = self.svm_model.predict(X_scaled)
+        
+        # Majority voting
+        predictions = np.array([rf_pred, lr_pred, svm_pred])
+        ensemble_pred = np.apply_along_axis(
+            lambda x: np.bincount(x).argmax(), 
+            axis=0, 
+            arr=predictions
+        )
+        
+        return ensemble_pred
+    
+    def predict_proba(self, X):
+        """Get prediction probabilities"""
+        if not self.is_trained:
+            raise ValueError("Model must be trained first")
+        
+        # Get probabilities from each model
+        rf_proba = self.rf_model.predict_proba(X)
+        
+        X_scaled = self.scaler.transform(X)
+        lr_proba = self.lr_model.predict_proba(X_scaled)
+        svm_proba = self.svm_model.predict_proba(X_scaled)
+        
+        # Average probabilities
+        ensemble_proba = (rf_proba + lr_proba + svm_proba) / 3
+        
+        return ensemble_proba
+    
+    def get_model_scores(self):
+        """Get individual model scores"""
+        if not self.is_trained:
+            raise ValueError("Model must be trained first")
+        
+        # Predictions on test set
+        rf_pred = self.rf_model.predict(self.X_test)
+        
+        X_test_scaled = self.scaler.transform(self.X_test)
+        lr_pred = self.lr_model.predict(X_test_scaled)
+        svm_pred = self.svm_model.predict(X_test_scaled)
+        
+        scores = {
+            'Random Forest': accuracy_score(self.y_test, rf_pred),
+            'Logistic Regression': accuracy_score(self.y_test, lr_pred),
+            'Support Vector Machine': accuracy_score(self.y_test, svm_pred)
+        }
+        
+        return scores
+    
+    def get_ensemble_score(self):
+        """Get ensemble model score"""
+        if not self.is_trained:
+            raise ValueError("Model must be trained first")
+        
+        ensemble_pred = self.predict(self.X_test)
+        return accuracy_score(self.y_test, ensemble_pred)
+    
+    def plot_confusion_matrix(self):
+        """Plot confusion matrix for ensemble model"""
+        if not self.is_trained:
+            raise ValueError("Model must be trained first")
+        
+        ensemble_pred = self.predict(self.X_test)
+        cm = confusion_matrix(self.y_test, ensemble_pred)
+        
+        fig = px.imshow(
+            cm,
+            labels=dict(x="Predicted", y="Actual", color="Count"),
+            x=['No Diabetes', 'Diabetes'],
+            y=['No Diabetes', 'Diabetes'],
+            color_continuous_scale='Blues',
+            text_auto=True
+        )
+        
+        fig.update_layout(
+            title="Confusion Matrix - Ensemble Model",
+            width=500,
+            height=400
+        )
+        
+        return fig
+    
+    def plot_roc_curves(self):
+        """Plot ROC curves for all models"""
+        if not self.is_trained:
+            raise ValueError("Model must be trained first")
+        
+        fig = go.Figure()
+        
+        # Get probabilities for each model
+        rf_proba = self.rf_model.predict_proba(self.X_test)[:, 1]
+        
+        X_test_scaled = self.scaler.transform(self.X_test)
+        lr_proba = self.lr_model.predict_proba(X_test_scaled)[:, 1]
+        svm_proba = self.svm_model.predict_proba(X_test_scaled)[:, 1]
+        
+        ensemble_proba = self.predict_proba(self.X_test)[:, 1]
+        
+        models = {
+            'Random Forest': rf_proba,
+            'Logistic Regression': lr_proba,
+            'Support Vector Machine': svm_proba,
+            'Ensemble': ensemble_proba
+        }
+        
+        colors = ['blue', 'red', 'green', 'purple']
+        
+        for i, (name, proba) in enumerate(models.items()):
+            fpr, tpr, _ = roc_curve(self.y_test, proba)
+            auc_score = auc(fpr, tpr)
+            
+            fig.add_trace(go.Scatter(
+                x=fpr, y=tpr,
+                mode='lines',
+                name=f'{name} (AUC = {auc_score:.3f})',
+                line=dict(color=colors[i], width=2)
+            ))
+        
+        # Add diagonal line
+        fig.add_trace(go.Scatter(
+            x=[0, 1], y=[0, 1],
+            mode='lines',
+            name='Random Classifier',
+            line=dict(color='black', width=1, dash='dash')
+        ))
+        
+        fig.update_layout(
+            title='ROC Curves Comparison',
+            xaxis_title='False Positive Rate',
+            yaxis_title='True Positive Rate',
+            width=700,
+            height=500
+        )
+        
+        return fig
+    
+    def get_feature_importance(self, model_type='random_forest'):
+        """Get feature importance for specified model"""
+        if not self.is_trained:
+            raise ValueError("Model must be trained first")
+        
+        if model_type == 'random_forest':
+            importance = self.rf_model.feature_importances_
+        elif model_type == 'logistic_regression':
+            importance = np.abs(self.lr_model.coef_[0])
+        else:
+            raise ValueError("Model type must be 'random_forest' or 'logistic_regression'")
+        
+        feature_importance = pd.DataFrame({
+            'feature': self.feature_names,
+            'importance': importance
+        }).sort_values('importance', ascending=False)
+        
+        return feature_importance
