@@ -372,7 +372,88 @@
         </div>
 
         <div class="content-wrapper">
-            <!-- Facilities That Sent Data -->
+            <!-- Facility Selection (move this block here) -->
+            <div class="dashboard-card mb-4">
+                <div class="card-header-custom card-header-info">
+                    <i class="fas fa-list"></i>
+                    Facility Selection
+                </div>
+                <div class="card-body-custom">
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Facility Selection</label>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="selectAllFacilities">
+                            <label class="form-check-label fw-semibold" for="selectAllFacilities">
+                                Select All Facilities
+                            </label>
+                        </div>
+                        <div class="facility-grid">
+                            <div class="facility-item">
+                                <div class="form-check">
+                                    <input class="form-check-input facility-check" type="checkbox" 
+                                           value="ZW090A17" id="facility-ZW090A17" checked>
+                                    <label class="form-check-label" for="facility-ZW090A17">
+                                        <strong>Nketa</strong><br>
+                                        <small class="text-muted">ZW090A17</small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="facility-item">
+                                <div class="form-check">
+                                    <input class="form-check-input facility-check" type="checkbox" 
+                                           value="ZW090A14" id="facility-ZW090A14" checked>
+                                    <label class="form-check-label" for="facility-ZW090A14">
+                                        <strong>Dr. Shennan</strong><br>
+                                        <small class="text-muted">ZW090A14</small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="facility-item">
+                                <div class="form-check">
+                                    <input class="form-check-input facility-check" type="checkbox" 
+                                           value="ZW090A02" id="facility-ZW090A02" checked>
+                                    <label class="form-check-label" for="facility-ZW090A02">
+                                        <strong>Tshabalala</strong><br>
+                                        <small class="text-muted">ZW090A02</small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="facility-item">
+                                <div class="form-check">
+                                    <input class="form-check-input facility-check" type="checkbox" 
+                                           value="ZW090A66" id="facility-ZW090A66" checked>
+                                    <label class="form-check-label" for="facility-ZW090A66">
+                                        <strong>Mahatshula</strong><br>
+                                        <small class="text-muted">ZW090A66</small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="facility-item">
+                                <div class="form-check">
+                                    <input class="form-check-input facility-check" type="checkbox" 
+                                           value="ZW090A12" id="facility-ZW090A12" checked>
+                                    <label class="form-check-label" for="facility-ZW090A12">
+                                        <strong>Princess Margaret</strong><br>
+                                        <small class="text-muted">ZW090A12</small>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="facility-item">
+                                <div class="form-check">
+                                    <input class="form-check-input facility-check" type="checkbox" 
+                                           value="ZW090A07" id="facility-ZW090A07" checked>
+                                    <label class="form-check-label" for="facility-ZW090A07">
+                                        <strong>Magwegwe</strong><br>
+                                        <small class="text-muted">ZW090A07</small>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Active Facilities Monitor -->
             <div class="dashboard-card">
                 <div class="card-header-custom card-header-info">
                     <i class="fas fa-building"></i>
@@ -410,9 +491,9 @@
                 </div>
             </div>
 
-            <!-- Facility Statuses -->
+            <!-- Facility Status Analysis -->
             <div class="dashboard-card">
-                <div class="card-header-custom card-header-warning">
+                <div class="card-header-custom card-header-info">
                     <i class="fas fa-chart-bar"></i>
                     Facility Status Analysis
                 </div>
@@ -428,79 +509,8 @@
                                 <input type="date" class="form-control" id="endDate" value="2025-09-12">
                             </div>
                         </div>
-                        
-                        <div class="mb-4">
-                            <label class="form-label fw-semibold">Facility Selection</label>
-                            <div class="form-check mb-3">
-                                <input class="form-check-input" type="checkbox" id="selectAllFacilities">
-                                <label class="form-check-label fw-semibold" for="selectAllFacilities">
-                                    Select All Facilities
-                                </label>
-                            </div>
-                            <div class="facility-grid">
-                                <div class="facility-item">
-                                    <div class="form-check">
-                                        <input class="form-check-input facility-check" type="checkbox" 
-                                               value="ZW090A17" id="facility-ZW090A17" checked>
-                                        <label class="form-check-label" for="facility-ZW090A17">
-                                            <strong>Nketa</strong><br>
-                                            <small class="text-muted">ZW090A17</small>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="facility-item">
-                                    <div class="form-check">
-                                        <input class="form-check-input facility-check" type="checkbox" 
-                                               value="ZW090A14" id="facility-ZW090A14" checked>
-                                        <label class="form-check-label" for="facility-ZW090A14">
-                                            <strong>Dr. Shennan</strong><br>
-                                            <small class="text-muted">ZW090A14</small>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="facility-item">
-                                    <div class="form-check">
-                                        <input class="form-check-input facility-check" type="checkbox" 
-                                               value="ZW090A02" id="facility-ZW090A02" checked>
-                                        <label class="form-check-label" for="facility-ZW090A02">
-                                            <strong>Tshabalala</strong><br>
-                                            <small class="text-muted">ZW090A02</small>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="facility-item">
-                                    <div class="form-check">
-                                        <input class="form-check-input facility-check" type="checkbox" 
-                                               value="ZW090A66" id="facility-ZW090A66" checked>
-                                        <label class="form-check-label" for="facility-ZW090A66">
-                                            <strong>Mahatshula</strong><br>
-                                            <small class="text-muted">ZW090A66</small>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="facility-item">
-                                    <div class="form-check">
-                                        <input class="form-check-input facility-check" type="checkbox" 
-                                               value="ZW090A12" id="facility-ZW090A12" checked>
-                                        <label class="form-check-label" for="facility-ZW090A12">
-                                            <strong>Princess Margaret</strong><br>
-                                            <small class="text-muted">ZW090A12</small>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="facility-item">
-                                    <div class="form-check">
-                                        <input class="form-check-input facility-check" type="checkbox" 
-                                               value="ZW090A07" id="facility-ZW090A07" checked>
-                                        <label class="form-check-label" for="facility-ZW090A07">
-                                            <strong>Magwegwe</strong><br>
-                                            <small class="text-muted">ZW090A07</small>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </form>
+                    
                     
                     <button class="btn btn-warning-custom btn-custom mb-3" id="fetchFacilityStatuses">
                         <i class="fas fa-analytics"></i>
@@ -607,73 +617,63 @@
 
             // Fetch active facilities
             $('#fetchActiveFacilities').click(function() {
-                const date = $('#activeDate').val();
-                const button = $(this);
-                
-                button.prop('disabled', true).html(
-                    '<div class="loading-spinner"><div class="spinner"></div>Loading...</div>'
-                );
-                
-                $('#activeFacilitiesList').html('<div class="alert alert-info-custom"><i class="fas fa-spinner fa-spin me-2"></i>Loading active facilities...</div>');
-                
-                $.ajax({
-                    url: '/active_facilities',
-                    type: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify({ date: date }),
-                    success: function(response) {
-                        let html = `
-    <div class="table-responsive">
-        <table class="table table-striped table-hover" id="activeFacilitiesTable">
-            <thead>
-                <tr>
-                    <th>Facility</th>
-                    <th>Number of orders requested for the Selected Date</th>
-                    <th>Total requests from facility</th>
-                    <th>Last Request</th>
-                </tr>
-            </thead>
-            <tbody>
-    `;
-    response.facilities.forEach(f => {
-        html += `<tr>
-            <td>${f.facility_name} <br><small class="text-muted">${f.facility_id}</small></td>
-            <td>${f.orders_today}</td>
-            <td>${f.total_orders}</td>
-            <td>${f.last_request ? new Date(f.last_request).toLocaleString() : 'N/A'}</td>
-        </tr>`;
-    });
-    html += `</tbody></table></div>`;
-    $('#activeFacilitiesList').html(html);
-},
-                    error: function(xhr) {
-                        let errorMsg = 'Unknown error';
-                        if (xhr.responseJSON && xhr.responseJSON.error) {
-                            errorMsg = xhr.responseJSON.error;
-                        } else if (xhr.responseText) {
-                            errorMsg = xhr.responseText;
-                        }
-                        $('#activeFacilitiesList').html('<div class="alert alert-danger">Error: ' + errorMsg + '</div>');
-                    },
-                    complete: function() {
-                        button.prop('disabled', false).html('<i class="fas fa-search"></i>Show Facilities');
-                    }
-                });
+    const date = $('#activeDate').val();
+    const facilities = getSelectedFacilities(); // Only selected facilities
+
+    $('#activeFacilitiesList').html('Loading...');
+    $.ajax({
+        url: '/active_facilities',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ date: date, facilities: facilities }),
+        success: function(response) {
+            // Render only selected facilities in the table
+            let html = `
+            <div class="table-responsive">
+                <table class="table table-striped table-hover" id="activeFacilitiesTable">
+                    <thead>
+                        <tr>
+                            <th>Facility</th>
+                            <th>Number of orders requested today</th>
+                            <th>Total requests from facility</th>
+                            <th>Last Request</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            response.facilities.forEach(f => {
+                html += `<tr>
+                    <td>${f.facility_name} <br><small class="text-muted">${f.facility_id}</small></td>
+                    <td>${f.orders_today}</td>
+                    <td>${f.total_orders}</td>
+                    <td>${f.last_request ? new Date(f.last_request).toLocaleString() : 'N/A'}</td>
+                </tr>`;
             });
+            html += `</tbody></table></div>`;
+            $('#activeFacilitiesList').html(html);
+        },
+        error: function(xhr) {
+            let errorMsg = 'Unknown error';
+            if (xhr.responseJSON && xhr.responseJSON.error) {
+                errorMsg = xhr.responseJSON.error;
+            } else if (xhr.responseText) {
+                errorMsg = xhr.responseText;
+            }
+            $('#activeFacilitiesList').html('<div class="alert alert-danger">Error: ' + errorMsg + '</div>');
+        },
+        complete: function() {
+            button.prop('disabled', false).html('<i class="fas fa-search"></i>Show Facilities');
+        }
+    });
+});
 
             // Fetch facility statuses
             $('#fetchFacilityStatuses').click(function() {
     const startDate = $('#startDate').val();
     const endDate = $('#endDate').val();
-    const facilities = ['ZW090A17','ZW090A14','ZW090A02','ZW090A66','ZW090A12','ZW090A07']; // all facilities
+    const facilities = getSelectedFacilities(); // Only selected facilities
 
-    const button = $(this);
-    button.prop('disabled', true).html(
-        '<div class="loading-spinner"><div class="spinner"></div>Loading...</div>'
-    );
-
-    $('#facilityStatusesList').html('<div class="alert alert-info-custom"><i class="fas fa-spinner fa-spin me-2"></i>Loading facility statuses...</div>');
-
+    $('#facilityStatusesList').html('Loading...');
     $.ajax({
         url: '/facility_statuses',
         type: 'POST',
@@ -710,6 +710,15 @@
         }
     });
 });
+
+            // Function to get selected facilities
+function getSelectedFacilities() {
+    const selected = [];
+    $('.facility-check:checked').each(function() {
+        selected.push($(this).val());
+    });
+    return selected;
+}
 
             // Auto-load on page load
             $('#fetchActiveFacilities').click();

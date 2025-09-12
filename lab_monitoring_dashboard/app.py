@@ -97,6 +97,7 @@ def active_facilities():
     try:
         data = request.get_json()
         date = data.get('date')
+        selected_facilities = data.get('facilities', [])
         if not date:
             return jsonify({'error': 'Missing date parameter'}), 400
 
@@ -108,12 +109,11 @@ def active_facilities():
             'ZW090A66': 'Mahatshula',
             'ZW090A07': 'Magwegwe'
         }
-        facilities = list(facility_map.keys())
+        # Use selected facilities if provided, else all
+        facilities = selected_facilities if selected_facilities else list(facility_map.keys())
         conn = get_hive_connection()
         if not conn:
             return jsonify({'error': 'Failed to connect to Hive'}), 500
-
-        import pandas as pd
 
         # Orders for selected date
         query_today = f"""
@@ -126,10 +126,20 @@ def active_facilities():
         GROUP BY encounter_facility_id
         """
 
-        # Total requests and last request
+        # Total requests from 2025-02-18 up to now
         query_total = f"""
-        SELECT encounter_facility_id, COUNT(DISTINCT lab_request_number) AS total_orders,
-               MAX(task_authored_on) AS last_request
+        SELECT encounter_facility_id, COUNT(DISTINCT lab_request_number) AS total_orders
+        FROM fact_lab_request_orders
+        WHERE encounter_facility_id IN ({", ".join([f"'{f}'" for f in facilities])})
+            AND cast(task_authored_on as date) >= '2025-02-18'
+            AND lab = 'MPILO'
+            AND test_type LIKE '%Viral Load%'
+        GROUP BY encounter_facility_id
+        """
+
+        # Last request for each facility
+        query_last = f"""
+        SELECT encounter_facility_id, MAX(task_authored_on) AS last_request
         FROM fact_lab_request_orders
         WHERE encounter_facility_id IN ({", ".join([f"'{f}'" for f in facilities])})
             AND lab = 'MPILO'
@@ -139,13 +149,14 @@ def active_facilities():
 
         df_today = pd.read_sql_query(query_today, conn)
         df_total = pd.read_sql_query(query_total, conn)
+        df_last = pd.read_sql_query(query_last, conn)
 
         results = []
         for fid in facilities:
-            name = facility_map[fid]
+            name = facility_map.get(fid, fid)
             orders_today = int(df_today[df_today['encounter_facility_id'] == fid]['orders_today'].values[0]) if not df_today[df_today['encounter_facility_id'] == fid].empty else 0
             total_orders = int(df_total[df_total['encounter_facility_id'] == fid]['total_orders'].values[0]) if not df_total[df_total['encounter_facility_id'] == fid].empty else 0
-            last_request = df_total[df_total['encounter_facility_id'] == fid]['last_request'].values[0] if not df_total[df_total['encounter_facility_id'] == fid].empty else None
+            last_request = df_last[df_last['encounter_facility_id'] == fid]['last_request'].values[0] if not df_last[df_last['encounter_facility_id'] == fid].empty else None
             results.append({
                 'facility_id': fid,
                 'facility_name': name,
