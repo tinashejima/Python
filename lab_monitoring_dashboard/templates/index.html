@@ -3,140 +3,555 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab Request Orders Query</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <title>Lab Request Orders Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
-        .card { margin-bottom: 20px; }
-        .summary-card { background-color: #f8f9fa; }
+        :root {
+            --primary-color: #2563eb;
+            --primary-hover: #1d4ed8;
+            --secondary-color: #64748b;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --info-color: #06b6d4;
+            --danger-color: #ef4444;
+            --light-bg: #f8fafc;
+            --border-color: #e2e8f0;
+            --text-color: #334155;
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--text-color);
+        }
+
+        .main-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            box-shadow: var(--shadow-lg);
+            margin: 2rem auto;
+            max-width: 1400px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.05) 10px,
+                rgba(255,255,255,0.05) 20px
+            );
+            animation: slide 20s linear infinite;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(-50px) translateY(-50px); }
+            100% { transform: translateX(50px) translateY(50px); }
+        }
+
+        .header h1 {
+            color: white;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.1rem;
+            margin: 0.5rem 0 0 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content-wrapper {
+            padding: 2rem;
+        }
+
+        .dashboard-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            box-shadow: var(--shadow-sm);
+            margin-bottom: 1.5rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .dashboard-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .card-header-custom {
+            padding: 1.5rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .card-header-custom i {
+            font-size: 1.2rem;
+        }
+
+        .card-header-info { background: linear-gradient(135deg, #06b6d4, #0891b2); color: white; }
+        .card-header-warning { background: linear-gradient(135deg, #f59e0b, #d97706); color: white; }
+        .card-header-success { background: linear-gradient(135deg, #10b981, #059669); color: white; }
+
+        .card-body-custom {
+            padding: 1.5rem;
+        }
+
+        .form-control, .form-select {
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+        }
+
+        .form-control:focus, .form-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.15);
+        }
+
+        .btn-custom {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary-custom {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-hover));
+            color: white;
+        }
+
+        .btn-primary-custom:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-info-custom {
+            background: linear-gradient(135deg, var(--info-color), #0891b2);
+            color: white;
+        }
+
+        .btn-info-custom:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+        }
+
+        .btn-warning-custom {
+            background: linear-gradient(135deg, var(--warning-color), #d97706);
+            color: white;
+        }
+
+        .btn-warning-custom:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+        }
+
+        .facility-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .facility-item {
+            background: var(--light-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 0.75rem;
+            transition: all 0.2s ease;
+        }
+
+        .facility-item:hover {
+            background: #f1f5f9;
+            border-color: var(--primary-color);
+        }
+
+        .form-check-input {
+            border-radius: 4px;
+            border: 2px solid var(--border-color);
+        }
+
+        .form-check-input:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .summary-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: block;
+        }
+
+        .stat-label {
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+
+        .loading-spinner {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .spinner {
+            width: 1rem;
+            height: 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top: 2px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .status-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .status-item {
+            background: var(--light-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1rem;
+        }
+
+        .status-item h6 {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .no-orders {
+            color: var(--danger-color);
+            font-style: italic;
+        }
+
+        .status-count {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.25rem 0;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .status-count:last-child {
+            border-bottom: none;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        #resultsTable {
+            margin-bottom: 0;
+        }
+
+        #resultsTable th {
+            background: var(--light-bg);
+            border-color: var(--border-color);
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        .alert-custom {
+            border: none;
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+        }
+
+        .alert-info-custom {
+            background: rgba(6, 182, 212, 0.1);
+            color: #0891b2;
+            border-left: 4px solid var(--info-color);
+        }
+
+        @media (max-width: 768px) {
+            .main-container {
+                margin: 1rem;
+                border-radius: 16px;
+            }
+            
+            .header {
+                padding: 1.5rem;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content-wrapper {
+                padding: 1rem;
+            }
+            
+            .facility-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
-     
-        
-        <!-- Facilities That Sent Data -->
-        <div class="card mb-3">
-            <div class="card-header bg-info text-white">
-                <h5 class="mb-0">Facilities That Sent Data</h5>
-            </div>
-            <div class="card-body">
-                <div class="row mb-2">
-                    <div class="col-md-6">
-                        <input type="date" id="activeDate" class="form-control" value="{{ default_end }}">
+    <div class="main-container">
+        <div class="header">
+            <h1><i class="fas fa-flask me-3"></i>Lab Request Orders Monitoring Dashboard</h1>
+           
+        </div>
+
+        <div class="content-wrapper">
+            <!-- Facilities That Sent Data -->
+            <div class="dashboard-card">
+                <div class="card-header-custom card-header-info">
+                    <i class="fas fa-building"></i>
+                    Active Facilities Monitor
+                </div>
+                <div class="card-body-custom">
+                    <div class="row align-items-end mb-3">
+                        <div class="col-md-8">
+                            <label for="activeDate" class="form-label fw-semibold">Select Date</label>
+                            <input type="date" id="activeDate" class="form-control" value="2025-09-12">
+                        </div>
+                        <div class="col-md-4 mt-2 mt-md-0">
+                            <button class="btn btn-info-custom btn-custom w-100" id="fetchActiveFacilities">
+                                <i class="fas fa-search"></i>
+                                Show Facilities
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <button class="btn btn-info" id="fetchActiveFacilities">Show Facilities</button>
+                    <div id="activeFacilitiesList">
+                        <!-- Replace #activeFacilitiesList content with this table -->
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover" id="activeFacilitiesTable">
+                                <thead>
+                                    <tr>
+                                        <th>Facility</th>
+                                        <th>Number of orders requested for the Selected Date</th>
+                                        <th>Total requests from facility</th>
+                                        <th>Last Request</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-                <div id="activeFacilitiesList"></div>
             </div>
 
-
-
-            
-        </div>
-        
-        <!-- Facility Statuses for Selected Date -->
-        <div class="card mb-3">
-            <div class="card-header bg-warning text-dark">
-                <h5 class="mb-0">Facility Statuses for Selected Date</h5>
-            </div>
-
-            <div class="card-body">
-                <form id="queryForm">
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <label for="startDate" class="form-label">Start Date</label>
-                            <input type="date" class="form-control" id="startDate" value="{{ default_start }}">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="endDate" class="form-label">End Date</label>
-                            <input type="date" class="form-control" id="endDate" value="{{ default_end }}">
-                        </div>
-                    </div>
-                    
-                    <div class="row mb-3">
-                        <div class="col-12">
-                            <label class="form-label">Facilities</label>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="selectAllFacilities">
-                                <label class="form-check-label" for="selectAllFacilities">Select All Facilities</label>
+            <!-- Facility Statuses -->
+            <div class="dashboard-card">
+                <div class="card-header-custom card-header-warning">
+                    <i class="fas fa-chart-bar"></i>
+                    Facility Status Analysis
+                </div>
+                <div class="card-body-custom">
+                    <form id="queryForm">
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label for="startDate" class="form-label fw-semibold">Start Date</label>
+                                <input type="date" class="form-control" id="startDate" value="2025-09-12">
                             </div>
-                            <div class="row mt-2">
-                                {% for facility in facilities %}
-                                <div class="col-md-4">
+                            <div class="col-md-6">
+                                <label for="endDate" class="form-label fw-semibold">End Date</label>
+                                <input type="date" class="form-control" id="endDate" value="2025-09-12">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Facility Selection</label>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="selectAllFacilities">
+                                <label class="form-check-label fw-semibold" for="selectAllFacilities">
+                                    Select All Facilities
+                                </label>
+                            </div>
+                            <div class="facility-grid">
+                                <div class="facility-item">
                                     <div class="form-check">
                                         <input class="form-check-input facility-check" type="checkbox" 
-                                               value="{{ facility.id }}" id="facility-{{ facility.id }}" checked>
-                                        <label class="form-check-label" for="facility-{{ facility.id }}">
-                                            {{ facility.name }} ({{ facility.id }})
+                                               value="ZW090A17" id="facility-ZW090A17" checked>
+                                        <label class="form-check-label" for="facility-ZW090A17">
+                                            <strong>Nketa</strong><br>
+                                            <small class="text-muted">ZW090A17</small>
                                         </label>
                                     </div>
                                 </div>
-                                {% endfor %}
+                                <div class="facility-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input facility-check" type="checkbox" 
+                                               value="ZW090A14" id="facility-ZW090A14" checked>
+                                        <label class="form-check-label" for="facility-ZW090A14">
+                                            <strong>Dr. Shennan</strong><br>
+                                            <small class="text-muted">ZW090A14</small>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="facility-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input facility-check" type="checkbox" 
+                                               value="ZW090A02" id="facility-ZW090A02" checked>
+                                        <label class="form-check-label" for="facility-ZW090A02">
+                                            <strong>Tshabalala</strong><br>
+                                            <small class="text-muted">ZW090A02</small>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="facility-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input facility-check" type="checkbox" 
+                                               value="ZW090A66" id="facility-ZW090A66" checked>
+                                        <label class="form-check-label" for="facility-ZW090A66">
+                                            <strong>Mahatshula</strong><br>
+                                            <small class="text-muted">ZW090A66</small>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="facility-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input facility-check" type="checkbox" 
+                                               value="ZW090A12" id="facility-ZW090A12" checked>
+                                        <label class="form-check-label" for="facility-ZW090A12">
+                                            <strong>Princess Margaret</strong><br>
+                                            <small class="text-muted">ZW090A12</small>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="facility-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input facility-check" type="checkbox" 
+                                               value="ZW090A07" id="facility-ZW090A07" checked>
+                                        <label class="form-check-label" for="facility-ZW090A07">
+                                            <strong>Magwegwe</strong><br>
+                                            <small class="text-muted">ZW090A07</small>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-<!--                     
-                    <button type="submit" class="btn btn-primary" id="runQuery">Run Query</button> -->
-                </form>
-            </div>
-
-
-
-            <div class="card-body">
-                <button class="btn btn-warning mb-2" id="fetchFacilityStatuses">Show Facility Statuses</button>
-                <div id="facilityStatusesList"></div>
-            </div>
-        </div>
-        
-        <!-- Summary Cards -->
-        <div class="row" id="summaryRow" style="display: none;">
-            <div class="col-md-6">
-                <div class="card summary-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Total Orders</h5>
-                        <h3 class="card-text" id="totalOrders">0</h3>
-                    </div>
+                    </form>
+                    
+                    <button class="btn btn-warning-custom btn-custom mb-3" id="fetchFacilityStatuses">
+                        <i class="fas fa-analytics"></i>
+                        Show Facility Statuses
+                    </button>
+                    <div id="facilityStatusesList"></div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="card summary-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Orders by Facility</h5>
-                        <div id="facilityCounts"></div>
-                    </div>
+
+            <!-- Summary Cards -->
+            <div class="summary-stats" id="summaryRow" style="display: none;">
+                <div class="stat-card">
+                    <span class="stat-number" id="totalOrders">0</span>
+                    <div class="stat-label">Total Orders</div>
+                </div>
+                <div class="stat-card">
+                    <div id="facilityCounts"></div>
                 </div>
             </div>
-        </div>
-        
-        <!-- Results Table -->
-        <div class="card" id="resultsCard" style="display: none;">
-            <div class="card-header bg-success text-white">
-                <h5 class="mb-0">Query Results</h5>
-            </div>
-            <div class="card-body">
-                <table id="resultsTable" class="table table-striped" style="width:100%">
-                    <thead>
-                        <tr>
-                            <th>Lab Request Number</th>
-                            <th>Task Authored On</th>
-                            <th>Facility</th>
-                            <th>Facility ID</th>
-                            <th>Task Status</th>
-                            <th>Date Sample Taken</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
+
+            <!-- Results Table -->
+            <div class="dashboard-card" id="resultsCard" style="display: none;">
+                <div class="card-header-custom card-header-success">
+                    <i class="fas fa-table"></i>
+                    Query Results
+                </div>
+                <div class="card-body-custom p-0">
+                    <div class="table-container">
+                        <table id="resultsTable" class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th><i class="fas fa-hashtag me-2"></i>Lab Request Number</th>
+                                    <th><i class="fas fa-calendar me-2"></i>Task Authored On</th>
+                                    <th><i class="fas fa-building me-2"></i>Facility</th>
+                                    <th><i class="fas fa-id-card me-2"></i>Facility ID</th>
+                                    <th><i class="fas fa-info-circle me-2"></i>Task Status</th>
+                                    <th><i class="fas fa-vial me-2"></i>Date Sample Taken</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
     
     <script>
         $(document).ready(function() {
@@ -149,152 +564,30 @@
             $('#queryForm').submit(function(e) {
                 e.preventDefault();
                 
-                // Get selected facilities
-                const facilities = [];
-                $('.facility-check:checked').each(function() {
-                    facilities.push($(this).val());
-                });
-                
-                // Get date range
                 const startDate = $('#startDate').val();
                 const endDate = $('#endDate').val();
+                const facilities = ['ZW090A17','ZW090A14','ZW090A02','ZW090A66','ZW090A12','ZW090A07']; // all facilities
                 
-                if (facilities.length === 0) {
-                    alert('Please select at least one facility.');
-                    return;
-                }
-                
-                // Show loading state
-                $('#runQuery').prop('disabled', true).html(
-                    '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Running Query...'
-                );
-                
-                // Send query request
-                $.ajax({
-                    url: '/query',
-                    type: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify({
-                        facilities: facilities,
-                        start_date: startDate,
-                        end_date: endDate
-                    }),
-                    success: function(response) {
-                        // Update summary cards
-                        $('#totalOrders').text(response.count);
-                        
-                        let facilityCountsHtml = '';
-                        for (const [facilityId, count] of Object.entries(response.facility_counts)) {
-                            facilityCountsHtml += `<div>${facilityId}: ${count} orders</div>`;
-                        }
-                        $('#facilityCounts').html(facilityCountsHtml);
-                        $('#summaryRow').show();
-                        
-                        // Update results table
-                        const table = $('#resultsTable').DataTable({
-                            destroy: true,
-                            data: response.data,
-                            columns: [
-                                { data: 'lab_request_number' },
-                                { 
-                                    data: 'task_authored_on',
-                                    render: function(data) {
-                                        return new Date(data).toLocaleString();
-                                    }
-                                },
-                                { data: 'encounter_facility' },
-                                { data: 'encounter_facility_id' },
-                                { data: 'task_status' },
-                                { 
-                                    data: 'date_sample_taken',
-                                    render: function(data) {
-                                        return data ? new Date(data).toLocaleDateString() : 'N/A';
-                                    }
-                                }
-                            ],
-                            pageLength: 10,
-                            order: [[1, 'desc']]
-                        });
-                        
-                        $('#resultsCard').show();
-                    },
-                    error: function(xhr) {
-                        let errorMsg = 'Unknown error';
-                        if (xhr.responseJSON && xhr.responseJSON.error) {
-                            errorMsg = xhr.responseJSON.error;
-                        } else if (xhr.responseText) {
-                            errorMsg = xhr.responseText;
-                        }
-                        $('#activeFacilitiesList').html('Error: ' + errorMsg);
-                    },
-                    complete: function() {
-                        $('#runQuery').prop('disabled', false).html('Run Query');
-                    }
-                });
-            });
-            
-            // Fetch active facilities
-            $('#fetchActiveFacilities').click(function() {
-                const date = $('#activeDate').val();
-                $('#activeFacilitiesList').html('Loading...');
-                $.ajax({
-                    url: '/active_facilities',
-                    type: 'POST',
-                    contentType: 'application/json',
-                    data: JSON.stringify({ date: date }),
-                    success: function(response) {
-                        if (response.facilities.length === 0) {
-                            $('#activeFacilitiesList').html('<div>No facilities sent data on this date.</div>');
-                        } else {
-                            let html = `<div><strong>${response.count} facilities sent data:</strong></div><ul>`;
-                            response.facilities.forEach(f => {
-                                html += `<li>${f.encounter_facility} (${f.encounter_facility_id})</li>`;
-                            });
-                            html += '</ul>';
-                            $('#activeFacilitiesList').html(html);
-                        }
-                    },
-                    error: function(xhr) {
-                        let errorMsg = 'Unknown error';
-                        if (xhr.responseJSON && xhr.responseJSON.error) {
-                            errorMsg = xhr.responseJSON.error;
-                        } else if (xhr.responseText) {
-                            errorMsg = xhr.responseText;
-                        }
-                        $('#activeFacilitiesList').html('Error: ' + errorMsg);
-                    }
-                });
-            });
-
-            // Fetch facility statuses
-            $('#fetchFacilityStatuses').click(function() {
-                const date = $('#activeDate').val();
-                // Get all facility IDs from the checkboxes
-                const facilities = [];
-                $('.facility-check').each(function() {
-                    facilities.push($(this).val());
-                });
-                $('#facilityStatusesList').html('Loading...');
                 $.ajax({
                     url: '/facility_statuses',
                     type: 'POST',
                     contentType: 'application/json',
-                    data: JSON.stringify({ date: date, facilities: facilities }),
+                    data: JSON.stringify({ date: startDate, facilities: facilities }),
                     success: function(response) {
-                        let html = '';
+                        let html = '<div class="status-list">';
                         for (const [facilityId, info] of Object.entries(response)) {
-                            html += `<div class="mb-3"><strong>${facilityId} (${info.name || facilityId})</strong><br>`;
+                            html += `<div class="status-item">
+                                <h6><i class="fas fa-building me-2"></i>${facilityId} <small class="text-muted">(${info.name || facilityId})</small></h6>`;
                             if (info.no_orders) {
-                                html += `<span class="text-danger">No orders from this facility.</span>`;
+                                html += `<div class="no-orders"><i class="fas fa-exclamation-triangle me-2"></i>No orders from this facility</div>`;
                             } else {
-                                html += `<ul>`;
                                 for (const [status, count] of Object.entries(info.statuses)) {
-                                    html += `<li>${status}: ${count}</li>`;
+                                    html += `<div class="status-count"><span>${status}</span><strong>${count}</strong></div>`;
                                 }
-                                html += `</ul>`;
                             }
                             html += `</div>`;
                         }
+                        html += '</div>';
                         $('#facilityStatusesList').html(html);
                     },
                     error: function(xhr) {
@@ -304,12 +597,121 @@
                         } else if (xhr.responseText) {
                             errorMsg = xhr.responseText;
                         }
-                        $('#facilityStatusesList').html('Error: ' + errorMsg);
+                        $('#facilityStatusesList').html('<div class="alert alert-danger">Error: ' + errorMsg + '</div>');
+                    },
+                    complete: function() {
+                        button.prop('disabled', false).html('<i class="fas fa-analytics"></i>Show Facility Statuses');
                     }
                 });
             });
 
-            // Optionally auto-load for today on page load
+            // Fetch active facilities
+            $('#fetchActiveFacilities').click(function() {
+                const date = $('#activeDate').val();
+                const button = $(this);
+                
+                button.prop('disabled', true).html(
+                    '<div class="loading-spinner"><div class="spinner"></div>Loading...</div>'
+                );
+                
+                $('#activeFacilitiesList').html('<div class="alert alert-info-custom"><i class="fas fa-spinner fa-spin me-2"></i>Loading active facilities...</div>');
+                
+                $.ajax({
+                    url: '/active_facilities',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ date: date }),
+                    success: function(response) {
+                        let html = `
+    <div class="table-responsive">
+        <table class="table table-striped table-hover" id="activeFacilitiesTable">
+            <thead>
+                <tr>
+                    <th>Facility</th>
+                    <th>Number of orders requested for the Selected Date</th>
+                    <th>Total requests from facility</th>
+                    <th>Last Request</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+    response.facilities.forEach(f => {
+        html += `<tr>
+            <td>${f.facility_name} <br><small class="text-muted">${f.facility_id}</small></td>
+            <td>${f.orders_today}</td>
+            <td>${f.total_orders}</td>
+            <td>${f.last_request ? new Date(f.last_request).toLocaleString() : 'N/A'}</td>
+        </tr>`;
+    });
+    html += `</tbody></table></div>`;
+    $('#activeFacilitiesList').html(html);
+},
+                    error: function(xhr) {
+                        let errorMsg = 'Unknown error';
+                        if (xhr.responseJSON && xhr.responseJSON.error) {
+                            errorMsg = xhr.responseJSON.error;
+                        } else if (xhr.responseText) {
+                            errorMsg = xhr.responseText;
+                        }
+                        $('#activeFacilitiesList').html('<div class="alert alert-danger">Error: ' + errorMsg + '</div>');
+                    },
+                    complete: function() {
+                        button.prop('disabled', false).html('<i class="fas fa-search"></i>Show Facilities');
+                    }
+                });
+            });
+
+            // Fetch facility statuses
+            $('#fetchFacilityStatuses').click(function() {
+    const startDate = $('#startDate').val();
+    const endDate = $('#endDate').val();
+    const facilities = ['ZW090A17','ZW090A14','ZW090A02','ZW090A66','ZW090A12','ZW090A07']; // all facilities
+
+    const button = $(this);
+    button.prop('disabled', true).html(
+        '<div class="loading-spinner"><div class="spinner"></div>Loading...</div>'
+    );
+
+    $('#facilityStatusesList').html('<div class="alert alert-info-custom"><i class="fas fa-spinner fa-spin me-2"></i>Loading facility statuses...</div>');
+
+    $.ajax({
+        url: '/facility_statuses',
+        type: 'POST',
+        contentType: 'application/json',
+        data: JSON.stringify({ start_date: startDate, end_date: endDate, facilities: facilities }),
+        success: function(response) {
+            let html = '<div class="status-list">';
+            for (const [facilityId, info] of Object.entries(response)) {
+                html += `<div class="status-item">
+                    <h6><i class="fas fa-building me-2"></i>${facilityId} <small class="text-muted">(${info.name || facilityId})</small></h6>`;
+                if (info.no_orders) {
+                    html += `<div class="no-orders"><i class="fas fa-exclamation-triangle me-2"></i>No orders from this facility</div>`;
+                } else {
+                    for (const [status, count] of Object.entries(info.statuses)) {
+                        html += `<div class="status-count"><span>${status}</span><strong>${count}</strong></div>`;
+                    }
+                }
+                html += `</div>`;
+            }
+            html += '</div>';
+            $('#facilityStatusesList').html(html);
+        },
+        error: function(xhr) {
+            let errorMsg = 'Unknown error';
+            if (xhr.responseJSON && xhr.responseJSON.error) {
+                errorMsg = xhr.responseJSON.error;
+            } else if (xhr.responseText) {
+                errorMsg = xhr.responseText;
+            }
+            $('#facilityStatusesList').html('<div class="alert alert-danger">Error: ' + errorMsg + '</div>');
+        },
+        complete: function() {
+            button.prop('disabled', false).html('<i class="fas fa-analytics"></i>Show Facility Statuses');
+        }
+    });
+});
+
+            // Auto-load on page load
             $('#fetchActiveFacilities').click();
             $('#fetchFacilityStatuses').click();
         });

@@ -93,39 +93,13 @@ def index():
 
 @app.route('/active_facilities', methods=['POST'])
 def active_facilities():
-    """Return facilities that sent data on a specific date"""
+    """Return facilities that sent data on a specific date, with stats"""
     try:
         data = request.get_json()
         date = data.get('date')
         if not date:
             return jsonify({'error': 'Missing date parameter'}), 400
 
-        conn = get_hive_connection()
-        if not conn:
-            return jsonify({'error': 'Failed to connect to Hive'}), 500
-
-        query = f"""
-        SELECT DISTINCT encounter_facility_id, encounter_facility
-        FROM fact_lab_request_orders
-        WHERE cast(task_authored_on as date) = '{date}'
-            AND lab = 'MPILO'
-            AND test_type LIKE '%Viral Load%'
-        """
-
-        df = pd.read_sql_query(query, conn)
-        facilities = df.to_dict('records')
-        return jsonify({'facilities': facilities, 'count': len(facilities)})
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
-
-@app.route('/facility_statuses', methods=['POST'])
-def facility_statuses():
-    """Return status counts for each facility on a specific date"""
-    try:
-        data = request.get_json()
-        date = data.get('date')
-        facilities = data.get('facilities', [])
-        # You need to also get facility names from your config
         facility_map = {
             'ZW090A17': 'Nketa',
             'ZW090A02': 'Tshabalala',
@@ -134,8 +108,73 @@ def facility_statuses():
             'ZW090A66': 'Mahatshula',
             'ZW090A07': 'Magwegwe'
         }
-        if not date or not facilities:
-            return jsonify({'error': 'Missing date or facilities parameter'}), 400
+        facilities = list(facility_map.keys())
+        conn = get_hive_connection()
+        if not conn:
+            return jsonify({'error': 'Failed to connect to Hive'}), 500
+
+        import pandas as pd
+
+        # Orders for selected date
+        query_today = f"""
+        SELECT encounter_facility_id, COUNT(DISTINCT lab_request_number) AS orders_today
+        FROM fact_lab_request_orders
+        WHERE encounter_facility_id IN ({", ".join([f"'{f}'" for f in facilities])})
+            AND cast(task_authored_on as date) = '{date}'
+            AND lab = 'MPILO'
+            AND test_type LIKE '%Viral Load%'
+        GROUP BY encounter_facility_id
+        """
+
+        # Total requests and last request
+        query_total = f"""
+        SELECT encounter_facility_id, COUNT(DISTINCT lab_request_number) AS total_orders,
+               MAX(task_authored_on) AS last_request
+        FROM fact_lab_request_orders
+        WHERE encounter_facility_id IN ({", ".join([f"'{f}'" for f in facilities])})
+            AND lab = 'MPILO'
+            AND test_type LIKE '%Viral Load%'
+        GROUP BY encounter_facility_id
+        """
+
+        df_today = pd.read_sql_query(query_today, conn)
+        df_total = pd.read_sql_query(query_total, conn)
+
+        results = []
+        for fid in facilities:
+            name = facility_map[fid]
+            orders_today = int(df_today[df_today['encounter_facility_id'] == fid]['orders_today'].values[0]) if not df_today[df_today['encounter_facility_id'] == fid].empty else 0
+            total_orders = int(df_total[df_total['encounter_facility_id'] == fid]['total_orders'].values[0]) if not df_total[df_total['encounter_facility_id'] == fid].empty else 0
+            last_request = df_total[df_total['encounter_facility_id'] == fid]['last_request'].values[0] if not df_total[df_total['encounter_facility_id'] == fid].empty else None
+            results.append({
+                'facility_id': fid,
+                'facility_name': name,
+                'orders_today': orders_today,
+                'total_orders': total_orders,
+                'last_request': last_request
+            })
+        return jsonify({'facilities': results})
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/facility_statuses', methods=['POST'])
+def facility_statuses():
+    """Return status counts for each facility in a date range"""
+    try:
+        data = request.get_json()
+        start_date = data.get('start_date')
+        end_date = data.get('end_date')
+        facilities = data.get('facilities', [])
+        facility_map = {
+            'ZW090A17': 'Nketa',
+            'ZW090A02': 'Tshabalala',
+            'ZW090A12': 'Princess Margaret',
+            'ZW090A14': 'Dr. Shennan',
+            'ZW090A66': 'Mahatshula',
+            'ZW090A07': 'Magwegwe'
+        }
+        if not start_date or not end_date or not facilities:
+            return jsonify({'error': 'Missing parameters'}), 400
 
         conn = get_hive_connection()
         if not conn:
@@ -150,7 +189,8 @@ def facility_statuses():
             COUNT(DISTINCT lab_request_number) AS order_count
         FROM fact_lab_request_orders
         WHERE encounter_facility_id IN ({facilities_str})
-            AND cast(task_authored_on as date) = '{date}'
+            AND cast(task_authored_on as date) >= '{start_date}'
+            AND cast(task_authored_on as date) <= '{end_date}'
             AND lab = 'MPILO'
             AND test_type LIKE '%Viral Load%'
         GROUP BY encounter_facility_id, encounter_facility, task_status
@@ -162,7 +202,6 @@ def facility_statuses():
         for facility in facilities:
             facility_rows = df[df['encounter_facility_id'] == facility]
             if facility_rows.empty:
-                # Use the name from your map
                 result[facility] = {
                     'name': facility_map.get(facility, facility),
                     'statuses': {},
@@ -181,6 +220,6 @@ def facility_statuses():
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(debug=True)
 
 
