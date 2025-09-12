@@ -172,7 +172,7 @@ def active_facilities():
 def facility_statuses():
     """Return status counts for each facility in a date range"""
     try:
-        data = request.get_json()
+        data = request
         start_date = data.get('start_date')
         end_date = data.get('end_date')
         facilities = data.get('facilities', [])
