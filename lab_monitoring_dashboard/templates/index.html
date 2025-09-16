@@ -495,7 +495,7 @@
             <div class="dashboard-card">
                 <div class="card-header-custom card-header-info">
                     <i class="fas fa-chart-bar"></i>
-                    Facility Status Analysis by Selected Date
+                    Lab Status Analysis by Selected Date
                 </div>
                 <div class="card-body-custom">
                     <form id="queryForm">
@@ -514,7 +514,7 @@
                     
                     <button class="btn btn-warning-custom btn-custom mb-3" id="fetchFacilityStatuses">
                         <i class="fas fa-analytics"></i>
-                        Show Facility Statuses
+                        Show Lab Statuses
                     </button>
                     <div id="facilityStatusesList"></div>
                 </div>
@@ -565,6 +565,12 @@
     
     <script>
         $(document).ready(function() {
+            // Set all date inputs to today by default
+            const today = new Date().toISOString().split('T')[0];
+            $('#activeDate').val(today);
+            $('#startDate').val(today);
+            $('#endDate').val(today);
+
             // Select all facilities toggle
             $('#selectAllFacilities').change(function() {
                 $('.facility-check').prop('checked', this.checked);
