@@ -7,7 +7,7 @@ import json
 
 app = Flask(__name__)
 
-# Database configuration (update with your actual credentials)
+# Database configuration
 HIVE_HOST = '197.221.242.150'
 HIVE_PORT = 17251
 HIVE_USERNAME = 'tjima'

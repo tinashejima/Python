@@ -623,6 +623,8 @@
 
             // Fetch active facilities
             $('#fetchActiveFacilities').click(function() {
+    const button = $(this); // <-- Add this line
+
     const date = $('#activeDate').val();
     const facilities = getSelectedFacilities(); // Only selected facilities
 
@@ -675,6 +677,8 @@
 
             // Fetch facility statuses
             $('#fetchFacilityStatuses').click(function() {
+    const button = $(this); 
+
     const startDate = $('#startDate').val();
     const endDate = $('#endDate').val();
     const facilities = getSelectedFacilities(); // Only selected facilities
