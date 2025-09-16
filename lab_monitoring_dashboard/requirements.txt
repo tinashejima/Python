@@ -2,3 +2,4 @@ Flask
 pyhive
 pandas
 thrift
+sasl

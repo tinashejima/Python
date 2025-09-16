@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, request, jsonify
 import pyhive
 from pyhive import hive
@@ -8,11 +9,11 @@ import json
 app = Flask(__name__)
 
 # Database configuration
-HIVE_HOST = '197.221.242.150'
-HIVE_PORT = 17251
-HIVE_USERNAME = 'tjima'
-HIVE_PASSWORD = 'vHYWzTVyygV4Q8tq'
-HIVE_DATABASE = 'default'
+HIVE_HOST = os.environ.get('HIVE_HOST')
+HIVE_PORT = os.environ.get('HIVE_PORT')
+HIVE_USERNAME = os.environ.get('HIVE_USER')
+HIVE_PASSWORD = os.environ.get('HIVE_PASSWORD')
+HIVE_DATABASE = os.environ.get('HIVE_DATABASE')
 
 def get_hive_connection():
     
@@ -24,7 +25,7 @@ def get_hive_connection():
             username=HIVE_USERNAME,
             password=HIVE_PASSWORD,
             database=HIVE_DATABASE,
-            auth='LDAP'  # or other authentication method
+            auth='LDAP'  
         )
         return conn
     except Exception as e:
