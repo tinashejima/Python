@@ -3,3 +3,6 @@ pyhive
 pandas
 thrift
 sasl
+gunicorn
+thrift-sasl
+pure-sasl

@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  lab_monitoring_dashboard:
+  lims-dashboard:
     build: .
-    container_name: lab_monitoring_dashboard
+    container_name: lims-dashboard
     ports:
       - "5000:5000"
     environment:
@@ -13,4 +13,36 @@ services:
       - HIVE_USER=tjima
       - HIVE_PASSWORD=vHYWzTVyygV4Q8tq
       - HIVE_DATABASE=default
+      # Flask settings
+      - FLASK_ENV=production
+      - FLASK_APP=app.py
+    volumes:
+      # Optional: mount logs directory
+      - ./logs:/app/logs
     restart: unless-stopped
+    networks:
+      - lims-network
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    # Health check
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  lims-network:
+    driver: bridge
+
+volumes:
+  logs:
+    driver: local
