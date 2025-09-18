@@ -7,7 +7,6 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - FLASK_ENV=production
       - HIVE_HOST=197.221.242.150
       - HIVE_PORT=17251
       - HIVE_USER=tjima
