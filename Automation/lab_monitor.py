@@ -19,7 +19,7 @@ def run_hive_query(date):
     """
     
     # Format query for beeline
-    beeline_cmd = f'beeline -u "jdbc:hive2://your_hive_host:10000" -e "{query}"'
+    beeline_cmd = f'beeline -u "jdbc:hive2://197.221.242.150:10000" -e "{query}"'
     
     try:
         result = subprocess.run(beeline_cmd, shell=True, capture_output=True, text=True)
