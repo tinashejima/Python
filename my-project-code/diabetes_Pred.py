@@ -19,7 +19,7 @@ with st.sidebar:
     selected = option_menu('Disease Prediction System Using ML',
                            
                            ['Diabetes Prediction', 
-                          'Heart Disease Prediction'],
+                          ],
                            
                            icons = ['activity', 'heart'],
                            default_index = 0)
@@ -87,10 +87,10 @@ st.success(diab_diagnosis)
     
     
     
-if(selected == 'Heart Disease Prediction'):
+# if(selected == 'Heart Disease Prediction'):
 
-   #title page
-    st.title('Heart Disease Prediction Using ML') 
+#    #title page
+#     st.title('Heart Disease Prediction Using ML') 
 
        
        

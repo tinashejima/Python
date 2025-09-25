@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  ehr-lab-datamart:
+    image: postgres:15
+    container_name: ehr-lab-datamart-postgres
+    environment:
+      POSTGRES_DB: LIMSDATA
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: wGMCAE6zFHcyrBmXtus97JPanxvkY4fb
+      POSTGRES_INITDB_ARGS: "--encoding=UTF8 --lc-collate=C --lc-ctype=C"
+    ports:
+      - "5431:5432"
+    volumes:
+      - ehr_lab_datamart_data:/var/lib/postgresql/data
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+    networks:
+      - ehr-lab-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d LIMSDATA"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  ehr_lab_datamart_data:
+    driver: local
+
+networks:
+  ehr-lab-network:
+    driver: bridge
