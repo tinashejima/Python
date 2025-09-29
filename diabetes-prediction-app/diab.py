@@ -32,6 +32,7 @@ feature_names = ['age', 'hypertension', 'heart_disease', 'bmi', 'HbA1c_level',
                 'smoking_history_ever', 'smoking_history_former', 'smoking_history_never',
                 'smoking_history_not current', 'gender_Female', 'gender_Male', 'gender_Other']
 
+
 def load_model():
     """Load the trained model and explainer"""
     global model, explainer
@@ -39,7 +40,22 @@ def load_model():
     try:
         # Load your existing model and explainer
         with open('rf_interpretability.pkl', 'rb') as f:
-            model, explainer = pickle.load(f)
+            content = pickle.load(f)
+        
+        # Handle different possible structures
+        if isinstance(content, tuple) and len(content) == 2:
+            # Case 1: Tuple with (model, explainer)
+            model, explainer = content
+            print("Loaded model and explainer from tuple")
+        elif hasattr(content, 'predict'):  
+            # Case 2: Just the model object
+            model = content
+            explainer = shap.TreeExplainer(model)
+            print("Loaded model and created new explainer")
+        else:
+            # Case 3: Unknown structure
+            print(f"Unexpected content type: {type(content)}")
+            return False
         
         print("Model and explainer loaded successfully!")
         return True
