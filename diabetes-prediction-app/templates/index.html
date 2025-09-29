@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Risk Prediction</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 0;
+        }
+        .form-section {
+            padding: 40px 0;
+        }
+        .required-field::after {
+            content: " *";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">Diabetes Predictor</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/batch_predict">Batch Predict</a>
+                <a class="nav-link" href="/about">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 mb-4">Type 2 Diabetes Risk Assessment</h1>
+                    <p class="lead">AI-powered prediction with comprehensive risk factor analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prediction Form -->
+    <section class="form-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="mb-0">Patient Information</h4>
+                        </div>
+                        <div class="card-body">
+                            <form action="/predict" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label required-field">Age</label>
+                                            <input type="number" class="form-control" name="age" required min="1" max="120" value="45">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label required-field">Gender</label>
+                                            <select class="form-select" name="gender" required>
+                                                <option value="Female">Female</option>
+                                                <option value="Male" selected>Male</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label required-field">BMI</label>
+                                            <input type="number" step="0.1" class="form-control" name="bmi" required min="10" max="70" value="25.5">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label required-field">HbA1c Level</label>
+                                            <input type="number" step="0.1" class="form-control" name="HbA1c_level" required min="3" max="15" value="5.5">
+                                            <div class="form-text">Normal: &lt;5.7%, Prediabetes: 5.7-6.4%, Diabetes: ≥6.5%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="form-label required-field">Blood Glucose Level</label>
+                                            <input type="number" class="form-control" name="blood_glucose_level" required min="50" max="300" value="100">
+                                            <div class="form-text">Normal fasting: 70-100 mg/dL</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label required-field">Smoking History</label>
+                                            <select class="form-select" name="smoking_history" required>
+                                                <option value="never" selected>Never</option>
+                                                <option value="former">Former</option>
+                                                <option value="current">Current</option>
+                                                <option value="not current">Not Current</option>
+                                                <option value="ever">Ever</option>
+                                                <option value="No Info">No Info</option>
+                                            </select>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="hypertension" value="1" id="hypertension">
+                                                <label class="form-check-label" for="hypertension">
+                                                    Hypertension
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" name="heart_disease" value="1" id="heart_disease">
+                                                <label class="form-check-label" for="heart_disease">
+                                                    Heart Disease
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center mt-4">
+                                    <button type="submit" class="btn btn-primary btn-lg">Assess Diabetes Risk</button>
+                                    <button type="reset" class="btn btn-secondary btn-lg ms-2">Reset Form</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
