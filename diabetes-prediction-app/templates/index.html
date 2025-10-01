@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #fcfafa 0%, #fcfafa 100%);
             min-height: 100vh;
             padding: 20px;
         }
@@ -31,12 +31,14 @@
         }
 
         .header h1 {
+            color: black;
             font-size: 2.5em;
             margin-bottom: 15px;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
         }
 
         .header p {
+            color: black;
             font-size: 1.1em;
             opacity: 0.95;
         }
@@ -99,25 +101,6 @@
             outline: none;
             border-color: #007bff;
             box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
-        }
-
-        .checkbox-group {
-            display: flex;
-            align-items: center;
-            margin-top: 10px;
-        }
-
-        .checkbox-group input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
-            margin-right: 10px;
-            cursor: pointer;
-        }
-
-        .checkbox-group label {
-            margin-bottom: 0;
-            cursor: pointer;
-            font-weight: 500;
         }
 
         .button-group {
@@ -208,6 +191,104 @@
             font-weight: 600;
         }
 
+        .interpretation-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #007bff;
+        }
+
+        .interpretation-header {
+            font-size: 1.2em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .interpretation-header::before {
+            content: "📊";
+            font-size: 1.3em;
+        }
+
+        .factor-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .factor-item:hover {
+            transform: translateX(5px);
+        }
+
+        .factor-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .factor-name {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.05em;
+        }
+
+        .factor-value {
+            background: #007bff;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .factor-details {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .impact-badge {
+            padding: 4px 10px;
+            border-radius: 5px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .impact-increases {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .impact-decreases {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .importance-indicator {
+            flex: 1;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .importance-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #007bff, #0056b3);
+            border-radius: 4px;
+            transition: width 0.8s ease;
+        }
+
         .loading {
             display: none;
             text-align: center;
@@ -252,6 +333,18 @@
             button {
                 width: 100%;
             }
+
+            .factor-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+
+            .factor-details {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
         }
     </style>
 </head>
@@ -259,7 +352,7 @@
     <div class="container">
         <div class="header">
             <h1>Type 2 Diabetes Prediction System</h1>
-            <p>A predictive system with comprehensive risk factor analysis</p>
+            <p>AI-powered prediction with explainable results</p>
         </div>
 
         <div class="form-container">
@@ -269,7 +362,6 @@
 
             <div class="form-content">
                 <form id="predictionForm">
-                    <!-- First Row: Gender and Age -->
                     <div class="form-row">
                         <div class="form-group">
                             <label>Gender <span class="required">*</span></label>
@@ -287,7 +379,6 @@
                         </div>
                     </div>
 
-                    <!-- Second Row: Hypertension and Heart Disease -->
                     <div class="form-row">
                         <div class="form-group">
                             <label>Hypertension <span class="required">*</span></label>
@@ -308,7 +399,6 @@
                         </div>
                     </div>
 
-                    <!-- Third Row: Smoking History and BMI -->
                     <div class="form-row">
                         <div class="form-group">
                             <label>Smoking History <span class="required">*</span></label>
@@ -329,7 +419,6 @@
                         </div>
                     </div>
 
-                    <!-- Fourth Row: HbA1c Level and Blood Glucose Level -->
                     <div class="form-row">
                         <div class="form-group">
                             <label>HbA1c Level <span class="required">*</span></label>
@@ -359,26 +448,30 @@
                         <div class="probability-fill" id="probabilityFill" style="width: 0%"></div>
                     </div>
                     <div class="result-details" id="resultDetails"></div>
+                    
+                    <div class="interpretation-section" id="interpretationSection">
+                        <div class="interpretation-header">
+                            Top Factors Influencing This Prediction
+                        </div>
+                        <div id="factorsList"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        // Reset form function
         function resetForm() {
             document.getElementById('predictionForm').reset();
             document.getElementById('resultContainer').style.display = 'none';
             document.getElementById('loading').style.display = 'none';
             
-            // Reset all border colors
             const formInputs = document.querySelectorAll('input, select');
             formInputs.forEach(input => {
                 input.style.borderColor = '#e0e0e0';
             });
         }
 
-        // Clear form on page load
         window.addEventListener('load', function() {
             resetForm();
         });
@@ -386,10 +479,8 @@
         document.getElementById('predictionForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
-            // Form validation
             let allFieldsFilled = true;
             
-            // Check all required fields in the new order
             const requiredFields = [
                 {id: 'gender', name: 'Gender'},
                 {id: 'age', name: 'Age'},
@@ -418,17 +509,15 @@
                 return;
             }
             
-            // Show loading
             document.getElementById('loading').style.display = 'block';
             document.getElementById('resultContainer').style.display = 'none';
             
             try {
-                // Create FormData object
                 const formData = new FormData(this);
                 
                 const response = await fetch('/predict', {
                     method: 'POST',
-                    body: formData  // Send as form data, not JSON
+                    body: formData
                 });
                 
                 if (!response.ok) {
@@ -437,15 +526,14 @@
                 
                 const result = await response.json();
                 
-                // Hide loading
                 document.getElementById('loading').style.display = 'none';
                 
                 if (result.success) {
-                    // Show results
                     const resultContainer = document.getElementById('resultContainer');
                     const resultHeader = document.getElementById('resultHeader');
                     const resultDetails = document.getElementById('resultDetails');
                     const probabilityFill = document.getElementById('probabilityFill');
+                    const factorsList = document.getElementById('factorsList');
                     
                     resultContainer.style.display = 'block';
                     resultContainer.style.background = result.risk_color + '15';
@@ -467,6 +555,30 @@
                         <strong>Risk Probability:</strong> ${result.probability}%<br>
                         <strong>Risk Level:</strong> ${result.risk_level}
                     `;
+                    
+                    // Display top factors
+                    if (result.top_factors && result.top_factors.length > 0) {
+                        factorsList.innerHTML = '';
+                        result.top_factors.forEach((factor, index) => {
+                            const impactClass = factor.impact === 'Increases' ? 'impact-increases' : 'impact-decreases';
+                            const factorHtml = `
+                                <div class="factor-item" style="animation-delay: ${index * 0.1}s">
+                                    <div class="factor-header">
+                                        <span class="factor-name">${index + 1}. ${factor.feature}</span>
+                                        <span class="factor-value">${factor.value}</span>
+                                    </div>
+                                    <div class="factor-details">
+                                        <span class="impact-badge ${impactClass}">${factor.impact} Risk</span>
+                                        <div class="importance-indicator">
+                                            <div class="importance-fill" style="width: ${Math.min(factor.importance, 100)}%"></div>
+                                        </div>
+                                        <span style="white-space: nowrap; font-weight: 600; color: #007bff;">${factor.importance}%</span>
+                                    </div>
+                                </div>
+                            `;
+                            factorsList.innerHTML += factorHtml;
+                        });
+                    }
                 } else {
                     alert('Error: ' + result.error);
                 }
@@ -477,7 +589,6 @@
             }
         });
 
-        // Add event listeners to clear error styling when user starts typing
         const formInputs = document.querySelectorAll('input, select');
         formInputs.forEach(input => {
             input.addEventListener('input', function() {
