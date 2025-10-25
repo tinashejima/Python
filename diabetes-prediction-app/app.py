@@ -1,4 +1,3 @@
-
 from flask import Flask, render_template, request, jsonify
 import numpy as np
 import pandas as pd
@@ -9,7 +8,7 @@ import shap
 app = Flask(__name__)
 
 # Load the model
-model = pickle.load(open('rf_model.pkl', 'rb'))
+model = pickle.load(open('ensemble_model.pkl', 'rb'))
 
 # Initialize SHAP explainer (do this once at startup)
 explainer = None
@@ -36,10 +35,31 @@ def initialize_explainer():
             'gender_Male': [0, 1, 0, 1, 0],
             'gender_Other': [0, 0, 0, 0, 0]
         })
-        
-        # Use TreeExplainer with proper model_output parameter
-        explainer = shap.TreeExplainer(model, background_data)
-        print("SHAP explainer initialized successfully")
+
+        # Feature column order expected by the model (keep in sync)
+        feature_columns = [
+            'age', 'hypertension', 'heart_disease', 'bmi', 'HbA1c_level',
+            'blood_glucose_level', 'smoking_history_No Info', 'smoking_history_current',
+            'smoking_history_ever', 'smoking_history_former', 'smoking_history_never',
+            'smoking_history_not current', 'gender_Female', 'gender_Male', 'gender_Other'
+        ]
+
+        # If the model is a tree-based ensemble supported by TreeExplainer, use it.
+        # Otherwise fall back to KernelExplainer which works for any estimator.
+        try:
+            explainer = shap.TreeExplainer(model, background_data)
+            print("SHAP TreeExplainer initialized successfully")
+        except Exception:
+            # KernelExplainer expects a prediction function that returns a 1D array of probabilities
+            def predict_proba_pos(x):
+                # x is numpy array; convert to DataFrame with correct columns
+                df_x = pd.DataFrame(x, columns=feature_columns)
+                return model.predict_proba(df_x)[:, 1]
+
+            # Use a small background sample (numpy) for KernelExplainer
+            explainer = shap.KernelExplainer(predict_proba_pos, background_data[feature_columns].values)
+            print("SHAP KernelExplainer initialized (fallback)")
+
     except Exception as e:
         print(f"Error initializing SHAP explainer: {str(e)}")
         raise
@@ -213,8 +233,13 @@ def predict():
         
         # Calculate SHAP values for interpretation
         try:
-            # Get SHAP values - for binary classification, this returns a list of 2 arrays
-            shap_values = explainer.shap_values(df)
+            # Get SHAP values - handle different explainer types
+            if isinstance(explainer, shap.KernelExplainer):
+                # KernelExplainer expects numpy input; nsamples reduces compute cost
+                shap_values = explainer.shap_values(df.values, nsamples=100)
+            else:
+                # TreeExplainer or other explainers
+                shap_values = explainer.shap_values(df)
             
             # Debug: Print SHAP values structure
             print(f"SHAP values type: {type(shap_values)}")
