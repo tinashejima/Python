@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -588,6 +588,690 @@
                 console.error('Prediction error:', error);
             }
         });
+
+        const formInputs = document.querySelectorAll('input, select');
+        formInputs.forEach(input => {
+            input.addEventListener('input', function() {
+                this.style.borderColor = '#e0e0e0';
+            });
+        });
+    </script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type 2 Diabetes Prediction System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #fcfafa 0%, #fcfafa 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+        }
+
+        .header h1 {
+            color: black;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            color: black;
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .form-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .form-header {
+            background: #007bff;
+            color: white;
+            padding: 20px 30px;
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+
+        .form-content {
+            padding: 35px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #333;
+            font-size: 0.95em;
+        }
+
+        .required {
+            color: #dc3545;
+            margin-left: 3px;
+        }
+
+        .form-group input,
+        .form-group select {
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+        }
+
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 35px;
+            justify-content: center;
+        }
+
+        button {
+            padding: 14px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.05em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-predict {
+            background: #007bff;
+            color: white;
+        }
+
+        .btn-predict:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+        }
+
+        .btn-reset {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-reset:hover {
+            background: #545b62;
+        }
+
+        .result-container {
+            display: none;
+            margin-top: 30px;
+            padding: 25px;
+            border-radius: 12px;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .result-header {
+            font-size: 1.4em;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .result-details {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        .probability-bar {
+            width: 100%;
+            height: 30px;
+            background: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 15px 0;
+        }
+
+        .probability-fill {
+            height: 100%;
+            transition: width 1s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+        }
+
+        .interpretation-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #007bff;
+        }
+
+        .interpretation-header {
+            font-size: 1.2em;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .interpretation-header::before {
+            content: "🔍";
+            font-size: 1.3em;
+        }
+
+        /* Detailed Factor Cards */
+        .factor-card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-left: 5px solid #007bff;
+            transition: all 0.3s ease;
+        }
+
+        .factor-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        }
+
+        .factor-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #f0f0f0;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .factor-card-name {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .factor-card-impact {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .impact-badge-card {
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .impact-increase-card {
+            background: #fee;
+            color: #c33;
+        }
+
+        .impact-decrease-card {
+            background: #efe;
+            color: #3c3;
+        }
+
+        .factor-card-value {
+            font-size: 1.1em;
+            color: #007bff;
+            font-weight: 600;
+            margin-top: 4px;
+        }
+
+        .factor-card-details {
+            margin-top: 18px;
+        }
+
+        .detail-section {
+            margin-bottom: 16px;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #555;
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .detail-text {
+            color: #666;
+            line-height: 1.7;
+            padding-left: 12px;
+            border-left: 3px solid #e0e0e0;
+        }
+
+        .healthy-range {
+            background: #e8f4f8;
+            padding: 12px 14px;
+            border-radius: 8px;
+            font-style: italic;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .recommendation {
+            background: #fff3cd;
+            padding: 14px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            color: #856404;
+            margin-top: 12px;
+            line-height: 1.6;
+        }
+
+        .recommendation strong {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 1.05em;
+        }
+
+        .importance-bar-card {
+            height: 10px;
+            background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+            border-radius: 5px;
+            margin-top: 12px;
+            transition: width 0.8s ease;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #007bff;
+            font-size: 1.1em;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #007bff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .form-content {
+                padding: 20px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+
+            .factor-card-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Type 2 Diabetes Prediction System</h1>
+            <p>ML prediction with explainable results</p>
+        </div>
+
+        <div class="form-container">
+            <div class="form-header">
+                Patient Information
+            </div>
+
+            <div class="form-content">
+                <form id="predictionForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Gender <span class="required">*</span></label>
+                            <select name="gender" id="gender" required>
+                                <option value=""></option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Age <span class="required">*</span></label>
+                            <input type="number" name="age" id="age" required min="1" max="120" step="1">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Hypertension <span class="required">*</span></label>
+                            <select name="hypertension" id="hypertension" required>
+                                <option value=""></option>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Heart Disease <span class="required">*</span></label>
+                            <select name="heart_disease" id="heart_disease" required>
+                                <option value=""></option>
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Smoking History <span class="required">*</span></label>
+                            <select name="smoking_history" id="smoking_history" required>
+                                <option value=""></option>
+                                <option value="never">Never</option>
+                                <option value="current">Current</option>
+                                <option value="former">Former</option>
+                                <option value="ever">Ever</option>
+                                <option value="No Info">No Info</option>
+                                <option value="not current">Not Current</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>BMI <span class="required">*</span></label>
+                            <input type="number" name="bmi" id="bmi" required step="0.01">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>HbA1c Level <span class="required">*</span></label>
+                            <input type="number" name="HbA1c_level" id="HbA1c_level" required step="0.01">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Blood Glucose Level <span class="required">*</span></label>
+                            <input type="number" name="blood_glucose_level" id="blood_glucose_level" required step="0.01">
+                        </div>
+                    </div>
+
+                    <div class="button-group">
+                        <button type="submit" class="btn-predict">Predict</button>
+                        <button type="button" class="btn-reset" onclick="resetForm()">Reset Form</button>
+                    </div>
+                </form>
+
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Analyzing patient data...</p>
+                </div>
+
+                <div class="result-container" id="resultContainer">
+                    <div class="result-header" id="resultHeader"></div>
+                    <div class="probability-bar">
+                        <div class="probability-fill" id="probabilityFill" style="width: 0%"></div>
+                    </div>
+                    <div class="result-details" id="resultDetails"></div>
+                    
+                    <!-- Detailed Explanations Section Only -->
+                    <div class="interpretation-section" id="detailedExplanationsSection">
+                        <div class="interpretation-header">
+                            Detailed Factor Analysis for the Top Influencing Factors
+                        </div>
+                        <p style="color: #666; margin-bottom: 20px; line-height: 1.6;">
+                            Understanding how each factor contributes to your diabetes risk:
+                        </p>
+                        <div id="detailedFactorsList"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function resetForm() {
+            document.getElementById('predictionForm').reset();
+            document.getElementById('resultContainer').style.display = 'none';
+            document.getElementById('loading').style.display = 'none';
+            
+            const formInputs = document.querySelectorAll('input, select');
+            formInputs.forEach(input => {
+                input.style.borderColor = '#e0e0e0';
+            });
+        }
+
+        window.addEventListener('load', function() {
+            resetForm();
+        });
+
+        document.getElementById('predictionForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            let allFieldsFilled = true;
+            
+            const requiredFields = [
+                {id: 'gender', name: 'Gender'},
+                {id: 'age', name: 'Age'},
+                {id: 'hypertension', name: 'Hypertension'},
+                {id: 'heart_disease', name: 'Heart Disease'},
+                {id: 'smoking_history', name: 'Smoking History'},
+                {id: 'bmi', name: 'BMI'},
+                {id: 'HbA1c_level', name: 'HbA1c Level'},
+                {id: 'blood_glucose_level', name: 'Blood Glucose Level'}
+            ];
+            
+            requiredFields.forEach(field => {
+                const element = document.getElementById(field.id);
+                const value = element.value;
+                
+                if (!value || value === '' || value === null) {
+                    allFieldsFilled = false;
+                    element.style.borderColor = '#dc3545';
+                } else {
+                    element.style.borderColor = '#e0e0e0';
+                }
+            });
+            
+            if (!allFieldsFilled) {
+                alert('Please enter all the required fields.');
+                return;
+            }
+            
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('resultContainer').style.display = 'none';
+            
+            try {
+                const formData = new FormData(this);
+                
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const result = await response.json();
+                
+                document.getElementById('loading').style.display = 'none';
+                
+                if (result.success) {
+                    displayResults(result);
+                } else {
+                    alert('Error: ' + result.error);
+                }
+            } catch (error) {
+                document.getElementById('loading').style.display = 'none';
+                alert('An error occurred while making the prediction: ' + error.message);
+                console.error('Prediction error:', error);
+            }
+        });
+
+        function displayResults(result) {
+            const resultContainer = document.getElementById('resultContainer');
+            const resultHeader = document.getElementById('resultHeader');
+            const resultDetails = document.getElementById('resultDetails');
+            const probabilityFill = document.getElementById('probabilityFill');
+            
+            resultContainer.style.display = 'block';
+            resultContainer.style.background = result.risk_color + '15';
+            resultContainer.style.border = '2px solid ' + result.risk_color;
+            
+            resultHeader.textContent = result.risk_level + ' Risk';
+            resultHeader.style.color = result.risk_color;
+            
+            probabilityFill.style.width = result.probability + '%';
+            probabilityFill.style.background = result.risk_color;
+            probabilityFill.textContent = result.probability + '%';
+            
+            const predictionText = result.prediction === 1 ? 
+                'The patient is predicted to have DIABETES (Positive).' :
+                'The person is predicted to NOT have DIABETES (Negative)';
+            
+            resultDetails.innerHTML = `
+                <strong>Prediction:</strong> ${predictionText}<br>
+                <strong>Risk Probability:</strong> ${result.probability}%<br>
+                <strong>Risk Level:</strong> ${result.risk_level}
+            `;
+
+            // Display detailed factors with explanations only
+            const detailedFactorsList = document.getElementById('detailedFactorsList');
+            
+            if (result.top_factors && result.top_factors.length > 0) {
+                detailedFactorsList.innerHTML = result.top_factors.map((factor, index) => `
+                    <div class="factor-card" style="animation-delay: ${index * 0.1}s">
+                        <div class="factor-card-header">
+                            <div>
+                                <div class="factor-card-name">${factor.feature}</div>
+                                <div class="factor-card-value">Value: ${factor.value}</div>
+                            </div>
+                            <div class="factor-card-impact">
+                                <span class="impact-badge-card ${factor.impact === 'Increases' ? 'impact-increase-card' : 'impact-decrease-card'}">
+                                    ${factor.impact === 'Increases' ? '↑' : '↓'} ${factor.impact} Risk
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="importance-bar-card" style="width: ${Math.min(factor.importance * 2, 100)}%;"></div>
+                        
+                        <div class="factor-card-details">
+                            ${factor.context ? `
+                                <div class="detail-section">
+                                    <span class="detail-label">Context</span>
+                                    <div class="detail-text">${factor.context}</div>
+                                </div>
+                            ` : ''}
+                            
+                            ${factor.interpretation ? `
+                                <div class="detail-section">
+                                    <span class="detail-label">What This Means</span>
+                                    <div class="detail-text">${factor.interpretation}</div>
+                                </div>
+                            ` : ''}
+                            
+                            ${factor.healthy_range ? `
+                                <div class="detail-section">
+                                    <span class="detail-label">Healthy Range</span>
+                                    <div class="healthy-range">${factor.healthy_range}</div>
+                                </div>
+                            ` : ''}
+                            
+                            ${factor.recommendation && factor.recommendation.trim() ? `
+                                <div class="recommendation">
+                                    <strong>💡 Recommendation:</strong>
+                                    ${factor.recommendation}
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                `).join('');
+            } else {
+                detailedFactorsList.innerHTML = '<p style="color: #666;">No significant factors identified.</p>';
+            }
+
+            // Scroll to results
+            resultContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
 
         const formInputs = document.querySelectorAll('input, select');
         formInputs.forEach(input => {
