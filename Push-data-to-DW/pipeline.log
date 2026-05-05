@@ -1,0 +1,941 @@
+2025-12-19 09:51:04,941 - INFO - Initializing scheduled pipeline
+2025-12-19 09:51:04,948 - INFO - PostgreSQL connection established successfully
+2025-12-19 09:51:04,949 - INFO - Running initial pipeline execution
+2025-12-19 09:51:04,949 - INFO - ============================================================
+2025-12-19 09:51:04,949 - INFO - Starting pipeline execution
+2025-12-19 09:51:04,949 - INFO - ============================================================
+2025-12-19 09:51:05,092 - INFO - USE `default`
+2025-12-19 09:51:05,179 - INFO - Hive connection established successfully
+2025-12-19 09:51:05,195 - INFO - Resuming from last snapshot: 2025-06-09 08:28:15.083000
+2025-12-19 09:51:05,195 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-06-09 08:28:15.083000'
+        
+2025-12-19 09:51:45,208 - INFO - Initializing scheduled pipeline
+2025-12-19 09:51:45,213 - INFO - PostgreSQL connection established successfully
+2025-12-19 09:51:45,213 - INFO - Running initial pipeline execution
+2025-12-19 09:51:45,213 - INFO - ============================================================
+2025-12-19 09:51:45,213 - INFO - Starting pipeline execution
+2025-12-19 09:51:45,213 - INFO - ============================================================
+2025-12-19 09:51:45,394 - INFO - USE `default`
+2025-12-19 09:51:45,486 - INFO - Hive connection established successfully
+2025-12-19 09:51:45,491 - INFO - Resuming from last snapshot: 2025-06-09 08:28:15.083000
+2025-12-19 09:51:45,491 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-06-09 08:28:15.083000'
+        
+2025-12-19 09:52:17,688 - INFO - Total records to process: 16991
+2025-12-19 09:52:17,688 - INFO - Total facilities: 53
+2025-12-19 09:52:17,689 - INFO - Distinct patients: 16339
+2025-12-19 09:52:17,689 - INFO - Distinct encounters: 16970
+2025-12-19 09:52:17,689 - INFO - Total batches: 17
+2025-12-19 09:52:17,689 - INFO - Processing batch 1/17
+2025-12-19 09:52:17,689 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-06-09 08:28:15.083000'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 09:53:43,975 - INFO - Batch 1: Processing 1000 rows
+2025-12-19 09:53:44,689 - INFO - Batch 1 complete: 972 new, 28 updated, 0 errors
+2025-12-19 09:53:44,689 - INFO - Processing batch 2/17
+2025-12-19 09:53:44,689 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-06-12T08:07:35.788+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 09:55:06,491 - INFO - Batch 2: Processing 1000 rows
+2025-12-19 09:55:07,411 - INFO - Batch 2 complete: 1000 new, 0 updated, 0 errors
+2025-12-19 09:55:07,411 - INFO - Processing batch 3/17
+2025-12-19 09:55:07,411 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-06-12T18:49:09.056+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 09:56:55,073 - INFO - Batch 3: Processing 1000 rows
+2025-12-19 09:56:55,790 - INFO - Batch 3 complete: 1000 new, 0 updated, 0 errors
+2025-12-19 09:56:55,790 - INFO - Processing batch 4/17
+2025-12-19 09:56:55,790 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-06-23T09:00:13.519+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 09:57:59,614 - INFO - Batch 4: Processing 1000 rows
+2025-12-19 09:58:00,384 - INFO - Batch 4 complete: 1000 new, 0 updated, 0 errors
+2025-12-19 09:58:00,384 - INFO - Processing batch 5/17
+2025-12-19 09:58:00,384 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-07-14T14:41:44.606+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 09:59:05,702 - INFO - Batch 5: Processing 1000 rows
+2025-12-19 09:59:06,690 - INFO - Batch 5 complete: 1000 new, 0 updated, 0 errors
+2025-12-19 09:59:06,691 - INFO - Processing batch 6/17
+2025-12-19 09:59:06,691 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-07-30T06:17:30.503+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:00:10,626 - INFO - Batch 6: Processing 1000 rows
+2025-12-19 10:00:11,325 - INFO - Batch 6 complete: 1000 new, 0 updated, 0 errors
+2025-12-19 10:00:11,325 - INFO - Processing batch 7/17
+2025-12-19 10:00:11,326 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-08-07T13:03:44.286+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:01:25,766 - INFO - Batch 7: Processing 1000 rows
+2025-12-19 10:01:26,619 - INFO - Batch 7 complete: 995 new, 5 updated, 0 errors
+2025-12-19 10:01:26,620 - INFO - Processing batch 8/17
+2025-12-19 10:01:26,620 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-08-21T11:16:19.046+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:02:47,400 - INFO - Batch 8: Processing 1000 rows
+2025-12-19 10:02:48,316 - INFO - Batch 8 complete: 999 new, 1 updated, 0 errors
+2025-12-19 10:02:48,316 - INFO - Processing batch 9/17
+2025-12-19 10:02:48,316 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-09-09T14:54:11.172+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:04:04,415 - INFO - Batch 9: Processing 1000 rows
+2025-12-19 10:04:05,142 - INFO - Batch 9 complete: 1000 new, 0 updated, 0 errors
+2025-12-19 10:04:05,142 - INFO - Processing batch 10/17
+2025-12-19 10:04:05,142 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-09-18T07:54:53.081+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:05:18,777 - INFO - Batch 10: Processing 1000 rows
+2025-12-19 10:05:19,470 - INFO - Batch 10 complete: 999 new, 1 updated, 0 errors
+2025-12-19 10:05:19,470 - INFO - Processing batch 11/17
+2025-12-19 10:05:19,470 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-10-09T13:56:19.164+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:06:34,574 - INFO - Batch 11: Processing 1000 rows
+2025-12-19 10:06:35,600 - INFO - Batch 11 complete: 1000 new, 0 updated, 0 errors
+2025-12-19 10:06:35,600 - INFO - Processing batch 12/17
+2025-12-19 10:06:35,600 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-10-28T08:57:38.233+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:07:42,876 - INFO - Batch 12: Processing 1000 rows
+2025-12-19 10:07:43,910 - INFO - Batch 12 complete: 999 new, 1 updated, 0 errors
+2025-12-19 10:07:43,910 - INFO - Processing batch 13/17
+2025-12-19 10:07:43,910 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-11-10T12:10:28.454+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:08:51,381 - INFO - Batch 13: Processing 1000 rows
+2025-12-19 10:08:52,098 - INFO - Batch 13 complete: 997 new, 3 updated, 0 errors
+2025-12-19 10:08:52,099 - INFO - Processing batch 14/17
+2025-12-19 10:08:52,099 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-11-13T15:20:26.255+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:10:15,901 - INFO - Batch 14: Processing 1000 rows
+2025-12-19 10:10:16,763 - INFO - Batch 14 complete: 997 new, 3 updated, 0 errors
+2025-12-19 10:10:16,763 - INFO - Processing batch 15/17
+2025-12-19 10:10:16,763 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-11-19T16:29:18.284+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 1000
+                
+2025-12-19 10:12:36,603 - INFO - Initializing scheduled pipeline
+2025-12-19 10:12:36,609 - INFO - PostgreSQL connection established successfully
+2025-12-19 10:12:36,609 - INFO - Running initial pipeline execution
+2025-12-19 10:12:36,609 - INFO - ============================================================
+2025-12-19 10:12:36,609 - INFO - Starting pipeline execution
+2025-12-19 10:12:36,609 - INFO - ============================================================
+2025-12-19 10:12:37,216 - INFO - USE `default`
+2025-12-19 10:12:37,456 - INFO - Hive connection established successfully
+2025-12-19 10:12:37,466 - INFO - Resuming from last snapshot: 2025-11-19 16:29:18.284000
+2025-12-19 10:12:37,466 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-11-19 16:29:18.284000'
+        
+2025-12-19 10:13:09,177 - INFO - Total records to process: 3499
+2025-12-19 10:13:09,177 - INFO - Total facilities: 35
+2025-12-19 10:13:09,177 - INFO - Distinct patients: 3343
+2025-12-19 10:13:09,177 - INFO - Distinct encounters: 3492
+2025-12-19 10:13:09,177 - INFO - Total batches: 1
+2025-12-19 10:13:09,177 - INFO - Processing batch 1/1
+2025-12-19 10:13:09,177 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-11-19 16:29:18.284000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:18:29,944 - INFO - Batch 1: Processing 3499 rows
+2025-12-19 10:18:32,320 - INFO - Batch 1 complete: 2987 new, 512 updated, 0 errors
+2025-12-19 10:18:32,320 - INFO - Processing batch 2/1
+2025-12-19 10:18:32,320 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T07:59:39.675+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:19:04,173 - INFO - All data processed. Total batches: 1
+2025-12-19 10:19:04,174 - INFO - ============================================================
+2025-12-19 10:19:04,174 - INFO - Pipeline execution completed successfully
+2025-12-19 10:19:04,174 - INFO - Total new records: 2987
+2025-12-19 10:19:04,174 - INFO - Total updated records: 512
+2025-12-19 10:19:04,174 - INFO - Total errors: 0
+2025-12-19 10:19:04,174 - INFO - ============================================================
+2025-12-19 10:19:04,233 - INFO - Hive connection closed
+2025-12-19 10:19:04,233 - INFO - Pipeline scheduled to run every 30 minutes
+2025-12-19 10:19:04,233 - INFO - Press Ctrl+C to stop
+2025-12-19 10:29:04,237 - INFO - ============================================================
+2025-12-19 10:29:04,237 - INFO - Starting pipeline execution
+2025-12-19 10:29:04,237 - INFO - ============================================================
+2025-12-19 10:29:04,524 - INFO - USE `default`
+2025-12-19 10:29:04,661 - INFO - Hive connection established successfully
+2025-12-19 10:29:04,670 - INFO - Resuming from last snapshot: 2025-12-19 07:59:39.675000
+2025-12-19 10:29:04,670 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'
+        
+2025-12-19 10:29:36,122 - INFO - Total records to process: 3
+2025-12-19 10:29:36,123 - INFO - Total facilities: 2
+2025-12-19 10:29:36,123 - INFO - Distinct patients: 3
+2025-12-19 10:29:36,123 - INFO - Distinct encounters: 3
+2025-12-19 10:29:36,123 - INFO - Total batches: 1
+2025-12-19 10:29:36,123 - INFO - Processing batch 1/1
+2025-12-19 10:29:36,123 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:30:08,715 - INFO - Batch 1: Processing 3 rows
+2025-12-19 10:30:08,735 - INFO - Batch 1 complete: 0 new, 3 updated, 0 errors
+2025-12-19 10:30:08,735 - INFO - Processing batch 2/1
+2025-12-19 10:30:08,735 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T07:59:39.675+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:30:39,674 - INFO - All data processed. Total batches: 1
+2025-12-19 10:30:39,674 - INFO - ============================================================
+2025-12-19 10:30:39,674 - INFO - Pipeline execution completed successfully
+2025-12-19 10:30:39,674 - INFO - Total new records: 0
+2025-12-19 10:30:39,675 - INFO - Total updated records: 3
+2025-12-19 10:30:39,675 - INFO - Total errors: 0
+2025-12-19 10:30:39,675 - INFO - ============================================================
+2025-12-19 10:30:39,716 - INFO - Hive connection closed
+2025-12-19 10:40:39,719 - INFO - ============================================================
+2025-12-19 10:40:39,720 - INFO - Starting pipeline execution
+2025-12-19 10:40:39,720 - INFO - ============================================================
+2025-12-19 10:40:40,089 - INFO - USE `default`
+2025-12-19 10:40:40,282 - INFO - Hive connection established successfully
+2025-12-19 10:40:40,292 - INFO - Resuming from last snapshot: 2025-12-19 07:59:39.675000
+2025-12-19 10:40:40,292 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'
+        
+2025-12-19 10:41:17,431 - INFO - Total records to process: 3
+2025-12-19 10:41:17,431 - INFO - Total facilities: 2
+2025-12-19 10:41:17,431 - INFO - Distinct patients: 3
+2025-12-19 10:41:17,432 - INFO - Distinct encounters: 3
+2025-12-19 10:41:17,432 - INFO - Total batches: 1
+2025-12-19 10:41:17,432 - INFO - Processing batch 1/1
+2025-12-19 10:41:17,433 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:41:51,165 - INFO - Batch 1: Processing 3 rows
+2025-12-19 10:41:51,183 - INFO - Batch 1 complete: 0 new, 3 updated, 0 errors
+2025-12-19 10:41:51,183 - INFO - Processing batch 2/1
+2025-12-19 10:41:51,184 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T07:59:39.675+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:42:27,058 - INFO - All data processed. Total batches: 1
+2025-12-19 10:42:27,058 - INFO - ============================================================
+2025-12-19 10:42:27,058 - INFO - Pipeline execution completed successfully
+2025-12-19 10:42:27,058 - INFO - Total new records: 0
+2025-12-19 10:42:27,058 - INFO - Total updated records: 3
+2025-12-19 10:42:27,058 - INFO - Total errors: 0
+2025-12-19 10:42:27,058 - INFO - ============================================================
+2025-12-19 10:42:27,096 - INFO - Hive connection closed
+2025-12-19 10:52:27,099 - INFO - ============================================================
+2025-12-19 10:52:27,100 - INFO - Starting pipeline execution
+2025-12-19 10:52:27,100 - INFO - ============================================================
+2025-12-19 10:52:27,266 - INFO - USE `default`
+2025-12-19 10:52:27,348 - INFO - Hive connection established successfully
+2025-12-19 10:52:27,358 - INFO - Resuming from last snapshot: 2025-12-19 07:59:39.675000
+2025-12-19 10:52:27,358 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'
+        
+2025-12-19 10:52:59,916 - INFO - Total records to process: 3
+2025-12-19 10:52:59,916 - INFO - Total facilities: 2
+2025-12-19 10:52:59,916 - INFO - Distinct patients: 3
+2025-12-19 10:52:59,916 - INFO - Distinct encounters: 3
+2025-12-19 10:52:59,916 - INFO - Total batches: 1
+2025-12-19 10:52:59,916 - INFO - Processing batch 1/1
+2025-12-19 10:52:59,916 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:53:29,906 - INFO - Batch 1: Processing 3 rows
+2025-12-19 10:53:29,926 - INFO - Batch 1 complete: 0 new, 3 updated, 0 errors
+2025-12-19 10:53:29,926 - INFO - Processing batch 2/1
+2025-12-19 10:53:29,926 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T07:59:39.675+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 10:54:00,653 - INFO - All data processed. Total batches: 1
+2025-12-19 10:54:00,654 - INFO - ============================================================
+2025-12-19 10:54:00,654 - INFO - Pipeline execution completed successfully
+2025-12-19 10:54:00,655 - INFO - Total new records: 0
+2025-12-19 10:54:00,655 - INFO - Total updated records: 3
+2025-12-19 10:54:00,655 - INFO - Total errors: 0
+2025-12-19 10:54:00,655 - INFO - ============================================================
+2025-12-19 10:54:00,748 - INFO - Hive connection closed
+2025-12-19 11:04:00,751 - INFO - ============================================================
+2025-12-19 11:04:00,751 - INFO - Starting pipeline execution
+2025-12-19 11:04:00,752 - INFO - ============================================================
+2025-12-19 11:04:00,902 - INFO - USE `default`
+2025-12-19 11:04:01,023 - INFO - Hive connection established successfully
+2025-12-19 11:04:01,034 - INFO - Resuming from last snapshot: 2025-12-19 07:59:39.675000
+2025-12-19 11:04:01,034 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'
+        
+2025-12-19 11:04:31,178 - INFO - Total records to process: 8
+2025-12-19 11:04:31,178 - INFO - Total facilities: 3
+2025-12-19 11:04:31,179 - INFO - Distinct patients: 8
+2025-12-19 11:04:31,179 - INFO - Distinct encounters: 8
+2025-12-19 11:04:31,179 - INFO - Total batches: 1
+2025-12-19 11:04:31,179 - INFO - Processing batch 1/1
+2025-12-19 11:04:31,179 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 07:59:39.675000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 11:05:08,195 - INFO - Batch 1: Processing 8 rows
+2025-12-19 11:05:08,218 - INFO - Batch 1 complete: 4 new, 4 updated, 0 errors
+2025-12-19 11:05:08,219 - INFO - Processing batch 2/1
+2025-12-19 11:05:08,219 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T08:43:57.572+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 11:05:40,956 - INFO - All data processed. Total batches: 1
+2025-12-19 11:05:40,956 - INFO - ============================================================
+2025-12-19 11:05:40,956 - INFO - Pipeline execution completed successfully
+2025-12-19 11:05:40,956 - INFO - Total new records: 4
+2025-12-19 11:05:40,957 - INFO - Total updated records: 4
+2025-12-19 11:05:40,957 - INFO - Total errors: 0
+2025-12-19 11:05:40,957 - INFO - ============================================================
+2025-12-19 11:05:41,005 - INFO - Hive connection closed
+2025-12-19 11:15:41,008 - INFO - ============================================================
+2025-12-19 11:15:41,008 - INFO - Starting pipeline execution
+2025-12-19 11:15:41,008 - INFO - ============================================================
+2025-12-19 11:15:41,210 - INFO - USE `default`
+2025-12-19 11:15:41,311 - INFO - Hive connection established successfully
+2025-12-19 11:15:41,314 - INFO - Resuming from last snapshot: 2025-12-19 08:43:57.572000
+2025-12-19 11:15:41,315 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 08:43:57.572000'
+        
+2025-12-19 11:16:11,791 - INFO - Total records to process: 8
+2025-12-19 11:16:11,791 - INFO - Total facilities: 3
+2025-12-19 11:16:11,792 - INFO - Distinct patients: 8
+2025-12-19 11:16:11,792 - INFO - Distinct encounters: 8
+2025-12-19 11:16:11,792 - INFO - Total batches: 1
+2025-12-19 11:16:11,792 - INFO - Processing batch 1/1
+2025-12-19 11:16:11,792 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 08:43:57.572000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 11:16:44,653 - INFO - Batch 1: Processing 8 rows
+2025-12-19 11:16:44,672 - INFO - Batch 1 complete: 0 new, 8 updated, 0 errors
+2025-12-19 11:16:44,672 - INFO - Processing batch 2/1
+2025-12-19 11:16:44,672 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T08:43:57.572+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 11:17:14,806 - INFO - All data processed. Total batches: 1
+2025-12-19 11:17:14,807 - INFO - ============================================================
+2025-12-19 11:17:14,807 - INFO - Pipeline execution completed successfully
+2025-12-19 11:17:14,807 - INFO - Total new records: 0
+2025-12-19 11:17:14,807 - INFO - Total updated records: 8
+2025-12-19 11:17:14,807 - INFO - Total errors: 0
+2025-12-19 11:17:14,807 - INFO - ============================================================
+2025-12-19 11:17:14,852 - INFO - Hive connection closed
+2025-12-19 11:19:54,666 - INFO - Pipeline stopped by user
+2025-12-19 11:19:54,667 - INFO - PostgreSQL connection closed
+2025-12-19 11:32:06,811 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:06,812 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:07,305 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:07,305 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:07,879 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:07,879 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:08,647 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:08,647 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:09,801 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:09,802 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:11,793 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:11,793 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:15,389 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:15,390 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:22,166 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:22,166 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:32:35,360 - INFO - Initializing scheduled pipeline
+2025-12-19 11:32:35,360 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:33:01,333 - INFO - Initializing scheduled pipeline
+2025-12-19 11:33:01,333 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:33:52,915 - INFO - Initializing scheduled pipeline
+2025-12-19 11:33:52,916 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:34:53,299 - INFO - Initializing scheduled pipeline
+2025-12-19 11:34:53,299 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:24,588 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:24,588 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:25,059 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:25,060 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:25,627 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:25,628 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:26,389 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:26,389 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:27,553 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:27,554 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:29,522 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:29,522 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:33,074 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:33,074 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:39,835 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:39,835 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:37:53,000 - INFO - Initializing scheduled pipeline
+2025-12-19 11:37:53,000 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:38:18,982 - INFO - Initializing scheduled pipeline
+2025-12-19 11:38:18,982 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:39:10,538 - INFO - Initializing scheduled pipeline
+2025-12-19 11:39:10,538 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:40:10,919 - INFO - Initializing scheduled pipeline
+2025-12-19 11:40:10,919 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:11,303 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:11,303 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:28,659 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:28,659 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:29,116 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:29,116 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:29,680 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:29,680 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:30,449 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:30,450 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:31,587 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:31,588 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:33,558 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:33,559 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:37,146 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:37,146 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:41:43,925 - INFO - Initializing scheduled pipeline
+2025-12-19 11:41:43,925 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:12,239 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:12,239 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:12,705 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:12,705 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:13,280 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:13,281 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:14,063 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:14,063 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:15,234 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:15,234 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:17,198 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:17,198 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:20,775 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:20,775 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:27,548 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:27,548 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:42:40,708 - INFO - Initializing scheduled pipeline
+2025-12-19 11:42:40,709 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:06,687 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:06,687 - ERROR - Failed to connect to PostgreSQL: connection to server at "127.0.0.1", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:32,359 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:32,359 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:32,851 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:32,851 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:33,424 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:33,424 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:34,201 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:34,201 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:35,360 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:35,360 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:37,338 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:37,338 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:40,924 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:40,925 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:43:47,711 - INFO - Initializing scheduled pipeline
+2025-12-19 11:43:47,711 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:00,848 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:00,848 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:36,977 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:36,977 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:37,476 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:37,476 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:38,025 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:38,025 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:38,787 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:38,787 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:39,938 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:39,938 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:41,874 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:41,875 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:45,470 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:45,470 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:44:52,254 - INFO - Initializing scheduled pipeline
+2025-12-19 11:44:52,254 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:45:05,441 - INFO - Initializing scheduled pipeline
+2025-12-19 11:45:05,441 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:45:31,417 - INFO - Initializing scheduled pipeline
+2025-12-19 11:45:31,417 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5431 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 11:49:56,975 - INFO - Initializing scheduled pipeline
+2025-12-19 11:49:56,982 - INFO - PostgreSQL connection established successfully
+2025-12-19 11:49:56,982 - INFO - Running initial pipeline execution
+2025-12-19 11:49:56,982 - INFO - ============================================================
+2025-12-19 11:49:56,982 - INFO - Starting pipeline execution
+2025-12-19 11:49:56,982 - INFO - ============================================================
+2025-12-19 11:49:57,826 - INFO - USE `default`
+2025-12-19 11:49:58,568 - INFO - Hive connection established successfully
+2025-12-19 11:49:58,579 - INFO - Resuming from last snapshot: 2025-12-19 08:43:57.572000
+2025-12-19 11:49:58,580 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 08:43:57.572000'
+        
+2025-12-19 11:50:34,163 - INFO - Total records to process: 8
+2025-12-19 11:50:34,163 - INFO - Total facilities: 3
+2025-12-19 11:50:34,164 - INFO - Distinct patients: 8
+2025-12-19 11:50:34,164 - INFO - Distinct encounters: 8
+2025-12-19 11:50:34,164 - INFO - Total batches: 1
+2025-12-19 11:50:34,164 - INFO - Processing batch 1/1
+2025-12-19 11:50:34,164 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 08:43:57.572000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 11:51:23,908 - INFO - Batch 1: Processing 8 rows
+2025-12-19 11:51:23,933 - INFO - Batch 1 complete: 0 new, 8 updated, 0 errors
+2025-12-19 11:51:23,933 - INFO - Processing batch 2/1
+2025-12-19 11:51:23,933 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T08:43:57.572+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 11:51:59,106 - INFO - All data processed. Total batches: 1
+2025-12-19 11:51:59,107 - INFO - ============================================================
+2025-12-19 11:51:59,107 - INFO - Pipeline execution completed successfully
+2025-12-19 11:51:59,107 - INFO - Total new records: 0
+2025-12-19 11:51:59,107 - INFO - Total updated records: 8
+2025-12-19 11:51:59,107 - INFO - Total errors: 0
+2025-12-19 11:51:59,107 - INFO - ============================================================
+2025-12-19 11:51:59,147 - INFO - Hive connection closed
+2025-12-19 11:51:59,147 - INFO - Pipeline scheduled to run every 20 minutes
+2025-12-19 11:51:59,147 - INFO - Press Ctrl+C to stop
+2025-12-19 12:01:59,515 - INFO - ============================================================
+2025-12-19 12:01:59,515 - INFO - Starting pipeline execution
+2025-12-19 12:01:59,515 - INFO - ============================================================
+2025-12-19 12:01:59,694 - INFO - USE `default`
+2025-12-19 12:01:59,798 - INFO - Hive connection established successfully
+2025-12-19 12:01:59,802 - INFO - Resuming from last snapshot: 2025-12-19 08:43:57.572000
+2025-12-19 12:01:59,802 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 08:43:57.572000'
+        
+2025-12-19 12:02:35,199 - INFO - Total records to process: 8
+2025-12-19 12:02:35,199 - INFO - Total facilities: 3
+2025-12-19 12:02:35,199 - INFO - Distinct patients: 8
+2025-12-19 12:02:35,199 - INFO - Distinct encounters: 8
+2025-12-19 12:02:35,200 - INFO - Total batches: 1
+2025-12-19 12:02:35,200 - INFO - Processing batch 1/1
+2025-12-19 12:02:35,200 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 08:43:57.572000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 12:03:11,037 - INFO - Batch 1: Processing 8 rows
+2025-12-19 12:03:11,059 - INFO - Batch 1 complete: 0 new, 8 updated, 0 errors
+2025-12-19 12:03:11,059 - INFO - Processing batch 2/1
+2025-12-19 12:03:11,059 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T08:43:57.572+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 12:03:42,999 - INFO - Batch 2: Processing 9 rows
+2025-12-19 12:03:43,023 - INFO - Batch 2 complete: 9 new, 0 updated, 0 errors
+2025-12-19 12:03:43,023 - INFO - Processing batch 3/1
+2025-12-19 12:03:43,023 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T09:24:43.275+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 12:04:14,985 - INFO - All data processed. Total batches: 2
+2025-12-19 12:04:14,986 - INFO - ============================================================
+2025-12-19 12:04:14,986 - INFO - Pipeline execution completed successfully
+2025-12-19 12:04:14,987 - INFO - Total new records: 9
+2025-12-19 12:04:14,987 - INFO - Total updated records: 8
+2025-12-19 12:04:14,987 - INFO - Total errors: 0
+2025-12-19 12:04:14,987 - INFO - ============================================================
+2025-12-19 12:04:15,028 - INFO - Hive connection closed
+2025-12-19 12:13:21,354 - INFO - Initializing scheduled pipeline
+2025-12-19 12:13:21,361 - INFO - PostgreSQL connection established successfully
+2025-12-19 12:13:21,361 - INFO - Running initial pipeline execution
+2025-12-19 12:13:21,362 - INFO - ============================================================
+2025-12-19 12:13:21,362 - INFO - Starting pipeline execution
+2025-12-19 12:13:21,362 - INFO - ============================================================
+2025-12-19 12:13:21,499 - INFO - USE `default`
+2025-12-19 12:13:21,586 - INFO - Hive connection established successfully
+2025-12-19 12:13:21,601 - INFO - Resuming from last snapshot: 2025-12-19 09:24:43.275000
+2025-12-19 12:13:21,601 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 09:24:43.275000'
+        
+2025-12-19 12:13:52,393 - INFO - Total records to process: 17
+2025-12-19 12:13:52,394 - INFO - Total facilities: 5
+2025-12-19 12:13:52,394 - INFO - Distinct patients: 17
+2025-12-19 12:13:52,394 - INFO - Distinct encounters: 17
+2025-12-19 12:13:52,394 - INFO - Total batches: 1
+2025-12-19 12:13:52,395 - INFO - Processing batch 1/1
+2025-12-19 12:13:52,395 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 09:24:43.275000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 12:14:29,298 - INFO - Batch 1: Processing 17 rows
+2025-12-19 12:14:29,331 - INFO - Batch 1 complete: 0 new, 17 updated, 0 errors
+2025-12-19 12:14:29,332 - INFO - Processing batch 2/1
+2025-12-19 12:14:29,332 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19T09:24:43.275+00:00'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 12:14:59,476 - INFO - All data processed. Total batches: 1
+2025-12-19 12:14:59,476 - INFO - ============================================================
+2025-12-19 12:14:59,476 - INFO - Pipeline execution completed successfully
+2025-12-19 12:14:59,476 - INFO - Total new records: 0
+2025-12-19 12:14:59,477 - INFO - Total updated records: 17
+2025-12-19 12:14:59,477 - INFO - Total errors: 0
+2025-12-19 12:14:59,477 - INFO - ============================================================
+2025-12-19 12:14:59,524 - INFO - Hive connection closed
+2025-12-19 12:14:59,524 - INFO - Pipeline scheduled to run every 20 minutes
+2025-12-19 12:14:59,524 - INFO - Press Ctrl+C to stop
+2025-12-19 12:19:21,318 - INFO - Initializing scheduled pipeline
+2025-12-19 12:19:21,324 - INFO - PostgreSQL connection established successfully
+2025-12-19 12:19:21,325 - INFO - Running initial pipeline execution
+2025-12-19 12:19:21,325 - INFO - ============================================================
+2025-12-19 12:19:21,325 - INFO - Starting pipeline execution
+2025-12-19 12:19:21,325 - INFO - ============================================================
+2025-12-19 12:19:21,875 - INFO - USE `default`
+2025-12-19 12:19:22,199 - INFO - Hive connection established successfully
+2025-12-19 12:19:22,220 - INFO - Resuming from last snapshot: 2025-12-19 09:24:43.275000
+2025-12-19 12:19:22,221 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 09:24:43.275000'
+        
+2025-12-19 12:19:53,963 - INFO - Total records to process: 17
+2025-12-19 12:19:53,964 - INFO - Total facilities: 5
+2025-12-19 12:19:53,964 - INFO - Distinct patients: 17
+2025-12-19 12:19:53,964 - INFO - Distinct encounters: 17
+2025-12-19 12:19:53,964 - INFO - Total batches: 1
+2025-12-19 12:19:53,965 - INFO - Processing batch 1/1
+2025-12-19 12:19:53,965 - INFO - 
+                SELECT * FROM fact_lab_request_orders 
+                WHERE test_code='ILT0048' AND last_updated > '2025-12-19 09:24:43.275000'  
+                ORDER BY last_updated ASC 
+                LIMIT 10000
+                
+2025-12-19 12:26:13,513 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:13,513 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:13,991 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:13,991 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:14,574 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:14,574 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:15,341 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:15,341 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:16,494 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:16,495 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:18,469 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:18,470 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:22,068 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:22,068 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:28,884 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:28,885 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:26:42,051 - INFO - Initializing scheduled pipeline
+2025-12-19 12:26:42,051 - ERROR - Failed to connect to PostgreSQL: connection to server at "0.0.0.0", port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-19 12:27:06,860 - INFO - Initializing scheduled pipeline
+2025-12-19 12:27:06,865 - INFO - PostgreSQL connection established successfully
+2025-12-19 12:27:06,865 - INFO - Running initial pipeline execution
+2025-12-19 12:27:06,865 - INFO - ============================================================
+2025-12-19 12:27:06,865 - INFO - Starting pipeline execution
+2025-12-19 12:27:06,865 - INFO - ============================================================
+2025-12-19 12:27:07,053 - INFO - USE `default`
+2025-12-19 12:27:07,260 - INFO - Hive connection established successfully
+2025-12-19 12:27:07,283 - INFO - Resuming from last snapshot: 2025-12-19 09:24:43.275000
+2025-12-19 12:27:07,283 - INFO - 
+        SELECT 
+            COUNT(*) AS total_records, 
+            COUNT(DISTINCT encounter_facility_id) AS total_facilities, 
+            COUNT(DISTINCT patient_id) AS distinct_people, 
+            COUNT(DISTINCT encounter_id) AS distinct_encounters, 
+            MAX(last_updated) AS last_update_time
+        FROM fact_lab_request_orders 
+        WHERE test_code='ILT0048' AND last_updated > '2025-12-19 09:24:43.275000'
+        

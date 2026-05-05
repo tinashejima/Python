@@ -1,0 +1,9 @@
+pyhive==0.7.0
+psycopg2-binary==2.9.9
+pandas==2.1.4
+python-dotenv==1.0.0
+APScheduler==3.10.4
+schedule==1.2.2
+pure-sasl==0.6.2
+thrift==0.16.0
+thrift-sasl==0.4.3
