@@ -1,15 +1,18 @@
 
+1. Create a new folder deployment
+mkdir deployment
 
+2. Copy the Server code (all the folders) to the deployment folder
 
+3. Copy the client (frontend) to deployment folder
 
+4. Change the ROOT DIRECTORY path in the deploy.sh to match the path for the new deployment folder
 
+5. State the latest branches you want to build
 
+6. Change the tagname to the vrsion you want 
 
-
-
-
-
-chmod +x deploy.sh
+7. chmod +x deploy.sh
 ./deploy.sh
 
 0 8 * * * /path/to/deploy.sh >> /path/to/deploy.log 2>&1
