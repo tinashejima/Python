@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+
+chmod +x deploy.sh
+./deploy.sh
+
+0 8 * * * /path/to/deploy.sh >> /path/to/deploy.log 2>&1
+0 11 * * * /path/to/deploy.sh >> /path/to/deploy.log 2>&1
+0 16 * * * /path/to/deploy.sh >> /path/to/deploy.log 2>&1
+0 22 * * * /path/to/deploy.sh >> /path/to/deploy.log 2>&1
