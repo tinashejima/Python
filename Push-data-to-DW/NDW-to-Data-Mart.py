@@ -213,7 +213,7 @@ def get_all_patient_data_in_batches(conn, batch_size=50000):
                 print(f"Updating record for encounter_id: {encounter_id}")
                 update_query = """
                 UPDATE marts.lab_lims_statistics
-                SET event_date = %s, dedupe_id = %s, lab_request_number = %s, birthdate = %s, gender = %s, 
+                SET event_date = %s, dedupe_id = %s, lab_request_number = %s, birthdate = COALESCE(%s, birthdate), gender = COALESCE(%s, gender), 
                     shr_date = %s, impilo_registration_date = %s, date_sample_taken = %s , lab_order_status = %s, status_reason = %s, note = %s, sample_code = %s, sample_type = %s,
                     test_type = %s,test_code = %s , facility_name = %s, facility_id_code = %s,lab = %s, lab_id = %s, dw_date_created = %s,
                      test_results = %s, date_site_activated= %s, time_facility_to_shr= %s, shr_lab_turn_around_time= %s ,  dm_date_created = NOW(),person_id = %s
